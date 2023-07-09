@@ -20,8 +20,9 @@ module.exports = {
       },
 
       backgroundImage: {
-        'heroBgd_rt': "url('../src/img/Home/hero_img.png')",
+        'heroBgd_rt': "url('../src/img/Home/Icon_rt.png')",
         'heroBgd_lft': "url('../src/img/Home/Icon.png')",
+        'heroImg': "url('../src/img/Home/hero_img.png')",
       }
     },
     container: {

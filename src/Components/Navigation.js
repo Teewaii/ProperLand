@@ -18,7 +18,7 @@ function Navigation() {
 
 
             {/* Small screen navigation */}
-            <div className="mobile_view container lg:hidden flex justify-between items-center relative mt-8 rounded-[5px] h-[80px] bg-white">
+            <div className="mobile_view container lg:hidden flex justify-between items-center relative mt-8 rounded-[5px] h-[70px] bg-white">
                 <div className="logo ">
                     <img className='w-[50px] cursor-pointer' src={mobile_logo} alt="" />
                 </div>
@@ -38,7 +38,7 @@ function Navigation() {
 
             {/* Large screen navigation */}
 
-            < div className="large_screen container hidden lg:flex justify-between items-center mt-12 rounded-[5px] h-[100px] bg-slate-400">
+            < div className="large_screen container hidden lg:flex justify-between items-center mt-12 rounded-[5px] h-[100px] bg-white">
                 <div className="logo ">
                     <img className='w-60 cursor-pointer' src={logo} alt="" />
                 </div>

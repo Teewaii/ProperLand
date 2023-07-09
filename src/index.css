@@ -13,6 +13,9 @@
 .header1 {
   @apply text-[45px] font-[600] 
 }
+.header2 {
+  @apply text-[35px] font-[600] 
+}
 
 .para {
   @apply text-[20px] font-[400]
