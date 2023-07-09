@@ -1,10 +1,31 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Kufam:wght@400;700;800;900&family=Source+Sans+3&display=swap');
+
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.header1 {
+  @apply text-[45px] font-[600] 
+}
+
+.para {
+  @apply text-[20px] font-[400]
+}
+
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: 'Kufam','Inter',  'Fira Sans','Source Sans', 'Droid Sans', 'Helvetica Neue',s
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color:#3B3A5D;
 }
 
 code {
