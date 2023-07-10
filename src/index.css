@@ -11,9 +11,12 @@
 
 
 .header1 {
-  @apply text-[45px] font-[600] 
+  @apply text-[95px] font-[600] 
 }
 .header2 {
+  @apply text-[38px] font-[600] 
+}
+.header3 {
   @apply text-[35px] font-[600] 
 }
 

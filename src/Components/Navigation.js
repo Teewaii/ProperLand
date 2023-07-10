@@ -14,7 +14,7 @@ function Navigation() {
     return (
 
 
-        < nav className='absolute right-[5%] left-[5%] z-50' >
+        < nav className='absolute right-0 left-0 z-50 container' >
 
 
             {/* Small screen navigation */}
@@ -38,9 +38,9 @@ function Navigation() {
 
             {/* Large screen navigation */}
 
-            < div className="large_screen container hidden lg:flex justify-between items-center mt-12 rounded-[5px] h-[100px] bg-white">
+            < div className="large_screen container hidden lg:flex justify-between items-center mt-8  2xl:mt-12 rounded-[5px] h-[100px] bg-white">
                 <div className="logo ">
-                    <img className='w-60 cursor-pointer' src={logo} alt="" />
+                    <img className='w-40 xl:w-50 cursor-pointer' src={logo} alt="" />
                 </div>
                 <ul className='flex gap-x-12 text-content'>
                     {navs.map((nav, index) => (

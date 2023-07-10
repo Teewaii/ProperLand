@@ -16,7 +16,7 @@ function App() {
   return (
     <AppContext.Provider value={{ toggle, setToggle, handleToggle }}>
       < Layout >
-        <div className="App over ">
+        <div className="App  ">
           <Hero />
         </div>
       </Layout>
