@@ -27,14 +27,13 @@
 
 body {
   margin: 0;
-  font-family: 'Kufam','Inter',  'Fira Sans','Source Sans', 'Droid Sans', 'Helvetica Neue',s
-    sans-serif;
+  font-family: 'Kufam','Inter',  'Fira Sans','Source Sans 3', 'Droid Sans', 'Helvetica Neue',sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color:#3B3A5D;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New','Source Sans 3'
     monospace;
 }

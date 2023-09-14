@@ -4,6 +4,8 @@ import './App.css';
 import Layout from './Components/Layout';
 import Contact from './Components/Contact';
 import Hero from './Components/Hero';
+import Intro from './Components/Intro';
+import Home from './Components/Pages/Home';
 export const AppContext = createContext();
 
 
@@ -17,7 +19,8 @@ function App() {
     <AppContext.Provider value={{ toggle, setToggle, handleToggle }}>
       < Layout >
         <div className="App  ">
-          <Hero />
+          <Home />
+         
         </div>
       </Layout>
     </AppContext.Provider>

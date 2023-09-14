@@ -23,14 +23,18 @@ module.exports = {
         'heroBgd_rt': "url('../src/img/Home/Icon_rt.png')",
         'heroBgd_lft': "url('../src/img/Home/Icon.png')",
         'heroImg': "url('../src/img/Home/hero_img.png')",
-      }
+        'vid_img': "url('../src/img/Home/vid_img.jpg')"
+      },
+      fontFamily: {
+        Source: ['Source Sans 3'],
+      },
     },
     container: {
       padding: {
         DEFAULT: '1rem',
         sm: '2rem',
         lg: '5rem',
-        xl: '6rem',
+        xl: '7rem',
         // '2xl': '8rem',
       },
 

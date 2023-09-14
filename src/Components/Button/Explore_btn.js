@@ -5,7 +5,7 @@ function Explore_btn() {
     return (
         <div className='font-[600] text-sm xl:text-md bg-white flex items-center gap-x-2 w-fit px-4 py-3 rounded-md cursor-pointer' >
             Explore Property
-            <ArrowSmallRightIcon className='w-6 bg-secondary rounded-full p-1 text-white ' />
+            <ArrowSmallRightIcon className='w-4 bg-secondary rounded-full p-[0.5] text-white ' />
         </div>
     )
 }

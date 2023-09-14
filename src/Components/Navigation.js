@@ -38,7 +38,7 @@ function Navigation() {
 
             {/* Large screen navigation */}
 
-            < div className="large_screen container hidden lg:flex justify-between items-center mt-8  2xl:mt-12 rounded-[5px] h-[100px] bg-white">
+            < div className="large_screen px-6 hidden lg:flex justify-between items-center mt-8  2xl:mt-12 rounded-[5px] h-[100px] bg-white">
                 <div className="logo ">
                     <img className='w-40 xl:w-50 cursor-pointer' src={logo} alt="" />
                 </div>
