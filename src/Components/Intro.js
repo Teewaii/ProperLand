@@ -8,7 +8,7 @@ function Intro() {
             <div className="wrapper flex flex-col lg:flex-row py-4 lg:gap-8  md:py-28 ">
 
                 <div className='left flex flex-col text-left h-fit bg-[#F2F2F2] mb-8 py-[45px] px-[35px] lg:py-[65px] lg:px-[70px] lg:mb-0 '>
-                    <p className='text-sm tracking-[6px] lg:text-md 2xl:text-lg'>|<span className='text-secondary'>01</span> PROPERLAND INTRO|</p>
+                    <p className='text-sm tracking-[4px] lg:text-md md:tracking-[6px] 2xl:text-lg '>|<span className='text-secondary'>01</span> PROPERLAND INTRO|</p>
                     <h1 className='text-[24px] md:text-[35px] my-4 font-bold lg:max-w-[600px]'>Buying & Selling Property In An Easy Way</h1>
                     <p className='text-left text-link mb-4 md:text-[15px]'>Distinctively re-engineer revolutionary meta-services and premium  At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi.
                     </p>

@@ -23,7 +23,8 @@ module.exports = {
         'heroBgd_rt': "url('../src/img/Home/Icon_rt.png')",
         'heroBgd_lft': "url('../src/img/Home/Icon.png')",
         'heroImg': "url('../src/img/Home/hero_img.png')",
-        'vid_img': "url('../src/img/Home/vid_img.jpg')"
+        'vid_img': "url('../src/img/Home/vid_img.jpg')",
+        'feat_img': "url('../src/img/Home/Touch with us.png')"
       },
       fontFamily: {
         Source: ['Source Sans 3'],

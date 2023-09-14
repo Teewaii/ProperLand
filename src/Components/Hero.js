@@ -7,7 +7,7 @@ import Explore_btn from './Button/Explore_btn';
 
 function Hero() {
     return (
-        <section className=" bg-gradient-to-l from-hero to-hero_end h-[100vh] relative  overflow-hidden ">
+        <section className=" bg-gradient-to-l from-hero to-hero_end h-[100vh] relative overflow-hidden ">
             <div className="main_wrapper ">
                 <div className="leftPattern absolute left-0 bottom-0">
                     <img src={left_pattern} alt="" />

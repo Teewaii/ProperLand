@@ -63,7 +63,7 @@ const Features = [
         "area": "130"
     },
     {
-        "id": 4,
+        "id": 6,
         "pix": comfi_6,
         "cost": "$4500/Mo",
         "title": "Home in Downtown, Los Angeles",
