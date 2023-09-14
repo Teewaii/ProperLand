@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ProperLand/static/css/main.422c88be.css",
-    "main.js": "/ProperLand/static/js/main.0a12eb86.js",
+    "main.css": "/ProperLand/static/css/main.148a8ab6.css",
+    "main.js": "/ProperLand/static/js/main.7ee0f7ad.js",
     "static/js/787.55cefe91.chunk.js": "/ProperLand/static/js/787.55cefe91.chunk.js",
     "static/media/hero_img.png": "/ProperLand/static/media/hero_img.41e87f59697d5c5fffc4.png",
     "static/media/vid_img.jpg": "/ProperLand/static/media/vid_img.17f63812be4be9312087.jpg",
@@ -11,6 +11,7 @@
     "static/media/comfi_2.png": "/ProperLand/static/media/comfi_2.abbf44adf3979b5c91a5.png",
     "static/media/Downtown_1.png": "/ProperLand/static/media/Downtown_1.30caefdd13e674355ab5.png",
     "static/media/comfi_4.png": "/ProperLand/static/media/comfi_4.fcc0dd05744effb8020d.png",
+    "static/media/Touch with us.png": "/ProperLand/static/media/Touch with us.ad73f38c1cf07b9218d1.png",
     "static/media/Icon.png": "/ProperLand/static/media/Icon.c0ff0a5779640c3eb3cf.png",
     "static/media/logo.svg": "/ProperLand/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "static/media/parking.svg": "/ProperLand/static/media/parking.60a54d66166740d15022df3765daa177.svg",
@@ -19,12 +20,12 @@
     "index.html": "/ProperLand/index.html",
     "static/media/bed.svg": "/ProperLand/static/media/bed.50f872dbc57ea45a26c46afa5fd6bd9b.svg",
     "static/media/IconLogo.svg": "/ProperLand/static/media/IconLogo.af359a5db018c0f1b555acdcba834f8c.svg",
-    "main.422c88be.css.map": "/ProperLand/static/css/main.422c88be.css.map",
-    "main.0a12eb86.js.map": "/ProperLand/static/js/main.0a12eb86.js.map",
+    "main.148a8ab6.css.map": "/ProperLand/static/css/main.148a8ab6.css.map",
+    "main.7ee0f7ad.js.map": "/ProperLand/static/js/main.7ee0f7ad.js.map",
     "787.55cefe91.chunk.js.map": "/ProperLand/static/js/787.55cefe91.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.422c88be.css",
-    "static/js/main.0a12eb86.js"
+    "static/css/main.148a8ab6.css",
+    "static/js/main.7ee0f7ad.js"
   ]
 }
