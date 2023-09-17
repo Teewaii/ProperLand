@@ -30,6 +30,7 @@ module.exports = {
         '2why2a': "url('../src/img/Home/2why2a.png')",
         '2why3': "url('../src/img/Home/2why3.png')",
         '3why1': "url('../src/img/Home/3why1.png')",
+        'about': "url('../src/img/Home/ImageAbout_bkg.png')",
       },
       fontFamily: {
         Source: ['Source Sans 3'],

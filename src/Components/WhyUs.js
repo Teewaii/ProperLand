@@ -11,35 +11,35 @@ function WhyUs() {
 
                 <div className="packages grid grid-cols-1 grid-rows-5 gap-[24px] w-[100%] max-h-sm:min-h-[100vh] lg:grid-rows-2 lg:grid-cols-3  ">
 
-                    <div className="budget bg-1why1 bg-cover px-8 bg-no-repeat bg-top-left pb-10   row-span-1 col-start-1 col-span-1 h-[fit] lg:col-start-1 lg:col-span-1 lg:pt-20 ">
-                        <div className="text  flex flex-col items-start mt-[190px] md:mt-[370px] lg:mt-[150px] ">
+                    <div className="budget rounded-md bg-1why1 bg-cover px-8 bg-no-repeat bg-top-left pb-10   row-span-1 col-start-1 col-span-1 h-[fit] lg:col-start-1 lg:col-span-1 lg:pt-20 ">
+                        <div className="text  flex flex-col items-start mt-[220px] md:mt-[370px] lg:mt-[150px] ">
                             <h1 className='text-lg text-left md:text-3xl font-bold mb-2 lg:text-[22px]'>Budget Friendly</h1>
-                            <p className='text-left text-link  text-sm md:text-2xl lg:text-sm '>Distinctively re-engineer revolutionary meta-services and premium  At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+                            <p className='text-left text-link  text-md md:text-2xl lg:text-sm '>Distinctively re-engineer revolutionary meta-services and premium  At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
                         </div>
                     </div>
 
-                    <div className="hux bg-2why2a bg-cover bg-no-repeat bg-top-left pb-10 row-span-1 row-start-2 lg:row-start-1 col-span-1 h-[fit] lg:col-start-2 lg:col-span-2 ">
+                    <div className="hux rounded-md bg-2why2a bg-cover bg-no-repeat bg-top-left pb-10 row-span-1 row-start-2 lg:row-start-1 col-span-1 h-[fit] lg:col-start-2 lg:col-span-2 ">
 
                     </div>
 
-                    <div className="trustees bg-1why2 bg-cover bg-no-repeat bg-top-left pb-10 px-8 h-[fit] row-start-3 row-span-1 col-start-1 col-span-1 lg:col-start-1 lg:row-start-2">
-                        <div className="text  flex flex-col items-start mt-[190px] md:mt-[370px] lg:mt-[250px] ">
+                    <div className="trustees rounded-md bg-1why2 bg-cover bg-no-repeat bg-top-left pb-10 px-8 h-[fit] row-start-3 row-span-1 col-start-1 col-span-1 lg:col-start-1 lg:row-start-2">
+                        <div className="text  flex flex-col items-start mt-[220px] md:mt-[370px] lg:mt-[250px] ">
                             <h1 className='text-lg text-left md:text-3xl font-bold mb-2 lg:text-[22px]'>Trusted By Thousands</h1>
-                            <p className='text-left text-link text-sm md:text-2xl lg:text-sm '>Distinctively re-engineer revolutionary meta-services and premium  At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+                            <p className='text-left text-link text-md md:text-2xl lg:text-sm '>Distinctively re-engineer revolutionary meta-services and premium  At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
                         </div>
                     </div>
 
-                    <div className="primeLocation bg-2why3 px-8 bg-cover bg-no-repeat bg-top-left pb-10   h-[fit] row-start-4 col-span-1 lg:col-start-2 lg:row-start-2">
-                        <div className="text  flex flex-col items-start mt-[190px] md:mt-[370px] lg:mt-[250px] ">
+                    <div className="primeLocation rounded-md bg-2why3 px-8 bg-cover bg-no-repeat bg-top-left pb-10   h-[fit] row-start-4 col-span-1 lg:col-start-2 lg:row-start-2">
+                        <div className="text  flex flex-col items-start mt-[220px] md:mt-[370px] lg:mt-[250px] ">
                             <h1 className='text-lg text-left md:text-3xl font-bold mb-2 lg:text-[22px]'>Prime Location</h1>
-                            <p className='text-left text-link text-sm md:text-2xl lg:text-sm '>Distinctively re-engineer revolutionary meta-services and premium  At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+                            <p className='text-left text-link text-md md:text-2xl lg:text-sm '>Distinctively re-engineer revolutionary meta-services and premium  At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
                         </div>
                     </div>
 
-                    <div className="commission bg-3why1 px-8 bg-cover bg-no-repeat bg-top-left pb-10 row-start-5 h-[fit] row-span-1 col-span-1 lg:col-start-3 lg:row-start-2 ">
-                        <div className="text  flex flex-col items-start mt-[190px] md:mt-[370px] lg:mt-[250px] ">
+                    <div className="commission rounded-md bg-3why1 px-8 bg-cover bg-no-repeat bg-top-left pb-10 row-start-5 h-[fit] row-span-1 col-span-1 lg:col-start-3 lg:row-start-2 ">
+                        <div className="text  flex flex-col items-start mt-[220px] md:mt-[370px] lg:mt-[250px] ">
                             <h1 className='text-lg text-left md:text-3xl font-bold mb-2 lg:text-[22px]'>Lowest Commission</h1>
-                            <p className='text-left text-link text-sm md:text-2xl lg:text-sm '>Distinctively re-engineer revolutionary meta-services and premium  At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+                            <p className='text-left text-link text-md md:text-2xl lg:text-sm '>Distinctively re-engineer revolutionary meta-services and premium  At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
                         </div>
                     </div>
                 </div>
