@@ -24,7 +24,12 @@ module.exports = {
         'heroBgd_lft': "url('../src/img/Home/Icon.png')",
         'heroImg': "url('../src/img/Home/hero_img.png')",
         'vid_img': "url('../src/img/Home/vid_img.jpg')",
-        'feat_img': "url('../src/img/Home/Touch with us.png')"
+        'feat_img': "url('../src/img/Home/Touch with us.png')",
+        '1why1': "url('../src/img/Home/1why1.png')",
+        '1why2': "url('../src/img/Home/1why2.png')",
+        '2why2a': "url('../src/img/Home/2why2a.png')",
+        '2why3': "url('../src/img/Home/2why3.png')",
+        '3why1': "url('../src/img/Home/3why1.png')",
       },
       fontFamily: {
         Source: ['Source Sans 3'],

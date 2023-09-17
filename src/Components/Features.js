@@ -42,7 +42,7 @@ const Features = [
     },
     {
         "id": 4,
-        "pix": comfi_4,
+        "pix": comfi_5,
         "cost": "$4500/Mo",
         "title": "Home in Downtown, Los Angeles",
         "location": "709 West Drive Chicago, IL 60606",
@@ -53,7 +53,7 @@ const Features = [
     },
     {
         "id": 5,
-        "pix": comfi_5,
+        "pix": comfi_4,
         "cost": "$2500/Mo",
         "title": "Comefortable Appartment",
         "location": "709 West Drive Chicago, IL 60606",
