@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ProperLand/static/css/main.583d1f86.css",
-    "main.js": "/ProperLand/static/js/main.59146ed6.js",
+    "main.css": "/ProperLand/static/css/main.bb52de1d.css",
+    "main.js": "/ProperLand/static/js/main.cdd35a3b.js",
     "static/js/787.55cefe91.chunk.js": "/ProperLand/static/js/787.55cefe91.chunk.js",
     "static/media/hero_img.png": "/ProperLand/static/media/hero_img.41e87f59697d5c5fffc4.png",
     "static/media/ImageAbout_bkg.png": "/ProperLand/static/media/ImageAbout_bkg.4dae5bd29656ae4011e8.png",
@@ -20,6 +20,7 @@
     "static/media/Touch with us.png": "/ProperLand/static/media/Touch with us.ad73f38c1cf07b9218d1.png",
     "static/media/Icon.png": "/ProperLand/static/media/Icon.c0ff0a5779640c3eb3cf.png",
     "static/media/MemerSupport.png": "/ProperLand/static/media/MemerSupport.ced27bf3f7011e415919.png",
+    "static/media/ExperienceAgent.png": "/ProperLand/static/media/ExperienceAgent.75d7d3c139ea03a6ec23.png",
     "static/media/SaleAhome.png": "/ProperLand/static/media/SaleAhome.a3a358a7d23127552405.png",
     "static/media/BuyAhome.png": "/ProperLand/static/media/BuyAhome.910f5754eb579e49fd73.png",
     "static/media/RentAhome.png": "/ProperLand/static/media/RentAhome.9c8713ec748c48604454.png",
@@ -30,12 +31,12 @@
     "index.html": "/ProperLand/index.html",
     "static/media/bed.svg": "/ProperLand/static/media/bed.50f872dbc57ea45a26c46afa5fd6bd9b.svg",
     "static/media/IconLogo.svg": "/ProperLand/static/media/IconLogo.af359a5db018c0f1b555acdcba834f8c.svg",
-    "main.583d1f86.css.map": "/ProperLand/static/css/main.583d1f86.css.map",
-    "main.59146ed6.js.map": "/ProperLand/static/js/main.59146ed6.js.map",
+    "main.bb52de1d.css.map": "/ProperLand/static/css/main.bb52de1d.css.map",
+    "main.cdd35a3b.js.map": "/ProperLand/static/js/main.cdd35a3b.js.map",
     "787.55cefe91.chunk.js.map": "/ProperLand/static/js/787.55cefe91.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.583d1f86.css",
-    "static/js/main.59146ed6.js"
+    "static/css/main.bb52de1d.css",
+    "static/js/main.cdd35a3b.js"
   ]
 }
