@@ -24,21 +24,21 @@ function ForsaleCard({ cost, id, title, location, baths, beds, parking, area, pi
                 </div>
             </div>
             <div className="feat flex flex-row flex-wrap gap-[15px] 2xl:gap-x-[20px] mt-[24px]">
-                <div className="beds text-sm flex items-center w-fit gap-x-2 px-4 py-3 border-[1px] rounded-lg border-slate-400">
-                    <img src={bed} className='max-w-[20px]' alt="number of bed" />
+                <div className="beds text-[10px] flex items-center w-fit gap-x-2 px-2 py-3 border-[1px] rounded-md border-slate-400">
+                    <img src={bed} className='max-w-[18px]' alt="number of bed" />
                     <p className='text-[12px] text-[#8E8E8E]'>| <span>{beds}</span> Beds</p>
                 </div>
-                <div className="baths flex items-center w-fit gap-x-2 px-4 py-3 border-[1px] rounded-lg border-slate-400">
-                    <img src={bath} className='max-w-[20px]' alt="number of baths" />
-                    <p className='text-sm text-[#8E8E8E]'>| <span>{baths}</span> Baths</p>
+                <div className="baths flex items-center w-fit gap-x-2 px-2 py-3 border-[1px] rounded-md border-slate-400">
+                    <img src={bath} className='max-w-[18px]' alt="number of baths" />
+                    <p className='text-[12px] text-[#8E8E8E]'>| <span>{baths}</span> Baths</p>
                 </div>
-                <div className="parking flex items-center w-fit gap-x-2 px-4 py-3 border-[1px] rounded-lg border-slate-400">
-                    <img src={Carparking} className='max-w-[20px]' alt="parking space" />
-                    <p className='text-sm text-[#8E8E8E]'>| <span>{parking}</span> Parking</p>
+                <div className="parking flex items-center w-fit gap-x-2 px-2 py-3 border-[1px] rounded-md border-slate-400">
+                    <img src={Carparking} className='max-w-[18px]' alt="parking space" />
+                    <p className='text-[12px] text-[#8E8E8E]'>| <span>{parking}</span> Parking</p>
                 </div>
-                <div className="area flex items-center w-fit gap-x-2 px-4 py-3 border-[1px] rounded-lg border-slate-400">
-                    <img src={size} className='max-w-[20px]' alt="size" />
-                    <p className='text-sm  text-[#8E8E8E]'>| <span>{area}</span>sqft</p>
+                <div className="area flex items-center w-fit gap-x-2 px-2 py-3 border-[1px] rounded-md border-slate-400">
+                    <img src={size} className='max-w-[18px]' alt="size" />
+                    <p className='text-[12px]  text-[#8E8E8E]'>| <span>{area}</span>sqft</p>
                 </div>
             </div>
         </div>

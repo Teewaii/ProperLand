@@ -6,6 +6,7 @@ import Contact from './Components/Contact';
 import Hero from './Components/Hero';
 import Intro from './Components/Intro';
 import Home from './Components/Pages/Home';
+import ToTop from './Components/Button/ToTop';
 export const AppContext = createContext();
 
 
@@ -18,10 +19,11 @@ function App() {
   return (
     <AppContext.Provider value={{ toggle, setToggle, handleToggle }}>
       < Layout >
-        <div className="App  ">
+        <div className="App relative ">
           <Home />
-         
+
         </div>
+        <ToTop />
       </Layout>
     </AppContext.Provider>
   );

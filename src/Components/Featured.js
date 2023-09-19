@@ -5,7 +5,7 @@ import TouchwithUs from './Button/TouchwithUs'
 
 function Featured() {
     return (
-        <section className="featured bg-feat_img bg-no-repeat bg-bottom bg-[#F5F1EF] h-fit mt-[40px] py-[95px] ">
+        <section className="featured bg-feat_img bg-no-repeat bg-bottom bg-[#F5F1EF] h-fit mt-[40px] py-[110px] ">
             <div className="wrapper  flex flex-col items-center container">
                 <div className="header  flex flex-col items-center pb-[40px]">
                     <p className='text-sm uppercase tracking-[4px] md:tracking-[6px] lg:text-md 2xl:text-lg'>|<span className='text-secondary'>02</span> Featured properties|</p>
