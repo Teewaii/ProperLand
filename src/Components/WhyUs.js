@@ -4,7 +4,7 @@ function WhyUs() {
     return (
         <section className="whyUs h-[fit] py-[110px] lg:py-[140px] ">
             <div className="wrapper  flex flex-col items-center container">
-                <div className="header  flex flex-col items-center">
+                <div className="header flex flex-col items-center">
                     <p className='text-sm uppercase tracking-[4px] md:tracking-[6px] lg:text-md 2xl:text-lg'>|<span className='text-secondary'>03</span> Why Choose|</p>
                     <h1 className='text-[24px] font-bold  mb-12 leading-[30px] md:text-[35px] md:leading-[50px] my-4 md:max-w-[550px] '>Why Choose Our Properties Of Real Estate Industries</h1>
                 </div>

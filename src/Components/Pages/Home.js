@@ -7,6 +7,8 @@ import About from '../About'
 import Services from '../Services'
 import ToTop from '../Button/ToTop'
 import Reviews from '../Reviews'
+import Statistics from '../Statistics'
+import Neighbourhoods from '../Neighbourhoods'
 
 function Home() {
     return (
@@ -18,6 +20,8 @@ function Home() {
             <About />
             <Services />
             <Reviews />
+            <Statistics />
+            <Neighbourhoods />
         </div>
     )
 }

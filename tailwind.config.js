@@ -49,9 +49,22 @@ module.exports = {
       center: true,
     },
 
+    cont: {
+      'padding-left': {
+        DEFAULT: '1rem',
+        sm: '2rem',
+        lg: '5rem',
+        xl: '7rem',
+        // '2xl': '8rem',
+      },
+
+      center: true,
+    },
 
   },
 
-  plugins: [],
+  plugins: [
+    require('tailwind-scrollbar-hide')
+  ],
 }
 
