@@ -3,7 +3,7 @@ import React from 'react'
 function Statistics() {
     return (
         <section className="statistics py-[95px]">
-            <div className="wrapper container flex flex-col gap-y-6 lg:flex-row lg:justify-between lg:w-[60%]">
+            <div className="wrapper container flex flex-col gap-y-6 lg:flex-row lg:justify-between lg:w-[70%]">
                 <div className="property_sales ">
                     <h1 className='text-[45px] font-bold'>56,180</h1>
                     <p className='text-link'>In property sales</p>

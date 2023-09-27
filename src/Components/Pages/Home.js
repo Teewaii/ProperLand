@@ -9,6 +9,7 @@ import ToTop from '../Button/ToTop'
 import Reviews from '../Reviews'
 import Statistics from '../Statistics'
 import Neighbourhoods from '../Neighbourhoods'
+import Brands from '../Brands'
 
 function Home() {
     return (
@@ -22,6 +23,7 @@ function Home() {
             <Reviews />
             <Statistics />
             <Neighbourhoods />
+            <Brands />
         </div>
     )
 }
