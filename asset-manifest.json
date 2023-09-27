@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ProperLand/static/css/main.9801affe.css",
-    "main.js": "/ProperLand/static/js/main.e2936425.js",
+    "main.css": "/ProperLand/static/css/main.079ec7c9.css",
+    "main.js": "/ProperLand/static/js/main.801d6d2c.js",
     "static/js/787.55cefe91.chunk.js": "/ProperLand/static/js/787.55cefe91.chunk.js",
     "static/media/hero_img.png": "/ProperLand/static/media/hero_img.41e87f59697d5c5fffc4.png",
     "static/media/ImageAbout_bkg.png": "/ProperLand/static/media/ImageAbout_bkg.4dae5bd29656ae4011e8.png",
@@ -39,12 +39,12 @@
     "index.html": "/ProperLand/index.html",
     "static/media/bed.svg": "/ProperLand/static/media/bed.50f872dbc57ea45a26c46afa5fd6bd9b.svg",
     "static/media/IconLogo.svg": "/ProperLand/static/media/IconLogo.af359a5db018c0f1b555acdcba834f8c.svg",
-    "main.9801affe.css.map": "/ProperLand/static/css/main.9801affe.css.map",
-    "main.e2936425.js.map": "/ProperLand/static/js/main.e2936425.js.map",
+    "main.079ec7c9.css.map": "/ProperLand/static/css/main.079ec7c9.css.map",
+    "main.801d6d2c.js.map": "/ProperLand/static/js/main.801d6d2c.js.map",
     "787.55cefe91.chunk.js.map": "/ProperLand/static/js/787.55cefe91.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9801affe.css",
-    "static/js/main.e2936425.js"
+    "static/css/main.079ec7c9.css",
+    "static/js/main.801d6d2c.js"
   ]
 }
