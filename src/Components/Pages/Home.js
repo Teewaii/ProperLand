@@ -10,6 +10,7 @@ import Reviews from '../Reviews'
 import Statistics from '../Statistics'
 import Neighbourhoods from '../Neighbourhoods'
 import Brands from '../Brands'
+import Blog from '../Blog'
 
 function Home() {
     return (
@@ -24,6 +25,7 @@ function Home() {
             <Statistics />
             <Neighbourhoods />
             <Brands />
+            <Blog />
         </div>
     )
 }

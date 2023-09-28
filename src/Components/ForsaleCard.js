@@ -10,20 +10,20 @@ import size from '../../src/img/Home/area.svg';
 
 function ForsaleCard({ cost, id, title, location, baths, beds, parking, area, pix }) {
     return (
-        <div className='bg-white py-[32px] px-[30px] max-w-[681px] cursor-pointer shadow-md hover:shadow-xl transition-all ease-in-out 300'>
+        <div className='bg-white py-[15px] px-[15px] max-w-[681px] cursor-pointer shadow-md hover:shadow-xl transition-all ease-in-out 300 pb-[25px] md:py-[32px] md:px-[30px]'>
             <img src={pix} alt="" />
             <div className="price flex items-end justify-between">
                 <h1 className='font-bold text-[28px] text-secondary 2xl:text-[33px]' >{cost}</h1>
                 <ForSale_btn />
             </div>
             <div className="desc flex flex-col items-start mt-[32px]">
-                <h1 className='font-bold text-[18px]  text-left md:text-[22px]' >{title}</h1>
+                <h1 className='font-bold text-[18px] text-left md:text-[22px]' >{title}</h1>
                 <div className="location flex items-center text-[#8E8E8E] ">
                     <MapPinIcon className='h-[20px] text-secondary md:h-[25px]' />
                     <p className='text-left text-[15px] md:text-md'>{location}</p>
                 </div>
             </div>
-            <div className="feat flex flex-row flex-wrap gap-[15px] 2xl:gap-x-[20px] mt-[24px]">
+            <div className="features flex flex-row flex-wrap gap-[11px] 2xl:gap-x-[20px] mt-[24px]">
                 <div className="beds text-[10px] flex items-center w-fit gap-x-2 px-2 py-3 border-[1px] rounded-md border-slate-400">
                     <img src={bed} className='max-w-[18px]' alt="number of bed" />
                     <p className='text-[12px] text-[#8E8E8E]'>| <span>{beds}</span> Beds</p>

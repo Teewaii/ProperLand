@@ -6,13 +6,13 @@ import { ArrowSmallRightIcon } from '@heroicons/react/24/solid';
 
 function Neighbourhoods() {
     return (
-        <section className="Neighorhoods py-[95px] h-fit ">
+        <section className="Neighorhoods py-[95px] h-fit">
             <div className="wrapper flex flex-col items-center">
 
-                <div className="header mb-8 text-center container">
+                <div className="header mb-8 text-center ">
                     <h1 className='text-[24px]  md:text-[35px] my-4 font-bold '>Discover The Neighbourhoods</h1>
                 </div>
-                <div className="locations grid grid-cols-1 md:grid-cols-3 gap-4 lg:grid-cols-4 container" >
+                <div className="locations grid grid-cols-1 md:grid-cols-3 gap-6 lg:grid-cols-4 container" >
                     {Neighbourhood_location.map(({ pix, title, num_property, id }) => (
                         <div key={id} className="New_york h-[407px] rounded-md bg-cover justify-stretch bg-no-repeat bg-top-left py-10 lg:pt-20 lg:h-[400px] relative " style={{ backgroundImage: `url(${pix})` }}>
                             <ArrowSmallRightIcon className='w-[30px] bg-black bg-opacity-[20%] cursor-pointer text-white p-1 rounded-full absolute top-4 right-4' />
