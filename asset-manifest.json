@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/ProperLand/static/css/main.4164870b.css",
-    "main.js": "/ProperLand/static/js/main.ea949552.js",
-    "static/js/787.55cefe91.chunk.js": "/ProperLand/static/js/787.55cefe91.chunk.js",
+    "main.css": "/ProperLand/static/css/main.9a8d8d97.css",
+    "main.js": "/ProperLand/static/js/main.c81ada85.js",
+    "static/js/787.de809ec8.chunk.js": "/ProperLand/static/js/787.de809ec8.chunk.js",
     "static/media/hero_img.png": "/ProperLand/static/media/hero_img.41e87f59697d5c5fffc4.png",
     "static/media/ImageAbout_bkg.png": "/ProperLand/static/media/ImageAbout_bkg.4dae5bd29656ae4011e8.png",
     "static/media/vid_img.jpg": "/ProperLand/static/media/vid_img.17f63812be4be9312087.jpg",
@@ -10,10 +10,12 @@
     "static/media/comfi_3.png": "/ProperLand/static/media/comfi_3.9e4e6a803c3582fdf4d6.png",
     "static/media/Atlanta.png": "/ProperLand/static/media/Atlanta.e383bc1f7cdbc7a0caa3.png",
     "static/media/comfi.png": "/ProperLand/static/media/comfi.5768561cef520a661077.png",
+    "static/media/Blog_1.png": "/ProperLand/static/media/Blog_1.0cdf17fbb452a99551db.png",
     "static/media/Icon_rt.png": "/ProperLand/static/media/Icon_rt.4ee25efdcc45a5535b01.png",
     "static/media/1why2.png": "/ProperLand/static/media/1why2.e8e1fe4e68fb61a653e8.png",
     "static/media/2why3.png": "/ProperLand/static/media/2why3.a6e44eaef95e3a558817.png",
     "static/media/NY.png": "/ProperLand/static/media/NY.ff2d6e46883048506f8c.png",
+    "static/media/Blog_2.png": "/ProperLand/static/media/Blog_2.69680598f7050b3bb277.png",
     "static/media/Singapore.png": "/ProperLand/static/media/Singapore.75187edd6fdc0f246fa8.png",
     "static/media/3why1.png": "/ProperLand/static/media/3why1.0b919d0bc39f40bfe1b5.png",
     "static/media/1why1.png": "/ProperLand/static/media/1why1.052206abc7eb175f159f.png",
@@ -23,7 +25,9 @@
     "static/media/comfi_4.png": "/ProperLand/static/media/comfi_4.fcc0dd05744effb8020d.png",
     "static/media/Touch with us.png": "/ProperLand/static/media/Touch with us.ad73f38c1cf07b9218d1.png",
     "static/media/Icon.png": "/ProperLand/static/media/Icon.c0ff0a5779640c3eb3cf.png",
+    "static/media/Right_blog_pattern.png": "/ProperLand/static/media/Right_blog_pattern.5f1b1638c6f9b524ed2a.png",
     "static/media/victor.jpg": "/ProperLand/static/media/victor.980838866a6bcda385d3.jpg",
+    "static/media/Left_blog_pattern.png": "/ProperLand/static/media/Left_blog_pattern.8514dba62db525f966bc.png",
     "static/media/Ne.jpg": "/ProperLand/static/media/Ne.0a0a68038a4a0f9b1368.jpg",
     "static/media/MemerSupport.png": "/ProperLand/static/media/MemerSupport.ced27bf3f7011e415919.png",
     "static/media/ExperienceAgent.png": "/ProperLand/static/media/ExperienceAgent.75d7d3c139ea03a6ec23.png",
@@ -48,12 +52,12 @@
     "index.html": "/ProperLand/index.html",
     "static/media/bed.svg": "/ProperLand/static/media/bed.50f872dbc57ea45a26c46afa5fd6bd9b.svg",
     "static/media/IconLogo.svg": "/ProperLand/static/media/IconLogo.af359a5db018c0f1b555acdcba834f8c.svg",
-    "main.4164870b.css.map": "/ProperLand/static/css/main.4164870b.css.map",
-    "main.ea949552.js.map": "/ProperLand/static/js/main.ea949552.js.map",
-    "787.55cefe91.chunk.js.map": "/ProperLand/static/js/787.55cefe91.chunk.js.map"
+    "main.9a8d8d97.css.map": "/ProperLand/static/css/main.9a8d8d97.css.map",
+    "main.c81ada85.js.map": "/ProperLand/static/js/main.c81ada85.js.map",
+    "787.de809ec8.chunk.js.map": "/ProperLand/static/js/787.de809ec8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4164870b.css",
-    "static/js/main.ea949552.js"
+    "static/css/main.9a8d8d97.css",
+    "static/js/main.c81ada85.js"
   ]
 }
