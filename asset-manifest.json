@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ProperLand/static/css/main.9a8d8d97.css",
-    "main.js": "/ProperLand/static/js/main.c81ada85.js",
+    "main.css": "/ProperLand/static/css/main.4d8c8559.css",
+    "main.js": "/ProperLand/static/js/main.e571a04c.js",
     "static/js/787.de809ec8.chunk.js": "/ProperLand/static/js/787.de809ec8.chunk.js",
     "static/media/hero_img.png": "/ProperLand/static/media/hero_img.41e87f59697d5c5fffc4.png",
     "static/media/ImageAbout_bkg.png": "/ProperLand/static/media/ImageAbout_bkg.4dae5bd29656ae4011e8.png",
@@ -24,9 +24,11 @@
     "static/media/Paris.png": "/ProperLand/static/media/Paris.0cb6617e0167630f65ad.png",
     "static/media/comfi_4.png": "/ProperLand/static/media/comfi_4.fcc0dd05744effb8020d.png",
     "static/media/Touch with us.png": "/ProperLand/static/media/Touch with us.ad73f38c1cf07b9218d1.png",
+    "static/media/footer_pattern_left.png": "/ProperLand/static/media/footer_pattern_left.22336f9af63011087e4e.png",
     "static/media/Icon.png": "/ProperLand/static/media/Icon.c0ff0a5779640c3eb3cf.png",
     "static/media/Right_blog_pattern.png": "/ProperLand/static/media/Right_blog_pattern.5f1b1638c6f9b524ed2a.png",
     "static/media/victor.jpg": "/ProperLand/static/media/victor.980838866a6bcda385d3.jpg",
+    "static/media/footer_pattern_right.png": "/ProperLand/static/media/footer_pattern_right.22202117196d0777ee14.png",
     "static/media/Left_blog_pattern.png": "/ProperLand/static/media/Left_blog_pattern.8514dba62db525f966bc.png",
     "static/media/Ne.jpg": "/ProperLand/static/media/Ne.0a0a68038a4a0f9b1368.jpg",
     "static/media/MemerSupport.png": "/ProperLand/static/media/MemerSupport.ced27bf3f7011e415919.png",
@@ -46,18 +48,23 @@
     "static/media/No1City.svg": "/ProperLand/static/media/No1City.74e2e9571ee05d6e7a5919ec74b3f11c.svg",
     "static/media/tech.svg": "/ProperLand/static/media/tech.c3e2580541d50b001a008f8bf39553e6.svg",
     "static/media/Brand.svg": "/ProperLand/static/media/Brand.8abb3e3938ab3e4d547bc2a1b4e81ebe.svg",
+    "static/media/isnta.svg": "/ProperLand/static/media/isnta.4da1614996acb1c58691a8933025a940.svg",
     "static/media/parking.svg": "/ProperLand/static/media/parking.60a54d66166740d15022df3765daa177.svg",
+    "static/media/twit.svg": "/ProperLand/static/media/twit.f66b9e2b78b94082dcbac413fd665ff2.svg",
     "static/media/bath.svg": "/ProperLand/static/media/bath.7f6bb3e62d81d0c164866f0651a00b48.svg",
+    "static/media/lind.svg": "/ProperLand/static/media/lind.2488e6a421f307908a4b9250187179fe.svg",
     "static/media/area.svg": "/ProperLand/static/media/area.971a73e7d713cf2519954e8316b71c46.svg",
+    "static/media/youtube.svg": "/ProperLand/static/media/youtube.45af6601025073ca9717a7384084ba81.svg",
     "index.html": "/ProperLand/index.html",
     "static/media/bed.svg": "/ProperLand/static/media/bed.50f872dbc57ea45a26c46afa5fd6bd9b.svg",
     "static/media/IconLogo.svg": "/ProperLand/static/media/IconLogo.af359a5db018c0f1b555acdcba834f8c.svg",
-    "main.9a8d8d97.css.map": "/ProperLand/static/css/main.9a8d8d97.css.map",
-    "main.c81ada85.js.map": "/ProperLand/static/js/main.c81ada85.js.map",
+    "static/media/fb.svg": "/ProperLand/static/media/fb.733c4d9c8b0e65200786396e0fdfc92a.svg",
+    "main.4d8c8559.css.map": "/ProperLand/static/css/main.4d8c8559.css.map",
+    "main.e571a04c.js.map": "/ProperLand/static/js/main.e571a04c.js.map",
     "787.de809ec8.chunk.js.map": "/ProperLand/static/js/787.de809ec8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9a8d8d97.css",
-    "static/js/main.c81ada85.js"
+    "static/css/main.4d8c8559.css",
+    "static/js/main.e571a04c.js"
   ]
 }
