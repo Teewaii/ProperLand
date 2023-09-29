@@ -12,10 +12,7 @@ function Navigation() {
     const navs = ["Home", "About", "Pages", "Blog"]
     const { toggle, setToggle, handleToggle } = useContext(AppContext);
     return (
-
-
         < nav className='absolute right-0 left-0 z-50 container' >
-
 
             {/* Small screen navigation */}
             <div className="mobile_view container lg:hidden flex justify-between items-center relative mt-8 rounded-[5px] h-[70px] bg-white">
