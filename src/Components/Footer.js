@@ -39,7 +39,7 @@ function Footer() {
                         <Subscribe />
                     </div>
                 </div>
-                <div className="bottom flex  flex-row flex-wrap gap-[5px] items-start justify-between relative lg:border-b-2 lg:border-opacity-20 lg:border-primary lg:gap-[20px] 2xl:gap-[63px] lg:items-center ">
+                <div className="bottom flex  flex-row flex-wrap gap-[5px] items-start justify-between relative border-b-2 lg:border-opacity-20 lg:border-primary lg:gap-[20px] 2xl:gap-[63px] lg:items-center ">
 
                     <div className="company flex flex-col gap-[5px] my-8">
                         <h3 className='font-bold mb-2'>Company</h3>
@@ -96,7 +96,7 @@ function Footer() {
                 </div>
             </div>
             <div className="copyright py-5 text-center">
-                <small className='' >Copyright © Properland | Designed by <b>VictorFlow</b> - Developed by <b>Taiye.</b></small>
+                <small className='px-[10px]' >Copyright © Properland | Designed by <b>VictorFlow</b> - Developed by <b><a href="https://taiyeajimati.vercel.app/" target='blank'>Taiye.</a> </b></small>
             </div>
         </section>
     )
