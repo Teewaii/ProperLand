@@ -1,28 +1,36 @@
 import { React, useContext } from 'react';
-import Contact_btn from '../Components/Button/Contact_btn';
+import ContactBtn from '../Components/Button/Contact_btn';
 import logo from '../img/logo.svg';
+import {Link } from 'react-router-dom';
 import mobile_logo from '../img/IconLogo.svg';
 import { Bars3Icon } from '@heroicons/react/24/solid';
 import { XMarkIcon } from '@heroicons/react/24/solid';
 import { AppContext } from '../App';
 
 
-// function Navigation({ handleToggle, setToggle, toggle }) {
 function Navigation() {
-    const navs = ["Home", "About", "Pages", "Blog"]
-    const { toggle, setToggle, handleToggle } = useContext(AppContext);
+    const navs_url = {Home:"/", About:"/about", Pages:"/pages",Blog:"/blogs"}
+
+    const { toggle, handleToggle } = useContext(AppContext);
     return (
         < nav className='absolute right-0 left-0 z-50 container' >
 
             {/* Small screen navigation */}
             <div className="mobile_view container lg:hidden flex justify-between items-center relative mt-8 rounded-[5px] h-[70px] bg-white">
                 <div className="logo ">
-                    <img className='w-[50px] cursor-pointer' src={mobile_logo} alt="" />
+                   <Link to='/'><img className='w-[50px] cursor-pointer' src={mobile_logo} alt="" /></Link> 
                 </div>
 
                 <ul className={toggle ? 'flex flex-col gap-y-4 text-white absolute top-24 left-0 bg-primary w-[100%] container py-4' : 'hidden'}>
-                    {navs.map((nav, index) => (
-                        <li key={index} className='hover:text-primary'><a href="">{nav}</a></li>
+                    {/* {navs.map((nav, index) => ( */}
+                    {Object.entries(navs_url).map(([key,value])=>(
+                           
+                        <li onClick={handleToggle} key={key} className='hover:text-secondary'>
+                            <Link  to={value}>
+                            {key}
+                            </Link> 
+                           
+                            </li>
                     ))}
                 </ul>
                 <div className="hamb">
@@ -37,14 +45,19 @@ function Navigation() {
 
             < div className="large_screen px-6 hidden lg:flex justify-between items-center mt-8  2xl:mt-12 rounded-[5px] h-[100px] bg-white">
                 <div className="logo ">
-                    <img className='w-40 xl:w-50 cursor-pointer' src={logo} alt="" />
+                <Link to='/'><img className='w-[50px] cursor-pointer' src={mobile_logo} alt="" /></Link> 
                 </div>
                 <ul className='flex gap-x-12 text-content'>
-                    {navs.map((nav, index) => (
-                        <li key={index} className='hover:text-primary'><a href="">{nav}</a></li>
+                    
+                        {Object.entries(navs_url).map(([key,value])=>(
+                        <li key={key} className='hover:text-primary capitalize'>
+                           <Link  to={value}>
+                            {key}
+                            </Link> 
+                            </li>
                     ))}
                 </ul>
-                < Contact_btn />
+                < ContactBtn />
             </div>
 
         </nav >

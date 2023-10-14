@@ -32,6 +32,7 @@ module.exports = {
         '3why1': "url('../src/img/Home/3why1.png')",
         'about': "url('../src/img/Home/ImageAbout_bkg.png')",
         'victor': "url('../src/img/Home/victor.jpg')",
+        'about_us_header': "url('../src/img/About/hero_img.png')",
       },
       fontFamily: {
         Source: ['Source Sans 3'],

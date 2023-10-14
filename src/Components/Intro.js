@@ -1,6 +1,5 @@
 import React from 'react'
-import videoPlay from '../../src/img/Home/Video Icon.png'
-import vid_img from '../../src/img/Home/vid_img.jpg'
+import videoPlay from '../../src/img/Home/Video Icon.png';
 
 function Intro() {
     return (
@@ -39,8 +38,7 @@ function Intro() {
                 </div>
 
 
-                {/* <div className="right bg-vid_img bg-contain bg-no-repeat w-[100%] h-[100%] flex  items-center justify-center"> */}
-                <div className="right bg-vid_img bg-cover bg-center bg-no-repeat flex  items-center justify-center h-[450px] lg:w-[840px] lg:max-h-[400px]">
+              <div className="right bg-vid_img bg-cover bg-center bg-no-repeat flex  items-center justify-center h-[450px] lg:w-[840px] lg:max-h-[400px]">
 
                     <img className='cursor-pointer w-fit' src={videoPlay} alt="Vid player" />
                 </div>

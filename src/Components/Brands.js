@@ -1,6 +1,6 @@
 import React from 'react';
 import BrandsLogo from './BrandsLogo';
-import Explore_btn from './Button/Explore_btn';
+import ExploreBtn from './Button/Explore_btn';
 
 function Brands() {
     return (
@@ -18,7 +18,7 @@ function Brands() {
                     ))}
 
                 </div>
-                <Explore_btn />
+                <ExploreBtn />
             </div>
         </section>
     )
