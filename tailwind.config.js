@@ -11,7 +11,6 @@ module.exports = {
         link: "#B16642",
         hero: "#EAB196",
         hero_end: "#FFF0E9",
-        link: "#C78A6C",
       },
 
       backgroundImage: {
@@ -30,6 +29,9 @@ module.exports = {
         about_us_header: "url('../src/img/About/hero_img.png')",
         vintro: "url('../src/img/About/buying_sellin_Pattern.png')",
         vintro_img: "url('../src/img/About/vintro_img.png')",
+        planning_img: "url('../src/img/About/planning_bkg.png')",
+        dev_img: "url('../src/img/About/dev_bkg.png')",
+        newWay_img: "url('../src/img/About/new_way_bkg.png')",
       },
       fontFamily: {
         Source: ["Source Sans 3"],
