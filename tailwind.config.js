@@ -32,6 +32,7 @@ module.exports = {
         planning_img: "url('../src/img/About/planning_bkg.png')",
         dev_img: "url('../src/img/About/dev_bkg.png')",
         newWay_img: "url('../src/img/About/new_way_bkg.png')",
+        space_bkg: "url('../src/img/About/vid_bkg.jpg')",
       },
       fontFamily: {
         Source: ["Source Sans 3"],

@@ -16,14 +16,17 @@ function Team() {
           Our Property Team
         </h1>
       </div>
-      <div className="team mt-5 flex flex-col items-center h-100vh lg:flex-row lg:items-center lg:gap-x-6">
-        {Team_info.map(({ name, pix, role }) => (
-          <div className="rounded-md lg:w-1/4 mb-8 h-[300px]">
-            <img src={pix} alt="teampix" />
-            <div className="info w-[100%] px-4 py-4 bg-[#F6F6F6]">
+      <div className="team mt-5 grid grid-cols-1 md:grid-cols-2 md:gap-x-8 lg:grid-cols-4 gap-y-30 gap-x-0 h-100vh lg:items-center lg:gap-y-0 lg:gap-x-6 cursor-pointer ">
+        {/* <div className="team mt-5 flex flex-col gap-y-48 gap-x-0 items-center h-100vh md:flex-row lg:items-center lg:gap-y-0 lg:gap-x-6"> */}
+        {Team_info.map(({ name, pix, role, id }) => (
+          <div key={id} className="rounded-md mb-8 h-[fit] group">
+            <img className="w-[100%]" src={pix} alt="teampix" />
+            <div className="info px-4 py-4 bg-[#F6F6F6] group-hover:bg-secondary transition-all duration-300  ease-in-out">
               <h1 className="text-primary text-[18px] font-bold ">{name}</h1>
               <div className="bottom flex items-center justify-between mt-2">
-                <p className="text-secondary text-[14px]">{role}</p>
+                <p className="text-secondary text-[14px] group-hover:text-white transition-all duration-300  ease-in-out">
+                  {role}
+                </p>
                 <div className="socials flex items-center gap-2">
                   <img className="w-[18px]" src={insta} alt="instagram" />
                   <img className="w-[18px]" src={fb} alt="instagram" />

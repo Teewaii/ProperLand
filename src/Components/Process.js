@@ -3,7 +3,7 @@ import React from "react";
 function Process() {
   return (
     <section className="main_focus h-[fit] py-[110px] lg:py-[140px] ">
-      <div className="wrapper  flex flex-col items-center container">
+      <div className="wrapper flex flex-col items-center container">
         <div className="header flex flex-col items-center">
           <p className="text-sm uppercase tracking-[4px] md:tracking-[6px] lg:text-md 2xl:text-lg">
             |<span className="text-secondary ">02</span> process|
