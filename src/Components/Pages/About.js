@@ -10,7 +10,7 @@ import Space from "../Space";
 
 function About() {
   return (
-    <div className="relative">
+    <div className="">
       <AboutUsHeader />
       <Vintro />
       <Reviews />

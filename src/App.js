@@ -13,9 +13,7 @@ export const AppContext = createContext();
 function HomePage() {
   return (
     <Layout>
-      <div className="App relative ">
-        <Home />
-      </div>
+      <Home />
     </Layout>
   );
 }

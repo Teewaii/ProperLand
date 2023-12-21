@@ -27,7 +27,7 @@ function Space() {
 
         {/* secondSection */}
         <div className="right flex flex-col flex-col-reverse text-center lg:text-left items-center lg:flex-row lg:gap-x-10">
-          <div className="description w-[75%] ">
+          <div className="description w-[75%] xl:w-[57%] ">
             <div className="top">
               <h1 className="text-[24px] font-bold md:text-[35px] text-center leading-[40px] my-4 md:max-w-[510px] lg:text-left">
                 We're reinventing the space
