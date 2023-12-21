@@ -3,6 +3,7 @@ import "./App.css";
 import Layout from "./Components/Layout";
 import Home from "./Components/Pages/Home";
 import About from "./Components/Pages/About";
+import PropertyDetail from "./Components/Pages/PropertyDetail";
 import Blog from "./Components/Pages/Blogs";
 
 import { Routes, Route } from "react-router-dom";
@@ -25,6 +26,22 @@ function AboutUs() {
     </Layout>
   );
 }
+
+function PropertyInfo() {
+  return (
+    <Layout>
+      <PropertyDetail />
+      <style>
+        {`
+      .saleCard  {
+        background-color: #F9F9F9;
+      }
+    `}
+      </style>
+    </Layout>
+  );
+}
+
 function Blogs() {
   return (
     <Layout>
@@ -44,6 +61,7 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/about" exact element={<AboutUs />} />
+        <Route path="/detail" exact element={<PropertyInfo />} />
         <Route path="/blogs" element={<Blogs />} />
         {/* Additional routes go here... */}
       </Routes>
