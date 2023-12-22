@@ -5,7 +5,7 @@ import { EnvelopeIcon } from "@heroicons/react/24/solid";
 
 function Agent() {
   return (
-    <div className="AgentWrapper flex flex-col bg-[#F5F1EF] rounded-sm p-8 border-2 border-[#DAC5BB]">
+    <div className="AgentWrapper mt-8 flex flex-col bg-[#F5F1EF] rounded-sm p-8 border-2 border-[#DAC5BB] lg:mt-0">
       <div className="agent_info border-[#DAC5BB]">
         <h1 className="font-bold text-[28px] mb-4 xl:text-[20px]">Agent</h1>
         <p className="text-left text-[15px] text-left md:text-md">

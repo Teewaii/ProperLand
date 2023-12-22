@@ -4,6 +4,7 @@ import AboutUsHeader from "../AboutUsHeader";
 import PropertyDeals from "../PropertyDeals";
 import DetailsHeader from "../DetailsHeader";
 import DetailsBody from "../DetailsBody";
+import PropertyGallery from "../PropertyGallery";
 
 function PropertyDetail() {
   return (
@@ -11,6 +12,7 @@ function PropertyDetail() {
       <AboutUsHeader />
       <DetailsHeader />
       <DetailsBody />
+      <PropertyGallery />
       <PropertyDeals />
     </div>
   );
