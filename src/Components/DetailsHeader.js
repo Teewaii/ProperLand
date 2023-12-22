@@ -73,6 +73,13 @@ function DetailsHeader() {
           </div>
           <div>
             <ForSale_btn />
+            <style>
+              {`.sale_btn{
+                background-color: #3B3A5D;
+                color:white
+                
+            }`}
+            </style>
           </div>
         </div>
       </div>

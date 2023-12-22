@@ -6,7 +6,7 @@ function DetailsBody() {
   return (
     <section className="header container ">
       <div className="wrapper flex gap-x-20 mt-8 h-[fit] py-[110px] lg:py-[30px]">
-        <div className="left_column flex flex-col items-start gap-y-4 w-[60%] xl:w-[63%] ">
+        <div className="left_column flex flex-col items-start gap-y-4 w-[60%] xl:w-[62%] ">
           <h1 className="font-bold text-[28px] 2xl:text-[28px]">
             About the property
           </h1>
@@ -43,7 +43,7 @@ function DetailsBody() {
           </p>
 
           <div className="quote bg-[#3B3A5D] rounded-md w-[fit]  my-4">
-            <p className="text-center leading-8 text-white italic p-6 text-[15px] md:text-md">
+            <p className="text-center leading-8 text-white italic p-12 text-[15px] md:text-md">
               “Democracy must be built through open societies that share
               information. When there is information, there is enlightenment.
               When there is no sharing of power, no rule of law, no

@@ -18,7 +18,7 @@ function Hero() {
 
         {/* <section className=" bg-heroBgd_rt h-[100vh] relative "> */}
         <div className="left_wrapper container flex items-start">
-          <div className="left pt-40 flex flex-col items-center lg:items-start relative lg:pt-[250px] xl:pt-[200px]  2xl:pt-[310px]">
+          <div className="left pt-40 flex flex-col items-center lg:items-start relative lg:pt-[200px] xl:pt-[230px] 2xl:pt-[310px]">
             <div className="topTag flex items-center gap-x-4 mb-8 bg-gradient-to-l from-hero from-0% w-fit px-4 py-1 ">
               <img src={hux_icon} alt="" />
               <p className="text-link text-sm tracking-[6px] uppercase">
