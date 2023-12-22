@@ -9,7 +9,7 @@ import ForSale_btn from "./Button/ForSale_btn";
 function DetailsHeader() {
   return (
     <section className="header container ">
-      <div className="wrapper flex gap-4 h-[fit] py-[110px] lg:py-[70px]  border-b-[2.5px]">
+      <div className="wrapper flex flex-col gap-4 h-[fit] py-[110px] lg:flex-row lg:py-[70px] border-b-[2.5px]">
         <div className="left_column flex flex-col items-start gap-y-4 flex-1">
           <div className="location flex items-center text-[#8E8E8E] ">
             <MapPinIcon className="h-[20px] text-secondary md:h-[25px]" />
