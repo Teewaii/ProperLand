@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/ProperLand/static/css/main.7fcf1d60.css",
-    "main.js": "/ProperLand/static/js/main.211fc525.js",
-    "static/js/787.de809ec8.chunk.js": "/ProperLand/static/js/787.de809ec8.chunk.js",
+    "main.css": "/ProperLand/static/css/main.98003bfe.css",
+    "main.js": "/ProperLand/static/js/main.b4ff1b1a.js",
+    "static/js/787.ecf148df.chunk.js": "/ProperLand/static/js/787.ecf148df.chunk.js",
     "static/media/buying_sellin_Pattern.png": "/ProperLand/static/media/buying_sellin_Pattern.e2b2a6300a8e3a11c4b4.png",
     "static/media/hero_img.png": "/ProperLand/static/media/hero_img.0f37ba5aa225644ad718.png",
     "static/media/hux.jpg": "/ProperLand/static/media/hux.990b13275076caff548f.jpg",
@@ -13,9 +13,12 @@
     "static/media/2why2a.png": "/ProperLand/static/media/2why2a.520715db8e032d8f680f.png",
     "static/media/comfi_3.png": "/ProperLand/static/media/comfi_3.9e4e6a803c3582fdf4d6.png",
     "static/media/peter.png": "/ProperLand/static/media/peter.ac2fbe08eaffc5513b71.png",
+    "static/media/g2.png": "/ProperLand/static/media/g2.fbcd16a82dab0251b3a1.png",
+    "static/media/g3.png": "/ProperLand/static/media/g3.ea959812f4fe40426813.png",
     "static/media/william.png": "/ProperLand/static/media/william.6ac6ff8c59f64c4ca03d.png",
     "static/media/Atlanta.png": "/ProperLand/static/media/Atlanta.e383bc1f7cdbc7a0caa3.png",
     "static/media/comfi.png": "/ProperLand/static/media/comfi.5768561cef520a661077.png",
+    "static/media/g1.png": "/ProperLand/static/media/g1.3c3cb69a73d317afcac7.png",
     "static/media/samson.png": "/ProperLand/static/media/samson.aa86d3009887d9c0a3c6.png",
     "static/media/elena.png": "/ProperLand/static/media/elena.788faf21f53fa922326b.png",
     "static/media/Blog_1.png": "/ProperLand/static/media/Blog_1.0cdf17fbb452a99551db.png",
@@ -74,12 +77,12 @@
     "static/media/bed.svg": "/ProperLand/static/media/bed.2ec13391b05c2b83f74d38e941ffa39a.svg",
     "static/media/IconLogo.svg": "/ProperLand/static/media/IconLogo.c1daa4bb3a55a674ba3543b13ba29401.svg",
     "static/media/fb.svg": "/ProperLand/static/media/fb.5c3f1e7b053ef9fcabbcf9a10f45ba4e.svg",
-    "main.7fcf1d60.css.map": "/ProperLand/static/css/main.7fcf1d60.css.map",
-    "main.211fc525.js.map": "/ProperLand/static/js/main.211fc525.js.map",
-    "787.de809ec8.chunk.js.map": "/ProperLand/static/js/787.de809ec8.chunk.js.map"
+    "main.98003bfe.css.map": "/ProperLand/static/css/main.98003bfe.css.map",
+    "main.b4ff1b1a.js.map": "/ProperLand/static/js/main.b4ff1b1a.js.map",
+    "787.ecf148df.chunk.js.map": "/ProperLand/static/js/787.ecf148df.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7fcf1d60.css",
-    "static/js/main.211fc525.js"
+    "static/css/main.98003bfe.css",
+    "static/js/main.b4ff1b1a.js"
   ]
 }
