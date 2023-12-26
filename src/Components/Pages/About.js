@@ -17,7 +17,7 @@ function About() {
       <Space />
       <Process />
       <Stats />
-      <Team />
+      <Team slicer={4} />
       <Brands />
     </div>
   );

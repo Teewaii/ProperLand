@@ -11,6 +11,7 @@ function Navigation() {
   const navs_url = {
     Home: "/",
     About: "/about",
+    Agent: "/agents",
     Pages: "/pages",
     Blog: "/blogs",
   };

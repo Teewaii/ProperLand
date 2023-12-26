@@ -5,8 +5,10 @@ import Home from "./Components/Pages/Home";
 import About from "./Components/Pages/About";
 import PropertyDetail from "./Components/Pages/PropertyDetail";
 import Blog from "./Components/Pages/Blogs";
+import Team from "./Components/Pages/OurAgents";
 
 import { Routes, Route } from "react-router-dom";
+import AgentsCard from "./Components/AgentsCard";
 
 // import ToTop from './Components/Button/ToTop';
 export const AppContext = createContext();
@@ -42,6 +44,13 @@ function PropertyInfo() {
   );
 }
 
+function OurAgents() {
+  return (
+    <Layout>
+      <Team />
+    </Layout>
+  );
+}
 function Blogs() {
   return (
     <Layout>
@@ -56,6 +65,7 @@ function App() {
   function handleToggle() {
     setToggle((prev) => !prev);
   }
+
   return (
     <AppContext.Provider value={{ toggle, setToggle, handleToggle }}>
       <Routes>
@@ -63,7 +73,7 @@ function App() {
         <Route path="/about" exact element={<AboutUs />} />
         <Route path="/detail" exact element={<PropertyInfo />} />
         <Route path="/blogs" element={<Blogs />} />
-        {/* Additional routes go here... */}
+        <Route path="/agents" element={<OurAgents />} />
       </Routes>
     </AppContext.Provider>
   );

@@ -3,6 +3,9 @@ import peter from "../img/About/peter.png";
 import elena from "../img/About/elena.png";
 import samson from "../img/About/samson.png";
 import william from "../img/About/william.png";
+import Mike from "../img/About/Mike.png";
+import kelian from "../img/About/Kelian.png";
+import julia from "../img/About/julia.png";
 
 const Team_info = [
   {
@@ -28,6 +31,24 @@ const Team_info = [
     name: "Rosalina William",
     role: "Land Seller",
     pix: william,
+  },
+  {
+    id: 5,
+    name: "John Mike",
+    role: "Contractor",
+    pix: Mike,
+  },
+  {
+    id: 6,
+    name: "Kelian Anderson",
+    role: "Leason Agent",
+    pix: kelian,
+  },
+  {
+    id: 7,
+    name: "Julia Tony",
+    role: "Leason Agent",
+    pix: julia,
   },
 ];
 

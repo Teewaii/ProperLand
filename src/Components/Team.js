@@ -1,11 +1,10 @@
 import React from "react";
-import peter from "../img/About/peter.png";
 import insta from "../img/Home/isnta.svg";
 import fb from "../img/Home/fb.svg";
 import twitter from "../img/Home/twit.svg";
 import Team_info from "./Team_info";
 
-function Team() {
+function Team({ slicer }) {
   return (
     <section className="main_focus flex flex-col h-[fit] py-[110px] lg:py-[140px] container ">
       <div className="header flex flex-col items-center ">
@@ -18,7 +17,7 @@ function Team() {
       </div>
       <div className="team mt-5 grid grid-cols-1 md:grid-cols-2 md:gap-x-8 lg:grid-cols-4 gap-y-30 gap-x-0 h-100vh lg:items-center lg:gap-y-0 lg:gap-x-6 cursor-pointer ">
         {/* <div className="team mt-5 flex flex-col gap-y-48 gap-x-0 items-center h-100vh md:flex-row lg:items-center lg:gap-y-0 lg:gap-x-6"> */}
-        {Team_info.map(({ name, pix, role, id }) => (
+        {Team_info.slice(0, `${slicer}`).map(({ name, pix, role, id }) => (
           <div key={id} className="rounded-md mb-8 h-[fit] group">
             <img className="w-[100%]" src={pix} alt="teampix" />
             <div className="info px-4 py-4 bg-[#F6F6F6] group-hover:bg-secondary transition-all duration-300  ease-in-out">
