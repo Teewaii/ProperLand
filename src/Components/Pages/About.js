@@ -7,6 +7,7 @@ import Stats from "../Stats";
 import Team from "../Team";
 import Brands from "../Brands";
 import Space from "../Space";
+import FewTeams from "../FewTeams";
 
 function About() {
   return (
@@ -17,7 +18,8 @@ function About() {
       <Space />
       <Process />
       <Stats />
-      <Team slicer={4} />
+      <FewTeams />
+      {/* <Team slicer={4} /> */}
       <Brands />
     </div>
   );

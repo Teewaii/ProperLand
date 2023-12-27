@@ -1,16 +1,10 @@
-import React, { useState } from "react";
+import React from "react";
 import Team_info from "./Team_info";
 import fb from "../img/Home/fb.svg";
 import insta from "../img/Home/isnta.svg";
 import twitter from "../img/Home/twit.svg";
 
 function AgentsCard({ slicer }) {
-  //   const [slicer, setSlicer] = useState(4);
-
-  //   function handleSlicer() {
-  //     setSlicer(8);
-  //   }
-
   return (
     <div className="wrapper container my-[100px]">
       <div className="team mt-5 flex flex-col gap-y-48 gap-x-0 items-center h-100vh md:flex-row lg:items-center lg:gap-y-0 lg:gap-x-6 cursor-pointer">

@@ -3,10 +3,11 @@ import SeeArticles from "./Button/SeeArticles";
 import Left_blog_pattern from "../../src/img/Home/Left_blog_pattern.png";
 import Rigft_blog_pattern from "../../src/img/Home/Right_blog_pattern.png";
 import Articles from "./Articles";
+import BlogsCards from "./BlogsCards";
 
 function Blog() {
   return (
-    <section className="Blog bg-[#F5F1EF] h-fit mt-[40px] py-[110px] relative ">
+    <section className="Blog  bg-[#F5F1EF] h-fit py-[110px]  relative ">
       <img
         className="w-[15%] absolute top-0"
         src={Left_blog_pattern}
@@ -26,19 +27,8 @@ function Blog() {
             Properties for sale in your favorite area
           </h1>
         </div>
-        <div className="articles flex flex-col gap-[50px] mb-8">
-          {Articles.map(({ pix, date, category, title, id }) => (
-            <div key={id} className="article flex flex-col items-center ">
-              <img className="mb-[23px]" src={pix} alt="Blog_1" />
-              <small className="text-link ">
-                {date} | {category}
-              </small>
-              <h1 className="font-bold text-[15px] text-center mt-2 cursor-pointer leading-6 max-w-[450px] lg:text-[20px]">
-                {title}
-              </h1>
-            </div>
-          ))}
-        </div>
+        <BlogsCards />
+
         <SeeArticles />
       </div>
     </section>

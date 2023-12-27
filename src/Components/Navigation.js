@@ -10,10 +10,9 @@ import { AppContext } from "../App";
 function Navigation() {
   const navs_url = {
     Home: "/",
-    About: "/about",
-    Agent: "/agents",
-    Pages: "/pages",
-    Blog: "/blogs",
+    "About Us": "/about",
+    "Our Agents": "/agents",
+    Blogs: "/blogs",
   };
 
   const { toggle, handleToggle } = useContext(AppContext);
@@ -65,7 +64,7 @@ function Navigation() {
         </div>
         <ul className="flex gap-x-12 text-content">
           {Object.entries(navs_url).map(([key, value]) => (
-            <li key={key} className="hover:text-primary capitalize">
+            <li key={key} className="hover:text-primary capitalize ">
               <Link to={value}>{key}</Link>
             </li>
           ))}

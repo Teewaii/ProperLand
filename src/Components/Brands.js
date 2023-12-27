@@ -4,7 +4,7 @@ import ExploreBtn from "./Button/Explore_btn";
 
 function Brands() {
   return (
-    <section className="Brand container">
+    <section className="Brand container py-[80px]">
       <div className="wrapper flex flex-col items-center justify-center bg-[#F5F1EF] py-[110px] ">
         <div className="header flex flex-col items-center">
           <h1 className="text-[20px] text-center font-bold mb-12 md:text-[25px] px-[5px] my-4 lg:px-0 ">

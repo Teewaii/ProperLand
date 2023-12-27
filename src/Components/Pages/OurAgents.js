@@ -1,8 +1,6 @@
 import React from "react";
 
-import AgentsCard from "../AgentsCard";
 import AgentsPageHeader from "../AgentsPageHeader";
-import Agent from "../Agent";
 import AboutUs from "../AboutUs";
 import Team from "../Team";
 

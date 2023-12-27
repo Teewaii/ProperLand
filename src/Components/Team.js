@@ -3,10 +3,11 @@ import insta from "../img/Home/isnta.svg";
 import fb from "../img/Home/fb.svg";
 import twitter from "../img/Home/twit.svg";
 import Team_info from "./Team_info";
+import { Link } from "react-router-dom";
 
 function Team({ slicer }) {
   return (
-    <section className="main_focus flex flex-col h-[fit] py-[110px] lg:py-[140px] container ">
+    <section className="main_focus flex flex-col items-center h-[fit] py-[110px] lg:py-[140px] container ">
       <div className="header flex flex-col items-center ">
         <p className="text-sm uppercase tracking-[4px] md:tracking-[6px] lg:text-md 2xl:text-lg">
           |<span className="text-secondary ">06</span> Experts|
@@ -36,6 +37,12 @@ function Team({ slicer }) {
           </div>
         ))}
       </div>
+      <Link
+        to="/agents"
+        className="w-[150px] text-center rounded-sm bg-secondary p-[15px] mt-4 cursor-hover"
+      >
+        <h1>See All</h1>
+      </Link>
     </section>
   );
 }

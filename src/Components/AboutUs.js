@@ -9,10 +9,10 @@ function AboutUs() {
           <p className="text-sm tracking-[4px]  lg:text-md md:tracking-[6px] 2xl:text-lg ">
             |<span className="text-secondary">04</span> ABOUT US|
           </p>
-          <h1 className="text-[24px] md:text-[35px] my-4 font-bold lg:max-w-[500px]">
+          <h1 className="text-[24px] md:text-[35px] my-4 font-bold lg:max-w-[500px] 2xl:max-w-[550px]">
             42+ years of helping you find the right Propertys
           </h1>
-          <p className="text-left text-link mb-4 md:text-[15px] lg:max-w-[450px]">
+          <p className="text-left text-link mb-4 md:text-[15px] lg:max-w-[450px] 2xl:max-w-[550px]">
             Distinctively re-engineer revolutionary meta-services and premium At
             vero eos et accusamus et iusto <br /> <br />
             Dignissimos ducimus qui blanditiis praesentium voluptatum deleniti
