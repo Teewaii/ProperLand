@@ -3,10 +3,10 @@ import React from "react";
 function ContactForm() {
   return (
     <div className="rounded-sm p-8 border-2 bg-[#F5F1EF] border-[#DAC5BB] w-[100%]">
-      <h1 className="text-[20px] leading-[28px] md:text-[40px] md:leading-[50px] font-[600] w-[100%] lg:header2 leading-[35px] lg:text-left xl:text-[30px] xl:leading-[55px] 2xl:text-[55px] 2xl:leading-[75px]">
+      <h1 className="text-[20px] leading-[28px] md:text-[40px] md:leading-[50px] font-[600] w-[100%] lg:header2 leading-[35px] lg:text-left xl:text-[30px] xl:leading-[55px] 2xl:text-[40px] 2xl:leading-[75px]">
         Quick Contact
       </h1>
-      <p className="text-md lg:text-left my-4  lg:mb-8 lg:mt-0 lg:my-0 lg:text-[14px] 2xl:text-[18px]">
+      <p className="text-md lg:text-left my-4 lg:mb-8 lg:mt-0 lg:my-0 lg:text-[14px] 2xl:text-[18px]">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
         tempor incididunt ut labore
       </p>

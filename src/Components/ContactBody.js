@@ -6,7 +6,7 @@ import ContactForm from "./ContactForm";
 
 function ContactBody() {
   return (
-    <div className="mainContent pt-40 flex flex-col gap-6 items-start container pt-[150px] lg:pt-[250px] lg:flex-row xl:pt-[200px] 2xl:pt-[280px] relative z-5 ">
+    <div className="mainContent pt-40 flex flex-col gap-6 items-start container pt-[150px] lg:pt-[250px] lg:flex-row xl:pt-[200px] 2xl:pt-[280px] relative z-5 2xl:gap-12 ">
       <div className="left_wrapper flex flex-col items-start flex-[1]  ">
         <div className="head  flex flex-col items-center lg:items-start relative ">
           <div className="topTag flex items-center gap-x-4 mb-8 bg-gradient-to-l from-hero from-0% w-fit px-4 py-1 ">
@@ -16,7 +16,7 @@ function ContactBody() {
             </p>
           </div>
           <div className="middle_text xl:mb-2 2xl:mb-6">
-            <h1 className="text-[22px] text-center leading-[28px] md:text-[30px] md:leading-[50px] font-[600] lg:header2 leading-[35px] lg:text-left lg:text-[40px] xl:leading-[55px]">
+            <h1 className="text-[22px] text-center leading-[28px] md:text-[30px] md:leading-[50px] font-[600] lg:header2 leading-[35px] lg:text-left lg:text-[40px] xl:leading-[55px] 2xl:max-w-[90%]">
               Contact us For More Information
             </h1>
             <p className="text-md text-center lg:text-left my-4 lg:mt-4 lg:w-[78%] lg:text-[14px] 2xl:text-[18px] text-link">
@@ -27,7 +27,7 @@ function ContactBody() {
           </div>
         </div>
 
-        <div className="contactInfo flex flex-col items-center gap-6 relative text-link ">
+        <div className="contactInfo flex flex-col items-center gap-6 translate-x-[50%] relative text-link lg:translate-x-[0%] ">
           <div className="bg-[#FFDBC9] w-[70px] h-[70px] relative rounded-md border-2 border-[#F0CCBB]">
             <div className="email flex items-center gap-x-2 bg-white absolute translate-y-[10px] py-[10px] px-[13px] rounded-md z-[90] ml-[13px] ">
               <div className="w-[25px]  ">
@@ -81,7 +81,7 @@ function ContactBody() {
       </div>
 
       <div className="right_wrapper flex-[0.8] z-50">
-        <div className="form mt-16 ">
+        <div className="form mt-16 lg:mt-0 ">
           <ContactForm />
         </div>
       </div>
