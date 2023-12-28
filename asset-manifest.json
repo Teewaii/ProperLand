@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/ProperLand/static/css/main.c74e386c.css",
-    "main.js": "/ProperLand/static/js/main.fcd69e9e.js",
+    "main.css": "/ProperLand/static/css/main.010e0dd5.css",
+    "main.js": "/ProperLand/static/js/main.36fc22aa.js",
     "static/js/787.ecf148df.chunk.js": "/ProperLand/static/js/787.ecf148df.chunk.js",
     "static/media/buying_sellin_Pattern.png": "/ProperLand/static/media/buying_sellin_Pattern.e2b2a6300a8e3a11c4b4.png",
     "static/media/agents_bkg.png": "/ProperLand/static/media/agents_bkg.4dde0059ddc9c4ef25fe.png",
     "static/media/hero_img.png": "/ProperLand/static/media/hero_img.0f37ba5aa225644ad718.png",
     "static/media/hux.jpg": "/ProperLand/static/media/hux.990b13275076caff548f.jpg",
+    "static/media/agents_bkg_mobile.png": "/ProperLand/static/media/agents_bkg_mobile.f8912598b207d8ecf100.png",
     "static/media/ImageAbout_bkg.png": "/ProperLand/static/media/ImageAbout_bkg.4dae5bd29656ae4011e8.png",
     "static/media/vintro_img.png": "/ProperLand/static/media/vintro_img.ae8ef57e150cb8e84a2a.png",
     "static/media/vid_bkg.jpg": "/ProperLand/static/media/vid_bkg.3db75a5f65b38d198667.jpg",
@@ -81,12 +82,12 @@
     "static/media/bed.svg": "/ProperLand/static/media/bed.2ec13391b05c2b83f74d38e941ffa39a.svg",
     "static/media/IconLogo.svg": "/ProperLand/static/media/IconLogo.c1daa4bb3a55a674ba3543b13ba29401.svg",
     "static/media/fb.svg": "/ProperLand/static/media/fb.5c3f1e7b053ef9fcabbcf9a10f45ba4e.svg",
-    "main.c74e386c.css.map": "/ProperLand/static/css/main.c74e386c.css.map",
-    "main.fcd69e9e.js.map": "/ProperLand/static/js/main.fcd69e9e.js.map",
+    "main.010e0dd5.css.map": "/ProperLand/static/css/main.010e0dd5.css.map",
+    "main.36fc22aa.js.map": "/ProperLand/static/js/main.36fc22aa.js.map",
     "787.ecf148df.chunk.js.map": "/ProperLand/static/js/787.ecf148df.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c74e386c.css",
-    "static/js/main.fcd69e9e.js"
+    "static/css/main.010e0dd5.css",
+    "static/js/main.36fc22aa.js"
   ]
 }
