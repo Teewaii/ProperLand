@@ -8,7 +8,7 @@ import ContactBody from "./ContactBody";
 
 function ContactHeader() {
   return (
-    <section className=" bg-gradient-to-l from-hero to-hero_end mb-16 h-[100vh] relative overflow-hidden">
+    <section className=" bg-gradient-to-l from-hero to-hero_end mb-16 min-h-100vh py-16 relative overflow-hidden">
       {/* <section className=" bg-gradient-to-l from-hero to-hero_end mb-16 h-[70vh] md:h-[55vh] lg:h-[85vh] relative overflow-hidden"> */}
       <div className="main_wrapper">
         <div className="leftPattern absolute left-0 bottom-0">

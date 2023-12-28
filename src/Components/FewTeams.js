@@ -8,7 +8,7 @@ import Team from "./Team";
 
 function FewTeams({ slicer }) {
   return (
-    <section className="agents flex flex-col items-center h-[fit] py-[110px] lg:py-[140px] container ">
+    <section className="agents flex flex-col items-center h-[fit] py-[110px] lg:py-[140px]  ">
       <div className="header flex flex-col items-center ">
         <p className="text-sm uppercase tracking-[4px] md:tracking-[6px] lg:text-md 2xl:text-lg">
           |<span className="text-secondary ">06</span> Experts|

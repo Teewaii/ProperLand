@@ -1,6 +1,7 @@
 import React from "react";
 import Agent from "./Agent";
-import ContactForm from "./ContactForm";
+import AgentForm from "../../src/Components/AgentContactForm";
+// import AgentContact "."
 
 function DetailsBody() {
   return (
@@ -87,7 +88,7 @@ function DetailsBody() {
         </div>
         <div className="right_column flex flex-col items-start gap-y-8 flex-1">
           <Agent />
-          <ContactForm />
+          <AgentForm />
         </div>
       </div>
     </section>

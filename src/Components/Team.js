@@ -16,7 +16,7 @@ function Team({ slicer }) {
           Our Property Team
         </h1>
       </div> */}
-      <div className="team grid grid-cols-1 md:grid-cols-2 md:gap-x-8 lg:grid-cols-4 gap-y-30 gap-x-0 h-100vh lg:items-center lg:gap-y-0 lg:gap-x-8 cursor-pointer ">
+      <div className="team grid grid-cols-1 md:grid-cols-2 md:gap-x-8 lg:grid-cols-4 gap-y-30 gap-x-0 h-100vh lg:items-center lg:gap-y-0 lg:gap-x-6 cursor-pointer ">
         {Team_info.slice(0, `${slicer}`).map(({ name, pix, role, id }) => (
           <div key={id} className="rounded-md mb-8 h-[fit] group">
             <img className="w-[100%]" src={pix} alt="teampix" />
