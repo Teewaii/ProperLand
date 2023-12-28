@@ -29,7 +29,7 @@ function BlogHeader() {
                 </p>
               </div>
               <div className="middle_text xl:mb-2 2xl:mb-6">
-                <h1 className="text-[22px] leading-[28px] md:text-[40px] md:leading-[50px] font-[600] w-[100%] lg:header2 leading-[35px] lg:text-left xl:text-[50px] xl:max-w-[800px] xl:leading-[55px] 2xl:text-[65px] 2xl:max-w-[950px] 2xl:leading-[75px]">
+                <h1 className="text-[22px] leading-[28px] md:text-[40px] md:leading-[50px] font-[600] w-[100%] lg:header2 leading-[35px] lg:text-left xl:text-[50px] xl:max-w-[90%] xl:leading-[55px] 2xl:text-[65px] 2xl:max-w-[950px] 2xl:leading-[75px]">
                   Here’s how to decorate your new home from scratch
                 </h1>
                 <div className="publisher flex items-center my-4 gap-x-4">

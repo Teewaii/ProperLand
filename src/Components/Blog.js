@@ -28,7 +28,6 @@ function Blog() {
           </h1>
         </div>
         <BlogsCards />
-
         <SeeArticles />
       </div>
     </section>

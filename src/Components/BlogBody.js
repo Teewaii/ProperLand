@@ -16,7 +16,7 @@ function BlogBody() {
             <img className="mb-[23px] 2xl:w-[1300px]" src={pix} alt="Blog_1" />
           </div>
         ))}
-        <div className="wrapper flex flex-col lg:gap-x-20 w-[90%] mt-8 h-[fit] md:max-w-[70%] lg:py-[100px] lg:py-[30px] 2xl:max-w-[75%]">
+        <div className="wrapper flex flex-col lg:gap-x-20 w-[90%] mt-8 h-[fit] md:max-w-[70%] lg:mt-4 lg:py-[100px] lg:py-[30px] xl:max-w-[72%]">
           <p className="text-left text-[15px] lg:text-justify md:text-md">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim

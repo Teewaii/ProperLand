@@ -9,6 +9,7 @@ import Team from "./Components/Pages/OurAgents";
 
 import { Routes, Route } from "react-router-dom";
 import AgentsCard from "./Components/AgentsCard";
+import ContactUs from "./Components/Pages/ContactUs";
 
 // import ToTop from './Components/Button/ToTop';
 export const AppContext = createContext();
@@ -58,6 +59,13 @@ function Blogs() {
     </Layout>
   );
 }
+function ContactPage() {
+  return (
+    <Layout>
+      <ContactUs />;
+    </Layout>
+  );
+}
 
 function App() {
   const [toggle, setToggle] = useState(false);
@@ -74,6 +82,7 @@ function App() {
         <Route path="/detail" exact element={<PropertyInfo />} />
         <Route path="/blogs" element={<Blogs />} />
         <Route path="/agents" element={<OurAgents />} />
+        <Route path="/contact" element={<ContactPage />} />
       </Routes>
     </AppContext.Provider>
   );

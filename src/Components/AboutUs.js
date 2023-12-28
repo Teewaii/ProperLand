@@ -6,7 +6,7 @@ function AboutUs() {
     <section className="about bg-[#F2F1EF] h-[fit] py-[84px] lg:bg-about lg:bg-cover lg:bg-no-repeat lg:bg-top-right 2xl:py-[190px] ">
       <div className="wrapper container">
         <div className="details mb-12 lg:text-left lg:mb-8">
-          <p className="text-sm tracking-[4px]  lg:text-md md:tracking-[6px] 2xl:text-lg ">
+          <p className="text-sm tracking-[4px] lg:text-md md:tracking-[6px] 2xl:text-lg ">
             |<span className="text-secondary">04</span> ABOUT US|
           </p>
           <h1 className="text-[24px] md:text-[35px] my-4 font-bold lg:max-w-[500px] 2xl:max-w-[550px]">
