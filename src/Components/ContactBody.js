@@ -9,14 +9,6 @@ import ContactForm from "./ContactForm";
 function ContactBody() {
   return (
     <section>
-      <div className="Left&right_pattern_images bg-black w-100vw h-60vh">
-        <div className="leftPattern absolute left-0 bottom-0">
-          <img src={left_pattern} alt="left_pattern_image" />
-        </div>
-        <div className="rightPattern absolute top-0 lg:bottom-0 md:right-[-380px] lg:right-[-80px] ">
-          <img src={right_pattern} alt="right_pattern_image" />
-        </div>
-      </div>
       <div className="mainContent pt-40 flex flex-col gap-6 items-start container pt-[150px] lg:pt-[250px] lg:flex-row xl:pt-[200px]  relative z-5 2xl:gap-12 ">
         <div className="left_wrapper flex flex-col items-start flex-[1]  ">
           <div className="head  flex flex-col items-center lg:items-start relative ">

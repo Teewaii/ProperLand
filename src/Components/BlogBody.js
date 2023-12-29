@@ -11,7 +11,7 @@ function BlogBody() {
         {Articles.slice(0, 1).map(({ pix, id }) => (
           <div
             id={1}
-            className="relative mt-[-120px] md:mt-[-150px] 2xl:mt-[-300px]"
+            className="relative mt-[-120px] md:mt-[-150px] lg:mt-[-170px] 2xl:mt-[-200px]"
           >
             <img className="mb-[23px] 2xl:w-[1300px]" src={pix} alt="Blog_1" />
           </div>

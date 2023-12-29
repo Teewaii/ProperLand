@@ -12,7 +12,7 @@ function Publisher() {
       {Articles.slice(0, 1).map(({ passPort, id }) => (
         <div
           id={1}
-          className="publisher flex flex-col items-center md:gap-x-8 md:flex-row md:justify-between lg:my-4 lg:gap-x-4 xl:max-w-[68%] container "
+          className="publisher flex flex-col items-center md:gap-x-8 md:flex-row md:justify-between lg:my-4 lg:gap-x-4 lg:max-w-[68%] 2xl:max-w-[60%] container "
         >
           <img
             src={passPort}

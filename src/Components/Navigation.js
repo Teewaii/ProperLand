@@ -11,7 +11,6 @@ function Navigation() {
     Home: "/",
     "About Us": "/about",
     "Our Agents": "/agents",
-    Contact: "/contact",
     Blogs: "/blogs",
   };
 

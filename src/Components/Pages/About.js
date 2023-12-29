@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import AboutUsHeader from "../AboutUsHeader";
 import Vintro from "../Vintro";
 import Reviews from "../Reviews";
@@ -9,6 +9,10 @@ import Space from "../Space";
 import FewTeams from "../FewTeams";
 
 function About() {
+  useEffect(() => {
+    window.scrollTo(0, 0); // Scroll to the top when the component is rendered
+  }, []);
+
   return (
     <div className="">
       <AboutUsHeader />

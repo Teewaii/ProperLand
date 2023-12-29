@@ -11,31 +11,40 @@ function ContactForm() {
         tempor incididunt ut labore
       </p>
       <form className="flex flex-col gap-y-4" action="#">
+        <label for="fname" className="font-bold">
+          First Name
+        </label>
         <input
           className="p-4 rounded-md border-[#D7D7D7] border-[1px] focus:outline-slate-300"
           type="text"
           id="fname"
           name="fname"
-          placeholder="Name"
+          placeholder="Enter your first name"
         />
+        <label for="email" className="font-bold">
+          Email
+        </label>
         <input
           className="p-4 rounded-md border-[#D7D7D7] border-[1px] focus:outline-slate-300"
           type="email"
           id="email"
           name="email"
-          placeholder="Email"
+          placeholder="Enter email address"
         />
+        <label for="phone" className="font-bold">
+          Phone Number
+        </label>
         <input
           className="p-4 rounded-md border-[#D7D7D7] border-[1px] focus:outline-slate-300"
           type="number"
-          id="fname"
-          name="fname"
-          placeholder="Phone"
+          id="phone"
+          name="phone"
+          placeholder="Enter contact number"
         />
         <textarea
           className="p-4 rounded-md border-[#D7D7D7] border-[1px] focus:outline-slate-300"
-          id="fname"
-          name="fname"
+          id="message"
+          name="message"
           rows="4"
           cols="20"
           placeholder="Message"
