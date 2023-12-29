@@ -1,6 +1,5 @@
 import { React, useContext } from "react";
 import ContactBtn from "../Components/Button/Contact_btn";
-import logo from "../img/logo.svg";
 import { Link } from "react-router-dom";
 import mobile_logo from "../img/IconLogo.svg";
 import { Bars3Icon } from "@heroicons/react/24/solid";

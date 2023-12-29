@@ -3,24 +3,23 @@ import hux_icon from "../img/Home/Vectorhux.png";
 import left_pattern from "../img/FAQ/FAQ_Pattern_Left.png";
 import right_pattern from "../img/FAQ/FAQ_Pattern_Right.png";
 import { PlusIcon } from "@heroicons/react/24/solid";
-import { MinusIcon } from "@heroicons/react/24/solid";
 import faqs from "../Components/FAQS";
 
 function FAQ() {
   const [open, setOpen] = useState(false);
 
-  function FaqToggle() {
+  function FaqToggle(index) {
     setOpen((open) => !open);
   }
   return (
     <section className="flex flex-col items-center h-fit py-8 ">
       <div className="main_wrapper">
-        <div className="leftPattern absolute left-0 bottom-0">
+        {/* <div className="leftPattern absolute left-0 bottom-0">
           <img src={left_pattern} alt="left_pattern_image" />
         </div>
         <div className="rightPattern absolute top-0 lg:bottom-0 md:right-[-380px] lg:right-[-80px] ">
           <img src={right_pattern} alt="right_pattern_image" />
-        </div>
+        </div> */}
         <div className="topTag flex items-center gap-x-4 mb-8 bg-gradient-to-l from-hero from-0% w-fit px-4 py-1 ">
           <img src={hux_icon} alt="" />
           <p className="text-link text-sm tracking-[6px] uppercase">ANSWERS</p>
@@ -30,13 +29,14 @@ function FAQ() {
         Frequently Asked Questions
       </h1>
       <div className="faqs container max-w-[65%] mt-12 mb-16 ">
-        {faqs.map(({ id, title, body }) => (
-          <div key={id} className="faq pb-4  overflow-hidden ">
+        {faqs.map(({ id, title, body }, index) => (
+          <div key={id} className="faq pb-8  overflow-hidden ">
             <div className="head flex items-center justify-between pb-4 border-b ">
               <h1 className="text-[18px] font-bold ">{title}</h1>
 
               <div
-                onClick={FaqToggle}
+                onClick={() => FaqToggle(index)}
+                // onClick={FaqToggle(index)}
                 className="showIcon w-10 text-[50px] bg-secondary rounded-full p-2 cursor-pointer "
                 style={{
                   transform: `rotate(${!open ? 180 : 45}deg)`,

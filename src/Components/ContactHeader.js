@@ -1,9 +1,7 @@
 import React from "react";
-import hux_icon from "../img/Home/Vectorhux.png";
 import left_pattern from "../img/Home/Icon.png";
 import right_pattern from "../img/Home/Icon_rt.png";
-import heroImg from "../../src/img/About/hero_img.png";
-import Articles from "./Articles";
+
 import ContactBody from "./ContactBody";
 
 function ContactHeader() {
