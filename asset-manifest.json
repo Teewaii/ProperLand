@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ProperLand/static/css/main.9a067145.css",
-    "main.js": "/ProperLand/static/js/main.d5581acd.js",
+    "main.css": "/ProperLand/static/css/main.ed1f5d1d.css",
+    "main.js": "/ProperLand/static/js/main.e0c312fc.js",
     "static/js/787.ecf148df.chunk.js": "/ProperLand/static/js/787.ecf148df.chunk.js",
     "static/media/buying_sellin_Pattern.png": "/ProperLand/static/media/buying_sellin_Pattern.e2b2a6300a8e3a11c4b4.png",
     "static/media/agents_bkg.png": "/ProperLand/static/media/agents_bkg.4dde0059ddc9c4ef25fe.png",
@@ -46,16 +46,16 @@
     "static/media/Touch with us.png": "/ProperLand/static/media/Touch with us.ad73f38c1cf07b9218d1.png",
     "static/media/footer_pattern_left.png": "/ProperLand/static/media/footer_pattern_left.22336f9af63011087e4e.png",
     "static/media/Icon.png": "/ProperLand/static/media/Icon.c0ff0a5779640c3eb3cf.png",
-    "static/media/FAQ_Pattern_Right.png": "/ProperLand/static/media/FAQ_Pattern_Right.77c19cce880eb80b5c17.png",
     "static/media/Right_blog_pattern.png": "/ProperLand/static/media/Right_blog_pattern.5f1b1638c6f9b524ed2a.png",
+    "static/media/FAQ_Pattern_Right.png": "/ProperLand/static/media/FAQ_Pattern_Right.0194f024e80cf89b4bfa.png",
     "static/media/victor.jpg": "/ProperLand/static/media/victor.980838866a6bcda385d3.jpg",
     "static/media/footer_pattern_right.png": "/ProperLand/static/media/footer_pattern_right.22202117196d0777ee14.png",
     "static/media/Left_blog_pattern.png": "/ProperLand/static/media/Left_blog_pattern.8514dba62db525f966bc.png",
-    "static/media/FAQ_Pattern_Left.png": "/ProperLand/static/media/FAQ_Pattern_Left.86b3c9f6f01fe4bf68da.png",
     "static/media/Ne.jpg": "/ProperLand/static/media/Ne.0a0a68038a4a0f9b1368.jpg",
     "static/media/MemerSupport.png": "/ProperLand/static/media/MemerSupport.ced27bf3f7011e415919.png",
     "static/media/ExperienceAgent.png": "/ProperLand/static/media/ExperienceAgent.75d7d3c139ea03a6ec23.png",
     "static/media/SaleAhome.png": "/ProperLand/static/media/SaleAhome.a3a358a7d23127552405.png",
+    "static/media/FAQ_Pattern_Left.png": "/ProperLand/static/media/FAQ_Pattern_Left.5ea484a82bf403960b52.png",
     "static/media/BuyAhome.png": "/ProperLand/static/media/BuyAhome.910f5754eb579e49fd73.png",
     "static/media/RentAhome.png": "/ProperLand/static/media/RentAhome.9c8713ec748c48604454.png",
     "static/media/Nan.jpg": "/ProperLand/static/media/Nan.e695bfc9e2100bb632c7.jpg",
@@ -84,12 +84,12 @@
     "static/media/bed.svg": "/ProperLand/static/media/bed.2ec13391b05c2b83f74d38e941ffa39a.svg",
     "static/media/IconLogo.svg": "/ProperLand/static/media/IconLogo.c1daa4bb3a55a674ba3543b13ba29401.svg",
     "static/media/fb.svg": "/ProperLand/static/media/fb.5c3f1e7b053ef9fcabbcf9a10f45ba4e.svg",
-    "main.9a067145.css.map": "/ProperLand/static/css/main.9a067145.css.map",
-    "main.d5581acd.js.map": "/ProperLand/static/js/main.d5581acd.js.map",
+    "main.ed1f5d1d.css.map": "/ProperLand/static/css/main.ed1f5d1d.css.map",
+    "main.e0c312fc.js.map": "/ProperLand/static/js/main.e0c312fc.js.map",
     "787.ecf148df.chunk.js.map": "/ProperLand/static/js/787.ecf148df.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9a067145.css",
-    "static/js/main.d5581acd.js"
+    "static/css/main.ed1f5d1d.css",
+    "static/js/main.e0c312fc.js"
   ]
 }
