@@ -53,7 +53,7 @@ function Footer() {
           </div>
         </div>
         <div className="bottom flex  flex-row flex-wrap gap-[5px] items-start justify-between relative border-b-2 lg:border-opacity-20 lg:border-primary lg:gap-[20px] 2xl:gap-[63px] lg:items-center ">
-          <div className="company flex flex-col gap-[5px]">
+          <div className="company flex flex-col gap-[5px] my-8">
             <h3 className="font-bold mb-2 xl:text-[15px]">Company</h3>
             <ul className="flex flex-col gap-[5px]">
               <Link
@@ -63,7 +63,7 @@ function Footer() {
                 About
               </Link>
               <Link
-                to="/blogs"
+                to="/blog"
                 className="text-[15px] text-link cursor-pointer hover:text-primary xl:text-[14px] 2xl:text-[17px]"
               >
                 Blog

@@ -11,7 +11,7 @@ function Navigation() {
     Home: "/",
     "About Us": "/about",
     "Our Agents": "/agents",
-    Blogs: "/blogs",
+    Blogs: "/blog",
   };
 
   const { toggle, handleToggle } = useContext(AppContext);

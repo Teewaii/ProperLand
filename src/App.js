@@ -80,7 +80,7 @@ function App() {
         <Route path="/" element={<HomePage />} />
         <Route path="/about" exact element={<AboutUs />} />
         <Route path="/detail" exact element={<PropertyInfo />} />
-        <Route path="/blogs" element={<Blogs />} />
+        <Route path="/blog" element={<Blogs />} />
         <Route path="/agents" element={<OurAgents />} />
         <Route path="/contact" element={<ContactPage />} />
       </Routes>
