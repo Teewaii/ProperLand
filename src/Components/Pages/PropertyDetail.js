@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 import AboutUsHeader from "../AboutUsHeader";
 import PropertyDeals from "../PropertyDeals";
@@ -7,6 +7,9 @@ import DetailsBody from "../DetailsBody";
 import PropertyGallery from "../PropertyGallery";
 
 function PropertyDetail() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className="">
       <AboutUsHeader />

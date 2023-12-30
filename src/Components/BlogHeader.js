@@ -7,7 +7,8 @@ import Articles from "./Articles";
 
 function BlogHeader() {
   return (
-    <section className=" bg-gradient-to-l from-hero to-hero_end mb-16 h-[70vh] md:h-[55vh] lg:h-[100vh] relative overflow-hidden 2xl:h-[85vh]">
+    <section className=" bg-gradient-to-l from-hero to-hero_end mb-16 h-[480px] md:h-[600px] lg:h-[630px] relative overflow-hidden 2xl:h-[85vh]">
+      {/* <section className=" bg-gradient-to-l from-hero to-hero_end mb-16 h-[70vh] md:h-[55vh]  lg:h-[100vh] xl:h-[100vh] relative overflow-hidden 2xl:h-[85vh]"> */}
       <div className="main_wrapper">
         <div className="leftPattern absolute left-0 bottom-0">
           <img src={left_pattern} alt="left_pattern_image" />
@@ -16,7 +17,7 @@ function BlogHeader() {
           <img src={right_pattern} alt="right_pattern_image" />
         </div>
 
-        <div className="left_wrapper w-[90%] md:max-w-[70%] container flex items-start">
+        <div className="left_wrapper w-[90%] md:max-w-[70%] lg:max-w-[75%] container flex items-start">
           {Articles.slice(0, 1).map(({ passPort, id }) => (
             <div
               id={id}

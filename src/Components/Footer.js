@@ -11,6 +11,7 @@ import Subscribe from "./Subscribe";
 import { MapPinIcon } from "@heroicons/react/24/solid";
 import { PhoneIcon } from "@heroicons/react/24/solid";
 import { EnvelopeIcon } from "@heroicons/react/24/solid";
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
@@ -52,68 +53,125 @@ function Footer() {
           </div>
         </div>
         <div className="bottom flex  flex-row flex-wrap gap-[5px] items-start justify-between relative border-b-2 lg:border-opacity-20 lg:border-primary lg:gap-[20px] 2xl:gap-[63px] lg:items-center ">
-          <div className="company flex flex-col gap-[5px] my-8">
+          <div className="company flex flex-col gap-[5px]">
             <h3 className="font-bold mb-2 xl:text-[15px]">Company</h3>
-            <small className="textg-[15px] text-link cursor-pointer hover:text-primary xl:text-[14px] 2xl:text-[17px]">
-              About
-            </small>
-            <small className="textg-[15px] text-link cursor-pointer hover:text-primary xl:text-[14px] 2xl:text-[17px]">
-              Blog
-            </small>
-            <small className="textg-[15px] text-link cursor-pointer hover:text-primary xl:text-[14px] 2xl:text-[17px]">
-              Properties
-            </small>
-            <small className="textg-[15px] text-link cursor-pointer hover:text-primary xl:text-[14px] 2xl:text-[17px]">
-              Agents
-            </small>
-            <small className="textg-[15px] text-link cursor-pointer hover:text-primary xl:text-[14px] 2xl:text-[17px]">
-              Services
-            </small>
-            <small className="textg-[15px] text-link cursor-pointer hover:text-primary xl:text-[14px] 2xl:text-[17px]">
-              Contact us
-            </small>
+            <ul className="flex flex-col gap-[5px]">
+              <Link
+                to="/about"
+                className="text-[15px] text-link cursor-pointer hover:text-primary xl:text-[14px] 2xl:text-[17px]"
+              >
+                About
+              </Link>
+              <Link
+                to="/blogs"
+                className="text-[15px] text-link cursor-pointer hover:text-primary xl:text-[14px] 2xl:text-[17px]"
+              >
+                Blog
+              </Link>
+              <Link
+                to="#"
+                className="text-[15px] text-link cursor-pointer hover:text-primary xl:text-[14px] 2xl:text-[17px]"
+              >
+                Properties
+              </Link>
+              <Link
+                to="/agents"
+                className="text-[15px] text-link cursor-pointer hover:text-primary xl:text-[14px] 2xl:text-[17px]"
+              >
+                Agents
+              </Link>
+              <Link className="text-[15px] text-link cursor-pointer hover:text-primary xl:text-[14px] 2xl:text-[17px]">
+                Services
+              </Link>
+              <Link
+                to="/contact"
+                className="text-[15px] text-link cursor-pointer hover:text-primary xl:text-[14px] 2xl:text-[17px]"
+              >
+                Contact us
+              </Link>
+            </ul>
           </div>
           <div className="Services flex flex-col gap-[5px] my-8">
             <h3 className="font-bold mb-2 xl:text-[15px]">Services</h3>
-            <small className="textg-[15px] text-link cursor-pointer hover:text-primary xl:text-[14px] 2xl:text-[17px]">
-              Rend A Home
-            </small>
-            <small className="textg-[15px] text-link cursor-pointer hover:text-primary xl:text-[14px] 2xl:text-[17px]">
-              Sell A Home
-            </small>
-            <small className="textg-[15px] text-link cursor-pointer hover:text-primary xl:text-[14px] 2xl:text-[17px]">
-              Buy A Home
-            </small>
-            <small className="textg-[15px] text-link cursor-pointer hover:text-primary xl:text-[14px] 2xl:text-[17px]">
-              Property Insurance
-            </small>
-            <small className="textg-[15px] text-link cursor-pointer hover:text-primary xl:text-[14px] 2xl:text-[17px]">
-              Member Support
-            </small>
-            <small className="textg-[15px] text-link cursor-pointer hover:text-primary xl:text-[14px] 2xl:text-[17px]">
-              Experience Agent
-            </small>
+            <ul className="flex flex-col gap-[5px]">
+              <Link
+                to="#"
+                className="text-[15px] text-link cursor-pointer hover:text-primary xl:text-[14px] 2xl:text-[17px]"
+              >
+                Rent A Home
+              </Link>
+              <Link
+                to="#"
+                className="text-[15px] text-link cursor-pointer hover:text-primary xl:text-[14px] 2xl:text-[17px]"
+              >
+                Sell A Home
+              </Link>
+              <Link
+                to="#"
+                className="text-[15px] text-link cursor-pointer hover:text-primary xl:text-[14px] 2xl:text-[17px]"
+              >
+                Buy A Home
+              </Link>
+              <Link
+                to="#"
+                className="text-[15px] text-link cursor-pointer hover:text-primary xl:text-[14px] 2xl:text-[17px]"
+              >
+                Property Insurance
+              </Link>
+              <Link
+                to="#"
+                className="text-[15px] text-link cursor-pointer hover:text-primary xl:text-[14px] 2xl:text-[17px]"
+              >
+                Member Support
+              </Link>
+              <Link
+                to="#"
+                className="text-[15px] text-link cursor-pointer hover:text-primary xl:text-[14px] 2xl:text-[17px]"
+              >
+                Experience Agent
+              </Link>
+            </ul>
           </div>
           <div className="Utility flex flex-col gap-[5px] my-8">
             <h3 className="font-bold mb-2 xl:text-[15px]">Uitility pages</h3>
-            <small className="textg-[15px] text-link cursor-pointer hover:text-primary xl:text-[14px] 2xl:text-[17px]">
-              Style Guide
-            </small>
-            <small className="textg-[15px] text-link cursor-pointer hover:text-primary xl:text-[14px] 2xl:text-[17px]">
-              Licenses
-            </small>
-            <small className="textg-[15px] text-link cursor-pointer hover:text-primary xl:text-[14px] 2xl:text-[17px]">
-              Changelog
-            </small>
-            <small className="textg-[15px] text-link cursor-pointer hover:text-primary xl:text-[14px] 2xl:text-[17px]">
-              Password
-            </small>
-            <small className="textg-[15px] text-link cursor-pointer hover:text-primary xl:text-[14px] 2xl:text-[17px]">
-              Member Support
-            </small>
-            <small className="textg-[15px] text-link cursor-pointer hover:text-primary xl:text-[14px] 2xl:text-[17px]">
-              Experience Agent
-            </small>
+            <ul className="flex flex-col gap-[5px]">
+              <Link
+                to="#"
+                className="text-[15px] text-link cursor-pointer hover:text-primary xl:text-[14px] 2xl:text-[17px]"
+              >
+                Partners
+              </Link>
+              <Link
+                to="#"
+                className="text-[15px] text-link cursor-pointer hover:text-primary xl:text-[14px] 2xl:text-[17px]"
+              >
+                Licenses
+              </Link>
+              <Link
+                to="#"
+                className="text-[15px] text-link cursor-pointer hover:text-primary xl:text-[14px] 2xl:text-[17px]"
+              >
+                Changelog
+              </Link>
+              <Link
+                to="#"
+                className="text-[15px] text-link cursor-pointer hover:text-primary xl:text-[14px] 2xl:text-[17px]"
+              >
+                Password
+              </Link>
+              <Link
+                to="#"
+                className="text-[15px] text-link cursor-pointer hover:text-primary xl:text-[14px] 2xl:text-[17px]"
+              >
+                Member Support
+              </Link>
+              <Link
+                to="#"
+                className="text-[15px] text-link cursor-pointer hover:text-primary xl:text-[14px] 2xl:text-[17px]"
+              >
+                Experience Agent
+              </Link>
+            </ul>
           </div>
           <div className="cont  lg:border-l-2 lg:border-opacity-20 lg:border-primary lg:pl-20  ">
             <div className="contact bg-secondary flex flex-col my-4 justify-center w-[400px] rounded-md lg:my-8 px-[20px] py-[25px] lg:px-[45px] lg:py-[25px]  ">
