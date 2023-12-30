@@ -32,7 +32,7 @@ function FAQ() {
         <p className="text-link text-sm tracking-[6px] uppercase">ANSWERS</p>
       </div>
       {/* </div> */}
-      <h1 className="text-[20px] md:text-[30px] md:leading-[50px] font-[600] md:max-w-[405px] lg:header2 leading-[35px] lg:text-left xl:text-[40px] xl:max-w-[600px] xl:leading-[55px] relative z-5">
+      <h1 className="text-[20px] md:text-[30px] md:leading-[50px] font-[600]  lg:header2 leading-[35px] lg:text-left xl:text-[40px] xl:max-w-[600px] xl:leading-[55px] relative z-5">
         Frequently Asked Questions
       </h1>
       <div className="faqs container max-w-[90%] mt-12 mb-16 lg:max-w-[70%] 2xl:max-w-[55%] relative z-8 ">

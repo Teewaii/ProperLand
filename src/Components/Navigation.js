@@ -28,7 +28,7 @@ function Navigation() {
         <ul
           className={
             toggle
-              ? "flex flex-col gap-y-4 text-white absolute top-24 left-0 bg-primary w-[100%] container py-4 opacity-100 transition-all duration-500 ease-in-out"
+              ? "flex flex-col gap-y-4 text-white absolute top-24 left-0 bg-primary w-[100%] container p-8 opacity-100 transition-all duration-500 ease-in-out"
               : "absolute top-20 w-[100%] left-0 bg-primary transition-all duration-500 ease-in-out opacity-0 "
           }
         >
@@ -37,7 +37,7 @@ function Navigation() {
             <li
               onClick={handleToggle}
               key={key}
-              className="hover:text-secondary"
+              className="text-[18px] hover:text-secondary pb-2 last:border-b-0 border-b border-[#59587a] border-blue-20 "
             >
               <Link to={value}>{key}</Link>
             </li>

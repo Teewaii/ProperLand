@@ -41,9 +41,9 @@ function Footer() {
             </div>
           </div>
 
-          <div className="top_Right  text-center lg:text-left lg:border-l-2 lg:py-[50px] lg:pl-[120px] lg:border-opacity-20 lg:border-primary 2xl:pl-[250px]  ">
+          <div className="top_Right text-center lg:text-left lg:border-l-2 lg:py-[50px] lg:pl-[120px] lg:border-opacity-20 lg:border-primary 2xl:pl-[250px]  ">
             <h1 className="text-[25px] font-bold">Get a free estimate</h1>
-            <p className="text-link max-w-[580px] mb-8 text-[15px] xl:text-[14px] 2xl:text-[17px]">
+            <p className="text-link max-w-[580px] mb-8 text-[15px] md:max-w-[100%] xl:text-[14px] 2xl:text-[17px]">
               Leverage agile frameworks to provide a robust synopsis for high
               level overviews. approaches lverall value proposition. Organically
               grow the holistic world view of disruptive.
