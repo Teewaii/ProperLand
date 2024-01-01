@@ -2,6 +2,7 @@ import { React, useContext } from "react";
 import ContactBtn from "../Components/Button/Contact_btn";
 import { Link } from "react-router-dom";
 import mobile_logo from "../img/IconLogo.svg";
+import MainLogo from "../img/MainLogo.svg";
 import { Bars3Icon } from "@heroicons/react/24/solid";
 import { XMarkIcon } from "@heroicons/react/24/solid";
 import { AppContext } from "../App";
@@ -58,7 +59,7 @@ function Navigation() {
       <div className="large_screen px-6 hidden lg:flex justify-between items-center mt-8  2xl:mt-12 rounded-[5px] h-[100px] bg-white">
         <div className="logo ">
           <Link to="/">
-            <img className="w-[50px] cursor-pointer" src={mobile_logo} alt="" />
+            <img className="w-[70%] cursor-pointer" src={MainLogo} alt="" />
           </Link>
         </div>
         <ul className="flex gap-x-12 text-content">

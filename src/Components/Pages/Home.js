@@ -5,7 +5,6 @@ import Featured from "../Featured";
 import WhyUs from "../WhyUs";
 // import Aboutus from "./Aboutus";
 import Services from "../Services";
-import ToTop from "../Button/ToTop";
 import Reviews from "../Reviews";
 import Statistics from "../Statistics";
 import Neighbourhoods from "../Neighbourhoods";

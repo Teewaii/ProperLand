@@ -18,7 +18,7 @@ function DetailsHeader() {
         ({ id, title, cost, location, beds, baths, parking, area, status }) => (
           <div
             // key={id}
-            className="wrapper flex flex-col gap-4 h-[fit] py-[110px] lg:flex-row lg:py-[70px] border-b-[2.5px]"
+            className="wrapper flex flex-col gap-4 h-[fit] py-[80px] lg:flex-row lg:py-[70px] border-b-[2.5px]"
           >
             <div className="left_column flex flex-col items-start gap-y-4 flex-1">
               <div className="location flex items-center text-[#8E8E8E] ">

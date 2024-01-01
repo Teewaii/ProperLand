@@ -8,7 +8,6 @@ import Blog from "./Components/Pages/Blogs";
 import Team from "./Components/Pages/OurAgents";
 
 import { Routes, Route } from "react-router-dom";
-import AgentsCard from "./Components/AgentsCard";
 import ContactUs from "./Components/Pages/ContactUs";
 
 // import ToTop from './Components/Button/ToTop';

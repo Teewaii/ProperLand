@@ -2,7 +2,6 @@ import React from "react";
 import left_pattern from "../../src/img/About/Icon_lt.png";
 import right_pattern from "../../src/img/About/Icon_rt.png";
 import hux_icon from "../../src/img/Home/Vectorhux.png";
-import heroImg from "../../src/img/About/hero_img.png";
 import Articles from "./Articles";
 import { useParams } from "react-router-dom";
 
@@ -28,7 +27,7 @@ function BlogHeader() {
               // {Articles.slice(0, 1).map(({ passPort, id }) => (
               <div
                 id={id}
-                className="left pt-40 flex flex-col items-center lg:items-start relative pt-[150px] lg:pt-[250px] xl:pt-[200px] 2xl:pt-[280px]"
+                className="left pt-40 flex flex-col items-center lg:items-start relative lg:pt-[250px] xl:pt-[200px] 2xl:pt-[280px]"
               >
                 <div className="topTag flex items-center gap-x-4 mb-8 bg-gradient-to-l from-hero from-0% w-fit px-4 py-1 ">
                   <img src={hux_icon} alt="" />
@@ -40,7 +39,7 @@ function BlogHeader() {
                   {/* {Articles.map(({ id, title }) => ( */}
                   <h1
                     // key={id}
-                    className="text-[22px] leading-[28px] md:text-[40px] md:leading-[50px] font-[600] w-[100%] lg:header2 leading-[35px] lg:text-left  xl:leading-[55px] 2xl:text-[65px] 2xl:max-w-[950px] 2xl:leading-[75px]"
+                    className="text-[22px] leading-[28px] md:text-[40px] md:leading-[50px] font-[600] w-[100%] lg:header2 lg:leading-[35px] lg:text-left  xl:leading-[55px] 2xl:text-[65px] 2xl:leading-[75px]"
                   >
                     {title}
                   </h1>

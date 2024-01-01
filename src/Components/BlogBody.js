@@ -1,13 +1,12 @@
 import React from "react";
 import Articles from "./Articles";
 import Publisher from "./Publisher";
-import Blog from "./Blog";
 import BlogsCards from "./BlogsCards";
 import { useParams } from "react-router-dom";
 
 function BlogBody() {
-  const { id: topic } = useParams();
-  const filteredArticle = Articles.filter(({ id }) => id == topic);
+  const { id: index } = useParams();
+  const filteredArticle = Articles.filter(({ id }) => id == index);
 
   return (
     <section className="flex flex-col items-center ">
@@ -22,7 +21,7 @@ function BlogBody() {
             </div>
           )
         )}
-        <div className="wrapper flex flex-col lg:gap-x-20 w-[90%] mt-8 h-[fit] md:max-w-[70%] lg:mt-4 lg:py-[100px] lg:py-[30px] xl:max-w-[72%]">
+        <div className="wrapper flex flex-col lg:gap-x-20 w-[90%] mt-8 h-[fit] md:max-w-[70%] lg:mt-4  lg:py-[30px] xl:max-w-[72%]">
           <p className="text-left text-[15px] lg:text-justify md:text-md">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
@@ -35,7 +34,7 @@ function BlogBody() {
           <h1 className="font-bold my-4 text-[28px] 2xl:text-[28px]">
             About the property
           </h1>
-          <p className="text-left text-[15px] text-left lg:text-justify md:text-md">
+          <p className="text-left text-[15px] lg:text-justify md:text-md">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -68,7 +67,7 @@ function BlogBody() {
             <h1 className="font-bold my-4 text-[28px] xl:text-[24px]">
               Setting the mood with incense
             </h1>
-            <p className="text-left text-[15px] text-left lg:text-justify md:text-md">
+            <p className="text-left text-[15px] lg:text-justify md:text-md">
               Collaboratively administrate empowered markets via plug-and-play
               networks. Dynamically procrastinate B2C users after installed base
               benefits. Dramatically visualize customer directed convergence
@@ -90,7 +89,7 @@ function BlogBody() {
                 scale
               </li>
             </ol>
-            <p className="text-left text-[15px] text-left lg:text-justify md:text-md">
+            <p className="text-left text-[15px] lg:text-justify md:text-md">
               It is a long established fact that a reader will be distracted by
               the readable content page when looking at its layout. The point of
               using Lorem Ipsum is that it more-or-less normal distribution of
@@ -105,7 +104,7 @@ function BlogBody() {
         <Publisher key={id} passPort={passPort} id={id} publisher={publisher} />
       ))}
       <div className="flex flex-col items-center mb-16 container">
-        <h1 className="text-[24px] font-bold text-center md:text-[35px] leading-[40px] my-8 my-4 md:max-w-[500px]">
+        <h1 className="text-[24px] font-bold text-center md:text-[35px] leading-[40px] my-4 md:max-w-[500px]">
           Latest Articles
         </h1>
         <BlogsCards />

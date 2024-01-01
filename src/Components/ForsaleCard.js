@@ -1,6 +1,5 @@
 import React from "react";
 import { MapPinIcon } from "@heroicons/react/24/solid";
-import pix from "../img/Home/comfi.png";
 import ForSale_btn from "./Button/ForSale_btn";
 import bed from "../../src/img/Home/bed.svg";
 import bath from "../../src/img/Home/bath.svg";

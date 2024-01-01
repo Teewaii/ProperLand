@@ -28,7 +28,7 @@ function Footer() {
       />
 
       <div className="wrapper container relative mt-12 lg:mt-0 ">
-        <div className="top flex flex-col gap-8 lg:border-b-2 lg:border-opacity-20 border-primary lg:justify-between lg:flex-row lg:items-center ">
+        <div className="top flex flex-col gap-8 lg:border-b-2 lg:border-opacity-20 border-primary lg:justify-between lg:flex-row lg:items-center 2xl:gap-24 ">
           <div className="topLeft flex flex-col items-center lg:items-start gap-8 lg:pr-[65px] lg:py-[50px] ">
             <div className="logo_socials flex flex-col items-center">
               <img className="w-[200px]" src={logo} alt="Properland logo" />
@@ -42,9 +42,9 @@ function Footer() {
             </div>
           </div>
 
-          <div className="top_Right text-center lg:text-left lg:border-l-2 lg:py-[50px] lg:pl-[120px] lg:border-opacity-20 lg:border-primary 2xl:pl-[250px]  ">
+          <div className="top_Right text-center lg:text-left lg:border-l-2 lg:py-[50px] lg:pl-[120px] lg:border-opacity-20 lg:border-primary 2xl:pl-[200px]  ">
             <h1 className="text-[25px] font-bold">Get a free estimate</h1>
-            <p className="text-link max-w-[580px] mb-8 text-[15px] md:max-w-[100%] xl:text-[14px] 2xl:text-[17px]">
+            <p className="text-link max-w-[580px] mb-8 text-[15px] md:max-w-[100%] lg:text-[14px] 2xl:text-[17px] ">
               Leverage agile frameworks to provide a robust synopsis for high
               level overviews. approaches lverall value proposition. Organically
               grow the holistic world view of disruptive.
