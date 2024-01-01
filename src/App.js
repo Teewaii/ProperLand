@@ -73,14 +73,17 @@ function App() {
   function handleToggle() {
     setToggle((prev) => !prev);
   }
-
+  // Function for scrolling to the top of the page. To be passed as prop to components when necessary
+  function toTop() {
+    window.scrollTo(0, 0);
+  }
   return (
-    <AppContext.Provider value={{ toggle, setToggle, handleToggle }}>
+    <AppContext.Provider value={{ toggle, setToggle, handleToggle, toTop }}>
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/about" exact element={<AboutUs />} />
-        <Route path="/detail" exact element={<PropertyInfo />} />
-        <Route path="/blog" element={<Blogs />} />
+        <Route path="/detail/:id" element={<PropertyInfo />} />
+        <Route path="/blog/:id" element={<Blogs />} />
         <Route path="/agents" element={<OurAgents />} />
         <Route path="/contact" element={<ContactPage />} />
       </Routes>

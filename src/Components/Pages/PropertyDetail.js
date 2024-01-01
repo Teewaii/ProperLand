@@ -12,7 +12,10 @@ function PropertyDetail() {
   }, []);
   return (
     <div className="">
-      <AboutUsHeader />
+      <AboutUsHeader
+        intro="About the property"
+        heading="Property Description"
+      />
       <DetailsHeader />
       <DetailsBody />
       <PropertyGallery />

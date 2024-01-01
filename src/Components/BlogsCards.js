@@ -1,12 +1,14 @@
-import React from "react";
+import React, { useContext } from "react";
 import Articles from "./Articles";
 import { Link } from "react-router-dom";
+import { AppContext } from "../App";
 
 function BlogsCards() {
+  const { toTop } = useContext(AppContext);
   return (
-    <Link to="/blogs">
-      <div className="articles flex flex-col gap-[50px] mb-8">
-        {Articles.map(({ pix, date, category, title, id }) => (
+    <div className="articles flex flex-col gap-[50px] mb-8">
+      {Articles.map(({ pix, date, category, title, id }) => (
+        <Link to={`/blog/${id}`} onClick={toTop}>
           <div key={id} className="article flex flex-col items-center ">
             <img className="mb-[23px]" src={pix} alt="Blog_1" />
             <small className="text-link ">
@@ -16,9 +18,9 @@ function BlogsCards() {
               {title}
             </h1>
           </div>
-        ))}
-      </div>
-    </Link>
+        </Link>
+      ))}
+    </div>
   );
 }
 

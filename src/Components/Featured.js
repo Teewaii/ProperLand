@@ -2,7 +2,6 @@ import React from "react";
 import ForsaleCard from "./ForsaleCard";
 import Features from "./Features";
 import TouchwithUs from "./Button/TouchwithUs";
-import { Link } from "react-router-dom";
 
 function Featured() {
   return (
@@ -16,35 +15,38 @@ function Featured() {
             Properties for sale in your favorite area
           </h1>
         </div>
-        <Link to="/detail">
-          <div className="cardHolder grid grid-col-1 mb-[70px] lg:mb-[100px] lg:grid-cols-2 2xl:grid-cols-3 gap-[38px]">
-            {Features.map(
-              ({
-                cost,
-                id,
-                title,
-                location,
-                baths,
-                beds,
-                parking,
-                area,
-                pix,
-              }) => (
-                <ForsaleCard
-                  key={id}
-                  cost={cost}
-                  title={title}
-                  location={location}
-                  beds={beds}
-                  baths={baths}
-                  parking={parking}
-                  area={area}
-                  pix={pix}
-                />
-              )
-            )}
-          </div>
-        </Link>
+
+        <div className="cardHolder grid grid-col-1 mb-[70px] lg:mb-[100px] lg:grid-cols-2 2xl:grid-cols-3 gap-[38px]">
+          {Features.map(
+            ({
+              cost,
+              id,
+              title,
+              location,
+              baths,
+              beds,
+              parking,
+              area,
+              pix,
+              status,
+            }) => (
+              <ForsaleCard
+                key={id}
+                id={id}
+                cost={cost}
+                title={title}
+                location={location}
+                beds={beds}
+                baths={baths}
+                parking={parking}
+                area={area}
+                pix={pix}
+                status={status}
+              />
+            )
+          )}
+        </div>
+
         <TouchwithUs />
       </div>
     </section>

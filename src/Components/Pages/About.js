@@ -15,7 +15,10 @@ function About() {
 
   return (
     <div className="">
-      <AboutUsHeader />
+      <AboutUsHeader
+        intro="ABOUT PROPERLAND"
+        heading=" About Our Real Estate"
+      />
       <Vintro />
       <Reviews />
       <Space />

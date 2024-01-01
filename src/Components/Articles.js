@@ -2,7 +2,7 @@ import React from "react";
 import Blog_1 from "../img/Home/Blog_1.png";
 import Blog_2 from "../img/Home/Blog_2.png";
 import elena from "../img/About/elena.png";
-import peter from "../img/About/elena.png";
+import peter from "../img/About/peter.png";
 
 const Articles = [
   {
@@ -13,6 +13,7 @@ const Articles = [
     title: "Here’s how to decorate your new home from scratch",
     body: "dkdkdk",
     passPort: elena,
+    publisher: "Elena Simon",
   },
   {
     id: 2,
@@ -22,6 +23,7 @@ const Articles = [
     title: "Home buying basics: How many Kitchans and bedrooms?",
     body: "dkdkdk",
     passPort: peter,
+    publisher: "Peter Jons",
   },
 ];
 

@@ -3,19 +3,25 @@ import Articles from "./Articles";
 import Publisher from "./Publisher";
 import Blog from "./Blog";
 import BlogsCards from "./BlogsCards";
+import { useParams } from "react-router-dom";
 
 function BlogBody() {
+  const { id: topic } = useParams();
+  const filteredArticle = Articles.filter(({ id }) => id == topic);
+
   return (
     <section className="flex flex-col items-center ">
       <div className="container flex flex-col items-center">
-        {Articles.slice(0, 1).map(({ pix, id }) => (
-          <div
-            id={1}
-            className="relative mt-[-120px] md:mt-[-150px] lg:mt-[-170px] 2xl:mt-[-200px]"
-          >
-            <img className="mb-[23px] 2xl:w-[1300px]" src={pix} alt="Blog_1" />
-          </div>
-        ))}
+        {filteredArticle.map(
+          ({ passPort, id, title, date, category, publisher, pix }) => (
+            <div
+              id={1}
+              className="relative mt-[-120px] md:mt-[-150px] lg:mt-[-170px] 2xl:mt-[-200px]"
+            >
+              <img className="mb-[23px] 2xl:w-[1300px]" src={pix} alt="Blog" />
+            </div>
+          )
+        )}
         <div className="wrapper flex flex-col lg:gap-x-20 w-[90%] mt-8 h-[fit] md:max-w-[70%] lg:mt-4 lg:py-[100px] lg:py-[30px] xl:max-w-[72%]">
           <p className="text-left text-[15px] lg:text-justify md:text-md">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
@@ -95,7 +101,9 @@ function BlogBody() {
         </div>
       </div>
 
-      <Publisher />
+      {filteredArticle.map(({ passPort, id, publisher }) => (
+        <Publisher key={id} passPort={passPort} id={id} publisher={publisher} />
+      ))}
       <div className="flex flex-col items-center mb-16 container">
         <h1 className="text-[24px] font-bold text-center md:text-[35px] leading-[40px] my-8 my-4 md:max-w-[500px]">
           Latest Articles
