@@ -16,8 +16,12 @@ function PropertyGallery() {
           <div className="lg:bg-black">
             <img className="lg:opacity-[45%]" src={gallery1} alt="gallery1" />
           </div>
-          <div className="lg:bg-black lg:w-[55%]">
-            <img className="lg:opacity-[100%] " src={gallery2} alt="gallery2" />
+          <div className="lg:bg-black lg:w-[40%]">
+            <img
+              className="lg:opacity-[100%] lg:w-[100%] "
+              src={gallery2}
+              alt="gallery2"
+            />
           </div>
           <div className="lg:bg-black">
             <img className="lg:opacity-[45%]" src={gallery1} alt="gallery3" />

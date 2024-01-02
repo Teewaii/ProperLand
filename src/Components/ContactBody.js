@@ -64,7 +64,7 @@ function ContactBody() {
               </p>
             </div>
 
-            <div className="offices w-[100%] flex flex-col items-center mt-6  gap-16 relative text-link text-primary md:flex-row md:justify-center md:gap-12 lg:mt-0 lg:gap-6 ">
+            <div className="offices w-[100%] flex flex-col items-center mt-6  gap-16 relative text-link text-primary md:flex-row md:justify-center md:gap-12 lg:mt-0 lg:gap-6 lg:justify-start ">
               <div className="bg-[#FFDBC9] w-[250px] h-[110px] relative rounded-md border-2 border-[#F0CCBB] lg:h-[120px]">
                 <div className="london flex flex-col items-center gap-x-2 w-[220px] text-center bg-white absolute translate-y-[12px] py-[20px] px-[13px] rounded-md z-[90] ml-[13px] lg:py-[20px] ">
                   <h1 className="text-[20px] leading-[28px] md:leading-[50px] font-[600] w-[100%] lg:header2 lg:text-[18px]">
