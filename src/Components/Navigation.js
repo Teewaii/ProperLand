@@ -40,7 +40,7 @@ function Navigation() {
             <li
               onClick={handleToggle}
               key={key}
-              className="text-[18px] hover:text-secondary pb-2 last:border-b-0 border-b border-[#59587a] border-blue-20 "
+              className="text-[18px] hover:text-secondary pb-2 last:border-b-0 border-b border-[#59587a] border-blue-20  "
             >
               <Link to={value}>{key}</Link>
             </li>

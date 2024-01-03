@@ -67,7 +67,7 @@ function ContactPage() {
 }
 
 function App() {
-  const [toggle, setToggle] = useState(true);
+  const [toggle, setToggle] = useState(false);
 
   function handleToggle() {
     setToggle((prev) => !prev);
@@ -77,9 +77,7 @@ function App() {
     window.scrollTo(0, 0);
   }
   return (
-    <div
-      className={toggle ? "h-[100vh] overflow-hidden bg-red-600 z-200 " : ""}
-    >
+    <div className={toggle ? "h-[100vh] overflow-hidden " : ""}>
       <AppContext.Provider value={{ toggle, setToggle, handleToggle, toTop }}>
         <Routes>
           <Route path="/" element={<HomePage />} />
