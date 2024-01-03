@@ -15,12 +15,13 @@ const Articles = [
     passPort: elena,
     publisher: "Elena Simon",
   },
+
   {
     id: 2,
     pix: Blog_2,
     date: "December 14, 2021",
     category: "Market Manager",
-    title: "Home buying basics: How many Kitchans and bedrooms?",
+    title: "Home buying basics:How many Kitchans and bedrooms!",
     body: "dkdkdk",
     passPort: peter,
     publisher: "Peter Jons",

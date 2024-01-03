@@ -8,7 +8,7 @@ function BlogsCards() {
   return (
     <div className="articles flex flex-col gap-[50px] mb-8">
       {Articles.map(({ pix, date, category, title, id }) => (
-        <Link to={`/blog/${id}`} onClick={toTop}>
+        <Link to={`/blog/${title}`} onClick={toTop}>
           <div key={id} className="article flex flex-col items-center ">
             <img className="mb-[23px]" src={pix} alt="Blog_1" />
             <small className="text-link ">

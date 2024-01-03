@@ -6,6 +6,7 @@ import MainLogo from "../img/MainLogo.svg";
 import { Bars3Icon } from "@heroicons/react/24/solid";
 import { XMarkIcon } from "@heroicons/react/24/solid";
 import { AppContext } from "../App";
+import OverLay from "./OverLay";
 
 function Navigation() {
   const navs_url = {
@@ -13,6 +14,7 @@ function Navigation() {
     "About Us": "/about",
     "Our Agents": "/agents",
     Blogs: "#",
+    "Contact us": "/contact",
   };
 
   const { toggle, handleToggle } = useContext(AppContext);
@@ -29,8 +31,8 @@ function Navigation() {
         <ul
           className={
             toggle
-              ? "flex flex-col gap-y-4 text-white absolute top-24 left-0 bg-primary w-[100%] container p-8 opacity-100 transition-all duration-500 ease-in-out"
-              : "absolute top-20 w-[100%] left-0 bg-primary transition-all duration-500 ease-in-out opacity-0 "
+              ? "flex flex-col gap-y-4 text-white absolute top-24 left-[0%] bg-primary w-[100%] container p-6 opacity-100 transition-all duration-500 ease-in-out"
+              : "absolute top-20 w-[1%] left-[150%] bg-primary transition-all duration-200 ease-in-out opacity-0 "
           }
         >
           {/* {navs.map((nav, index) => ( */}
@@ -43,6 +45,7 @@ function Navigation() {
               <Link to={value}>{key}</Link>
             </li>
           ))}
+          {/* <ContactBtn /> */}
         </ul>
         <div className="hamb">
           {!toggle ? (
@@ -51,7 +54,6 @@ function Navigation() {
             <XMarkIcon onClick={handleToggle} className="w-9" />
           )}
         </div>
-        {/* < Contact_btn /> */}
       </div>
 
       {/* Large screen navigation */}
@@ -62,12 +64,14 @@ function Navigation() {
             <img className="w-[70%] cursor-pointer" src={MainLogo} alt="" />
           </Link>
         </div>
-        <ul className="flex gap-x-12 text-content">
-          {Object.entries(navs_url).map(([key, value]) => (
-            <li key={key} className="hover:text-primary capitalize ">
-              <Link to={value}>{key}</Link>
-            </li>
-          ))}
+        <ul className="flex gap-x-12 text-content last:hidden">
+          {Object.entries(navs_url)
+            .slice(0, -1)
+            .map(([key, value]) => (
+              <li key={key} className="hover:text-primary capitalize ">
+                <Link to={value}>{key}</Link>
+              </li>
+            ))}
         </ul>
         <ContactBtn />
       </div>

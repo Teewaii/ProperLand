@@ -25,7 +25,7 @@ function AgentsPageHeader() {
               </p>
             </div>
             <div className="middle_text mb-2 xl:mb-2 2xl:mb-6">
-              <h1 className="text-[28px] md:text-[40px] md:leading-[50px] font-[600] md:max-w-[405px] lg:header2 leading-[35px]  lg:text-left xl:text-[50px] xl:max-w-[600px] xl:leading-[55px] 2xl:text-[65px] 2xl:max-w-[680px] 2xl:leading-[75px]">
+              <h1 className="text-[28px] md:text-[40px] md:leading-[50px] font-[600] md:max-w-[405px] lg:header2 leading-[35px]  lg:text-left xl:text-[40px] xl:max-w-[600px] xl:leading-[55px] 2xl:text-[55px] 2xl:max-w-[680px] 2xl:leading-[75px]">
                 Meet Our Agents
               </h1>
             </div>

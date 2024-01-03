@@ -24,7 +24,7 @@ function AboutUsHeader({ intro, heading }) {
               </p>
             </div>
             <div className="middle_text mb-2 xl:mb-2 2xl:mb-6 relative z-20">
-              <h1 className="text-[28px] md:text-[40px] md:leading-[50px] font-[600] md:max-w-[405px] lg:header2 leading-[35px]  lg:text-left xl:text-[50px] lg:max-w-[100%] xl:leading-[55px] 2xl:text-[60px] ">
+              <h1 className="text-[28px] md:text-[40px] md:leading-[50px] font-[600] md:max-w-[405px] lg:header2 leading-[35px] lg:text-left xl:text-[40px] lg:max-w-[100%] xl:leading-[55px] 2xl:text-[50px] ">
                 {heading}
               </h1>
             </div>

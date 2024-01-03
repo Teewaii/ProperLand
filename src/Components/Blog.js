@@ -7,7 +7,7 @@ import BlogsCards from "./BlogsCards";
 
 function Blog() {
   return (
-    <section className="Blog  bg-[#F5F1EF] h-fit py-[110px]  relative ">
+    <section className="Blog bg-[#F5F1EF] h-fit py-[110px]  relative ">
       <img
         className="w-[15%] absolute top-0"
         src={Left_blog_pattern}

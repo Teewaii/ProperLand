@@ -5,11 +5,11 @@ import BlogsCards from "./BlogsCards";
 import { useParams } from "react-router-dom";
 
 function BlogBody() {
-  const { id: index } = useParams();
-  const filteredArticle = Articles.filter(({ id }) => id == index);
+  const { title: topic } = useParams();
+  const filteredArticle = Articles.filter(({ title }) => title == topic);
 
   return (
-    <section className="flex flex-col items-center ">
+    <article className="flex flex-col items-center ">
       <div className="container flex flex-col items-center">
         {filteredArticle.map(
           ({ passPort, id, title, date, category, publisher, pix }) => (
@@ -109,7 +109,7 @@ function BlogBody() {
         </h1>
         <BlogsCards />
       </div>
-    </section>
+    </article>
   );
 }
 

@@ -6,7 +6,7 @@ import ContactBody from "./ContactBody";
 
 function ContactHeader() {
   return (
-    <section className=" bg-gradient-to-l from-hero to-hero_end mb-16 min-h-100vh  pb-24  relative overflow-hidden 2xl:pt-14">
+    <section className=" bg-gradient-to-l from-hero to-hero_end mb-16 min-h-100vh pb-24 relative overflow-hidden 2xl:pt-14">
       <div className=" leftPattern absolute left-0 bottom-0">
         <img src={left_pattern} alt="left_pattern_image" />
       </div>

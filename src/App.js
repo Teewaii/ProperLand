@@ -67,7 +67,7 @@ function ContactPage() {
 }
 
 function App() {
-  const [toggle, setToggle] = useState(false);
+  const [toggle, setToggle] = useState(true);
 
   function handleToggle() {
     setToggle((prev) => !prev);
@@ -77,16 +77,20 @@ function App() {
     window.scrollTo(0, 0);
   }
   return (
-    <AppContext.Provider value={{ toggle, setToggle, handleToggle, toTop }}>
-      <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/about" exact element={<AboutUs />} />
-        <Route path="/detail/:id" element={<PropertyInfo />} />
-        <Route path="/blog/:id" element={<Blogs />} />
-        <Route path="/agents" element={<OurAgents />} />
-        <Route path="/contact" element={<ContactPage />} />
-      </Routes>
-    </AppContext.Provider>
+    <div
+      className={toggle ? "h-[100vh] overflow-hidden bg-red-600 z-200 " : ""}
+    >
+      <AppContext.Provider value={{ toggle, setToggle, handleToggle, toTop }}>
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/about" exact element={<AboutUs />} />
+          <Route path="/detail/:id" element={<PropertyInfo />} />
+          <Route path="/blog/:title" element={<Blogs />} />
+          <Route path="/agents" element={<OurAgents />} />
+          <Route path="/contact" element={<ContactPage />} />
+        </Routes>
+      </AppContext.Provider>
+    </div>
   );
 }
 

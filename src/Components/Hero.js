@@ -34,7 +34,7 @@ function Hero() {
                 premium architectures. Intrinsically incubate.
               </p>
             </div>
-            <div className="max-w-sm:absolute z-50 ">
+            <div className="max-w-sm:absolute z-40 ">
               <ExploreBtn />
             </div>
           </div>
