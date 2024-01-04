@@ -8,10 +8,16 @@ function AboutUsHeader({ intro, heading }) {
   return (
     <section className=" bg-gradient-to-l from-hero to-hero_end h-[55vh]  max-h-xs:[40vh] lg:h-[73vh] 2xl:h-[55vh] relative overflow-hidden">
       <div className="main_wrapper">
-        <div className="leftPattern absolute left-0 bottom-0">
+        <div
+          className="leftPattern absolute left-0 bottom-0"
+          initial={{ x: 50, opacity: 0.2 }}
+          whileInView={{ x: 0, opacity: 1 }}
+          transition={{ duration: 1 }}
+          viewport={{ once: true }}
+        >
           <img src={left_pattern} alt="left_pattern_image" />
         </div>
-        <div className="rightPattern absolute top-0 lg:bottom-0 md:right-[-380px]  lg:right-[-80px] ">
+        <div className="rightPattern absolute top-0 lg:bottom-0 md:right-[-380px] lg:right-[-80px]">
           <img src={right_pattern} alt="right_pattern_image" />
         </div>
 

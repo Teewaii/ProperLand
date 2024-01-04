@@ -1,15 +1,21 @@
 import React from "react";
 import hux from "../img/About/hux.jpg";
-import vid_bkg from "../img/About/vid_bkg.jpg";
 import videoPlay from "../img/Home/Video Icon.png";
+import { motion } from "framer-motion";
 
 function Space() {
   return (
     <section className="statistics py-[95px] container">
       <div className="Whoweare flex flex-col gap-y-20">
-        <div className="firstSection flex flex-col items-center lg:flex-row lg:gap-x-10">
+        <motion.div
+          className="firstSection flex flex-col items-center lg:flex-row lg:gap-x-10"
+          initial={{ x: -50, opacity: 0.2 }}
+          whileInView={{ x: 0, opacity: 1 }}
+          transition={{ duration: 1 }}
+          viewport={{ once: true }}
+        >
           <div className="w-[90%]">
-            <img className="rounded-md " src={hux} alt="house image" />
+            <img className="rounded-md " src={hux} alt="houseIcon" />
           </div>
 
           <div className="w-[100%] flex flex-col items-center text-center lg:items-start lg:text-left ">
@@ -23,10 +29,16 @@ function Space() {
               dolores et quas molestias excepturi.
             </p>
           </div>
-        </div>
+        </motion.div>
 
         {/* secondSection */}
-        <div className="right flex flex-col flex-col-reverse text-center lg:text-left items-center lg:flex-row lg:gap-x-10">
+        <motion.div
+          className="right flex flex-col-reverse text-center lg:text-left items-center lg:flex-row lg:gap-x-10"
+          initial={{ x: 50, opacity: 0.2 }}
+          whileInView={{ x: 0, opacity: 1 }}
+          transition={{ duration: 1 }}
+          viewport={{ once: true }}
+        >
           <div className="description w-[75%] xl:w-[57%] ">
             <div className="top">
               <h1 className="text-[24px] font-bold md:text-[35px] text-center leading-[40px] my-4 md:max-w-[510px] lg:text-left">
@@ -65,11 +77,7 @@ function Space() {
               alt="Vid player"
             />
           </div>
-
-          {/* <div className="w-[95%]">
-            <img className="rounded-md" src={vid_bkg} alt="house image" />
-          </div> */}
-        </div>
+        </motion.div>
       </div>
     </section>
   );

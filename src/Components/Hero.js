@@ -4,6 +4,7 @@ import right_pattern from "../../src/img/Home/Icon_rt.png";
 import heroImg from "../../src/img/Home/hero_img.png";
 import hux_icon from "../../src/img/Home/Vectorhux.png";
 import ExploreBtn from "./Button/Explore_btn";
+import { motion } from "framer-motion";
 
 function Hero() {
   return (
@@ -18,7 +19,13 @@ function Hero() {
 
         {/* <section className=" bg-heroBgd_rt h-[100vh] relative "> */}
         <div className="left_wrapper container flex items-start">
-          <div className="left pt-40 flex flex-col items-center lg:items-start relative lg:pt-[200px] xl:pt-[230px] 2xl:pt-[310px]">
+          <motion.div
+            className="left pt-40 flex flex-col items-center lg:items-start relative lg:pt-[200px] xl:pt-[230px] 2xl:pt-[310px]"
+            initial={{ x: -50, opacity: 0.2 }}
+            whileInView={{ x: 0, opacity: 1 }}
+            transition={{ duration: 1 }}
+            viewport={{ once: true }}
+          >
             <div className="topTag flex items-center gap-x-4 mb-8 bg-gradient-to-l from-hero from-0% w-fit px-4 py-1 ">
               <img src={hux_icon} alt="" />
               <p className="text-link text-sm tracking-[6px] uppercase">
@@ -37,15 +44,21 @@ function Hero() {
             <div className="max-w-sm:absolute z-40 ">
               <ExploreBtn />
             </div>
-          </div>
+          </motion.div>
 
-          <div className="building rigt absolute md:right-0 bottom-0 lg:bottom-0  ">
+          <motion.div
+            className="building rigt absolute md:right-0 bottom-0 lg:bottom-0"
+            initial={{ x: 50, opacity: 0.2 }}
+            whileInView={{ x: 0, opacity: 1 }}
+            transition={{ duration: 1 }}
+            viewport={{ once: true }}
+          >
             <img
               className="h-[55vh]  md:h-[68vh] lg:h-[90vh] "
               src={heroImg}
               alt=""
             />
-          </div>
+          </motion.div>
         </div>
       </div>
     </section>

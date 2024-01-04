@@ -5,6 +5,7 @@ import twitter from "../img/Home/twit.svg";
 import Team_info from "./Team_info";
 import { Link } from "react-router-dom";
 import Team from "./Team";
+import { motion } from "framer-motion";
 
 function FewTeams({ slicer }) {
   return (
@@ -13,9 +14,15 @@ function FewTeams({ slicer }) {
         <p className="text-sm uppercase tracking-[4px] md:tracking-[6px] lg:text-md 2xl:text-lg">
           |<span className="text-secondary ">03</span> Experts|
         </p>
-        <h1 className="text-[24px] font-bold leading-[30px] md:text-[35px] md:leading-[50px] my-4 md:max-w-[550px]  mt-12">
+        <motion.h1
+          className="text-[24px] font-bold leading-[30px] md:text-[35px] md:leading-[50px] my-4 md:max-w-[550px]  mt-12"
+          initial={{ y: -50, opacity: 0.2 }}
+          whileInView={{ y: 0, opacity: 1 }}
+          transition={{ duration: 1 }}
+          viewport={{ once: true }}
+        >
           Our Property Team
-        </h1>
+        </motion.h1>
       </div>
       <Team slicer={4} />
       {/* <Team slicer={4} /> */}

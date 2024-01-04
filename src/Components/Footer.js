@@ -12,6 +12,7 @@ import { MapPinIcon } from "@heroicons/react/24/solid";
 import { PhoneIcon } from "@heroicons/react/24/solid";
 import { EnvelopeIcon } from "@heroicons/react/24/solid";
 import { Link } from "react-router-dom";
+import { motion } from "framer-motion";
 
 function Footer() {
   return (
@@ -29,7 +30,13 @@ function Footer() {
 
       <div className="wrapper container relative mt-12 lg:mt-0 ">
         <div className="top flex flex-col gap-8 lg:border-b-2 lg:border-opacity-20 border-primary lg:justify-between lg:flex-row lg:items-center 2xl:gap-24 ">
-          <div className="topLeft flex flex-col items-center lg:items-start gap-8 lg:pr-[65px] lg:py-[50px] ">
+          <motion.div
+            className="topLeft flex flex-col items-center lg:items-start gap-8 lg:pr-[65px] lg:py-[50px]"
+            initial={{ x: -50, opacity: 0.2 }}
+            whileInView={{ x: 0, opacity: 1 }}
+            transition={{ duration: 1 }}
+            viewport={{ once: true }}
+          >
             <div className="logo_socials flex flex-col items-center">
               <img className="w-[200px]" src={logo} alt="Properland logo" />
               <div className="socials flex items-center gap-4 mt-5">
@@ -40,9 +47,15 @@ function Footer() {
                 <img className="w-[18px]" src={youtube} alt="instagram" />
               </div>
             </div>
-          </div>
+          </motion.div>
 
-          <div className="top_Right text-center lg:text-left lg:border-l-2 lg:py-[50px] lg:pl-[120px] lg:border-opacity-20 lg:border-primary 2xl:pl-[200px]  ">
+          <motion.div
+            className="top_Right text-center lg:text-left lg:border-l-2 lg:py-[50px] lg:pl-[120px] lg:border-opacity-20 lg:border-primary 2xl:pl-[200px]"
+            initial={{ x: 50, opacity: 0.2 }}
+            whileInView={{ x: 0, opacity: 1 }}
+            transition={{ duration: 1 }}
+            viewport={{ once: true }}
+          >
             <h1 className="text-[25px] font-bold">Get a free estimate</h1>
             <p className="text-link max-w-[580px] mb-8 text-[15px] md:max-w-[100%] lg:text-[14px] 2xl:text-[17px] ">
               Leverage agile frameworks to provide a robust synopsis for high
@@ -50,7 +63,7 @@ function Footer() {
               grow the holistic world view of disruptive.
             </p>
             <Subscribe />
-          </div>
+          </motion.div>
         </div>
         <div className="bottom flex  flex-row flex-wrap gap-[5px] items-start justify-between relative border-b-2 lg:border-opacity-20 lg:border-primary lg:gap-[20px] 2xl:gap-[63px] lg:items-center ">
           <div className="company flex flex-col gap-[5px] my-8">

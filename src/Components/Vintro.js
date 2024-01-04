@@ -3,25 +3,33 @@ import mission_icon from "../img/About/mission_icon.svg";
 import vision_icon from "../img/About/vision_icon.svg";
 import vintro_mob from "../img/About/vintro_img_mob.png";
 import vintro_desktop from "../img/About/vintro_img.png";
+import { motion } from "framer-motion";
 
 function Vintro() {
   return (
     <section className="bg-vintro bg-cover bg-left bg-no-repeat to-hero_end">
       <div className="main flex flex-col min-h-100vh py-[60px] container lg:py-[95px] lg:flex-row lg:items-center lg:gap-x-8">
-        <div className="left_section h-100% flex-[0.7] lg:flex-[0.9] 2xl:flex-[0.5]">
-          {/* <img
-            className="w-100% mb-[30px] lg:hidden"
-            src={vintro_mob}
-            alt="property_image"
-          /> */}
+        <motion.div
+          className="left_section h-100% flex-[0.7] lg:flex-[0.9] 2xl:flex-[0.5]"
+          initial={{ x: -50, opacity: 0.2 }}
+          whileInView={{ x: 0, opacity: 1 }}
+          transition={{ duration: 1 }}
+          viewport={{ once: true }}
+        >
           <img
             className="h-50% mb-[30px] hidden lg:flex"
             src={vintro_desktop}
             alt="property_image"
           />
-        </div>
+        </motion.div>
 
-        <div className="right_section flex flex-col items-center pb-[20px] flex-1 lg:items-start ">
+        <motion.div
+          className="right_section flex flex-col items-center pb-[20px] flex-1 lg:items-start"
+          initial={{ x: 50, opacity: 0.2 }}
+          whileInView={{ x: 0, opacity: 1 }}
+          transition={{ duration: 1 }}
+          viewport={{ once: true }}
+        >
           <p className="text-sm uppercase tracking-[4px] md:tracking-[6px] lg:text-md 2xl:text-lg">
             |<span className="text-secondary">01</span> vintor video|
           </p>
@@ -70,7 +78,7 @@ function Vintro() {
               </div>
             </div>
           </div>
-        </div>
+        </motion.div>
       </div>
     </section>
   );

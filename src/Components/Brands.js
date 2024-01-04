@@ -1,11 +1,18 @@
 import React from "react";
 import BrandsLogo from "./BrandsLogo";
 import ExploreBtn from "./Button/Explore_btn";
+import { motion } from "framer-motion";
 
 function Brands() {
   return (
     <section className="Brand container py-[80px]">
-      <div className="wrapper flex flex-col items-center justify-center bg-[#F5F1EF] py-[110px] ">
+      <motion.div
+        className="wrapper flex flex-col items-center justify-center bg-[#F5F1EF] py-[110px]"
+        initial={{ y: 50, opacity: 0.2 }}
+        whileInView={{ y: 0, opacity: 1 }}
+        transition={{ duration: 1 }}
+        viewport={{ once: true }}
+      >
         <div className="header flex flex-col items-center">
           <h1 className="text-[20px] text-center font-bold mb-12 md:text-[25px] px-[5px] my-4 lg:px-0 ">
             More than 50+ Brands Trusted World Wide
@@ -23,7 +30,7 @@ function Brands() {
           ))}
         </div>
         <ExploreBtn />
-      </div>
+      </motion.div>
     </section>
   );
 }

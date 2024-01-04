@@ -1,4 +1,5 @@
 import React from "react";
+import { motion } from "framer-motion";
 
 function WhyUs() {
   return (
@@ -14,7 +15,13 @@ function WhyUs() {
         </div>
 
         <div className="packages grid grid-cols-1 grid-rows-5 gap-[24px] w-[100%] max-h-sm:min-h-[100vh] lg:grid-rows-2 lg:grid-cols-3  ">
-          <div className="budget rounded-md bg-1why1 bg-cover px-8 bg-no-repeat bg-top-left pb-10   row-span-1 col-start-1 col-span-1 h-[fit] lg:col-start-1 lg:col-span-1 lg:pt-20 ">
+          <motion.div
+            className="budget rounded-md bg-1why1 bg-cover px-8 bg-no-repeat bg-top-left pb-10   row-span-1 col-start-1 col-span-1 h-[fit] lg:col-start-1 lg:col-span-1 lg:pt-20"
+            initial={{ y: 50, opacity: 0.2 }}
+            whileInView={{ y: 0, opacity: 1 }}
+            transition={{ duration: 1 }}
+            viewport={{ once: true }}
+          >
             <div className="text  flex flex-col items-start mt-[220px] md:mt-[370px] lg:mt-[150px] ">
               <h1 className="text-lg text-left md:text-2xl font-bold mb-2 lg:text-[22px]">
                 Budget Friendly
@@ -25,11 +32,23 @@ function WhyUs() {
                 ducimus qui blanditiis
               </p>
             </div>
-          </div>
+          </motion.div>
 
-          <div className="hux rounded-md bg-2why2a bg-cover bg-no-repeat bg-top-left pb-10 row-span-1 row-start-2 lg:row-start-1 col-span-1 h-[fit] lg:col-start-2 lg:col-span-2 "></div>
+          <motion.div
+            className="hux rounded-md bg-2why2a bg-cover bg-no-repeat bg-top-left pb-10 row-span-1 row-start-2 lg:row-start-1 col-span-1 h-[fit] lg:col-start-2 lg:col-span-2"
+            initial={{ x: 50, opacity: 0.2 }}
+            whileInView={{ x: 0, opacity: 1 }}
+            transition={{ duration: 1 }}
+            viewport={{ once: true }}
+          ></motion.div>
 
-          <div className="trustees rounded-md bg-1why2 bg-cover bg-no-repeat bg-top-left pb-10 px-8 h-[fit] row-start-3 row-span-1 col-start-1 col-span-1 lg:col-start-1 lg:row-start-2">
+          <motion.div
+            className="trustees rounded-md bg-1why2 bg-cover bg-no-repeat bg-top-left pb-10 px-8 h-[fit] row-start-3 row-span-1 col-start-1 col-span-1 lg:col-start-1 lg:row-start-2"
+            initial={{ y: 50, opacity: 0.2 }}
+            whileInView={{ y: 0, opacity: 1 }}
+            transition={{ duration: 1 }}
+            viewport={{ once: true }}
+          >
             <div className="text  flex flex-col items-start mt-[220px] md:mt-[370px] lg:mt-[250px] ">
               <h1 className="text-lg text-left md:text-2xl font-bold mb-2 lg:text-[22px]">
                 Trusted By Thousands
@@ -40,9 +59,15 @@ function WhyUs() {
                 ducimus qui blanditiis
               </p>
             </div>
-          </div>
+          </motion.div>
 
-          <div className="primeLocation rounded-md bg-2why3 px-8 bg-cover bg-no-repeat bg-top-left pb-10   h-[fit] row-start-4 col-span-1 lg:col-start-2 lg:row-start-2">
+          <motion.div
+            className="primeLocation rounded-md bg-2why3 px-8 bg-cover bg-no-repeat bg-top-left pb-10   h-[fit] row-start-4 col-span-1 lg:col-start-2 lg:row-start-2"
+            initial={{ y: -50, opacity: 0.2 }}
+            whileInView={{ y: 0, opacity: 1 }}
+            transition={{ duration: 1 }}
+            viewport={{ once: true }}
+          >
             <div className="text  flex flex-col items-start mt-[220px] md:mt-[370px] lg:mt-[250px] ">
               <h1 className="text-lg text-left md:text-2xl font-bold mb-2 lg:text-[22px]">
                 Prime Location
@@ -53,9 +78,15 @@ function WhyUs() {
                 ducimus qui blanditiis
               </p>
             </div>
-          </div>
+          </motion.div>
 
-          <div className="commission rounded-md bg-3why1 px-8 bg-cover bg-no-repeat bg-top-left pb-10 row-start-5 h-[fit] row-span-1 col-span-1 lg:col-start-3 lg:row-start-2 ">
+          <motion.div
+            className="commission rounded-md bg-3why1 px-8 bg-cover bg-no-repeat bg-top-left pb-10 row-start-5 h-[fit] row-span-1 col-span-1 lg:col-start-3 lg:row-start-2"
+            initial={{ x: 50, opacity: 0.2 }}
+            whileInView={{ x: 0, opacity: 1 }}
+            transition={{ duration: 1 }}
+            viewport={{ once: true }}
+          >
             <div className="text  flex flex-col items-start mt-[220px] md:mt-[370px] lg:mt-[250px] ">
               <h1 className="text-lg text-left md:text-2xl font-bold mb-2 lg:text-[22px]">
                 Lowest Commission
@@ -66,7 +97,7 @@ function WhyUs() {
                 ducimus qui blanditiis
               </p>
             </div>
-          </div>
+          </motion.div>
         </div>
       </div>
     </section>

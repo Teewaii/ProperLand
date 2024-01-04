@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from "react";
-// import victor from '../img/Home/victor.jpg';
 import Review from "./Rev";
 import Leftright from "./Button/Leftright";
+import { motion } from "framer-motion";
 
 function Reviews() {
   const scrollContainerRef = useRef(null);
@@ -25,7 +25,13 @@ function Reviews() {
   };
 
   return (
-    <section className="reviews bg-[#F3E8E2] h-fit py-[95px]">
+    <motion.section
+      className="reviews bg-[#F3E8E2] h-fit py-[95px]"
+      initial={{ y: 50, opacity: 0.2 }}
+      whileInView={{ y: 0, opacity: 1 }}
+      transition={{ duration: 1 }}
+      viewport={{ once: true }}
+    >
       <div
         ref={scrollContainerRef}
         className="wrapper pl-[32px] pr-[32px] lg:first:pl-[80px]  "
@@ -61,7 +67,7 @@ function Reviews() {
           ))}
         </div>
       </div>
-    </section>
+    </motion.section>
   );
 }
 

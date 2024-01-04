@@ -4,6 +4,7 @@ import FAQ_left_pattern from "../img/FAQ/FAQ_Pattern_Left.png";
 import FAQ_right_pattern from "../img/FAQ/FAQ_Pattern_Right.png";
 import { PlusIcon } from "@heroicons/react/24/solid";
 import faqs from "../Components/FAQS";
+import { motion } from "framer-motion";
 
 function FAQ() {
   const [open, setOpen] = useState(null);
@@ -32,12 +33,25 @@ function FAQ() {
         <p className="text-link text-sm tracking-[6px] uppercase">ANSWERS</p>
       </div>
       {/* </div> */}
-      <h1 className="text-[20px] md:text-[30px] md:leading-[50px] font-[600]  lg:header2 leading-[35px] lg:text-left xl:text-[40px] xl:max-w-[600px] xl:leading-[55px] relative z-5">
+      <motion.h1
+        className="text-[20px] md:text-[30px] md:leading-[50px] font-[600]  lg:header2 leading-[35px] lg:text-left xl:text-[40px] xl:max-w-[600px] xl:leading-[55px] relative z-5"
+        initial={{ y: -50, opacity: 0.2 }}
+        whileInView={{ y: 0, opacity: 1 }}
+        transition={{ duration: 1 }}
+        viewport={{ once: true }}
+      >
         Frequently Asked Questions
-      </h1>
+      </motion.h1>
       <div className="faqs container max-w-[90%] mt-12 mb-16 lg:max-w-[70%] 2xl:max-w-[55%] relative z-8 ">
         {faqs.map(({ id, title, body }, index) => (
-          <div key={id} className="faq pb-8 overflow-hidden ">
+          <motion.div
+            key={id}
+            className="faq pb-8 overflow-hidden"
+            initial={{ y: 50, opacity: 0.2 }}
+            whileInView={{ y: 0, opacity: 1 }}
+            transition={{ duration: 1 }}
+            viewport={{ once: true }}
+          >
             <div
               onClick={() => FaqToggle(index)}
               className="head flex items-center justify-between pb-4 border-b cursor-pointer "
@@ -60,7 +74,7 @@ function FAQ() {
             {open === index && <p className="pt-6">{body}</p>}
 
             {/* <div className=" absolute left-0 right-0 bottom-[-15px] border-b border-red-600 "></div> */}
-          </div>
+          </motion.div>
         ))}
         {/* <div className=" border-b"></div> */}
       </div>

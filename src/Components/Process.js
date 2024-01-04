@@ -1,4 +1,5 @@
 import React from "react";
+import { motion } from "framer-motion";
 
 function Process() {
   return (
@@ -8,13 +9,25 @@ function Process() {
           <p className="text-sm uppercase tracking-[4px] md:tracking-[6px] lg:text-md 2xl:text-lg">
             |<span className="text-secondary ">02</span> process|
           </p>
-          <h1 className="text-[24px] font-bold leading-[30px] md:text-[35px] md:leading-[50px] my-4 md:max-w-[550px]  mt-12">
+          <motion.h1
+            className="text-[24px] font-bold leading-[30px] md:text-[35px] md:leading-[50px] my-4 md:max-w-[550px] mt-12"
+            initial={{ y: -50, opacity: 0.2 }}
+            whileInView={{ y: 0, opacity: 1 }}
+            transition={{ duration: 1 }}
+            viewport={{ once: true }}
+          >
             Our Main Focus
-          </h1>
+          </motion.h1>
         </div>
 
         <div className="packages flex flex-col gap-y-8 lg:gap-x-8 lg:flex-row ">
-          <div className="planning rounded-md bg-planning_img bg-cover bg-no-repeat h-[300px] px-8 flex flex-col justify-center items-start gap-y-4">
+          <motion.div
+            className="planning rounded-md bg-planning_img bg-cover bg-no-repeat h-[300px] px-8 flex flex-col justify-center items-start gap-y-4"
+            initial={{ x: 50, opacity: 0.2 }}
+            whileInView={{ x: 0, opacity: 1 }}
+            transition={{ duration: 1 }}
+            viewport={{ once: true }}
+          >
             <div className="rounded-full p-10 w-12 h-12 bg-secondary flex items-center justify-center">
               <h1 className=" text-[40px] font-bold  text-white">01</h1>
             </div>
@@ -25,9 +38,15 @@ function Process() {
               High level overviews. approaches lverall value proposition.
               Organically grow the holistic world view of disruptive.
             </p>
-          </div>
+          </motion.div>
 
-          <div className="planning rounded-md bg-dev_img bg-cover bg-no-repeat h-[300px] px-8 flex flex-col justify-center items-start gap-y-4">
+          <motion.div
+            className="development rounded-md bg-dev_img bg-cover bg-no-repeat h-[300px] px-8 flex flex-col justify-center items-start gap-y-4"
+            initial={{ y: 50, opacity: 0.2 }}
+            whileInView={{ y: 0, opacity: 1 }}
+            transition={{ duration: 1 }}
+            viewport={{ once: true }}
+          >
             <div className="rounded-full p-10 w-12 h-12 bg-secondary flex items-center justify-center">
               <h1 className=" text-[40px] font-bold  text-white">02</h1>
             </div>
@@ -38,9 +57,15 @@ function Process() {
               High level overviews. approaches lverall value proposition.
               Organically grow the holistic world view of disruptive.
             </p>
-          </div>
+          </motion.div>
 
-          <div className="planning rounded-md bg-newWay_img bg-cover bg-no-repeat h-[300px] px-8 flex flex-col justify-center items-start gap-y-4">
+          <motion.div
+            className="newayOfLiving rounded-md bg-newWay_img bg-cover bg-no-repeat h-[300px] px-8 flex flex-col justify-center items-start gap-y-4"
+            initial={{ x: -50, opacity: 0.2 }}
+            whileInView={{ x: 0, opacity: 1 }}
+            transition={{ duration: 1 }}
+            viewport={{ once: true }}
+          >
             <div className="rounded-full p-10 w-12 h-12 bg-secondary flex items-center justify-center">
               <h1 className=" text-[40px] font-bold  text-white">03</h1>
             </div>
@@ -51,7 +76,7 @@ function Process() {
               High level overviews. approaches lverall value proposition.
               Organically grow the holistic world view of disruptive.
             </p>
-          </div>
+          </motion.div>
         </div>
       </div>
     </section>

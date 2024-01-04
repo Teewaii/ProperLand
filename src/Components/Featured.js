@@ -2,6 +2,7 @@ import React from "react";
 import ForsaleCard from "./ForsaleCard";
 import Features from "./Features";
 import TouchwithUs from "./Button/TouchwithUs";
+import { motion } from "framer-motion";
 
 function Featured() {
   return (
@@ -16,7 +17,13 @@ function Featured() {
           </h1>
         </div>
 
-        <div className="cardHolder grid grid-col-1 mb-[70px] lg:mb-[100px] lg:grid-cols-2 2xl:grid-cols-3 gap-[38px]">
+        <motion.div
+          className="cardHolder grid grid-col-1 mb-[70px] lg:mb-[100px] lg:grid-cols-2 2xl:grid-cols-3 gap-[38px]"
+          initial={{ y: 50, opacity: 0.2 }}
+          whileInView={{ y: 0, opacity: 1 }}
+          transition={{ duration: 1 }}
+          viewport={{ once: true }}
+        >
           {Features.map(
             ({
               cost,
@@ -45,7 +52,7 @@ function Featured() {
               />
             )
           )}
-        </div>
+        </motion.div>
 
         <TouchwithUs />
       </div>
