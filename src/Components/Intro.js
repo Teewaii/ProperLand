@@ -4,14 +4,14 @@ import { motion } from "framer-motion";
 
 function Intro() {
   return (
-    <motion.section
-      className="intro container h-[fit]"
-      initial={{ y: 50, opacity: 0.2 }}
-      whileInView={{ y: 0, opacity: 1 }}
-      transition={{ duration: 1 }}
-      viewport={{ once: true }}
-    >
-      <div className="wrapper flex flex-col lg:flex-row py-4 lg:gap-8  md:py-28 ">
+    <section className="intro container h-[fit]">
+      <motion.div
+        className="wrapper flex flex-col lg:flex-row py-4 lg:gap-8  md:py-28 "
+        initial={{ y: 50, opacity: 0.2 }}
+        whileInView={{ y: 0, opacity: 1 }}
+        transition={{ duration: 1 }}
+        viewport={{ once: true }}
+      >
         <div className="left flex flex-col text-left h-fit bg-[#F2F2F2] mb-8 py-[45px] px-[35px] lg:py-[65px] lg:px-[70px] lg:mb-0 ">
           <p className="text-sm tracking-[4px] lg:text-md md:tracking-[6px] 2xl:text-lg ">
             |<span className="text-secondary">01</span> PROPERLAND INTRO|
@@ -63,8 +63,8 @@ function Intro() {
             alt="Vid player"
           />
         </div>
-      </div>
-    </motion.section>
+      </motion.div>
+    </section>
   );
 }
 

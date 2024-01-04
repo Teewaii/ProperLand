@@ -8,14 +8,14 @@ import { motion } from "framer-motion";
 
 function Services() {
   return (
-    <motion.section
-      className="services py-[110px] lg:py-[120px] 2xl:py-[160px]"
-      initial={{ y: 50, opacity: 0.2 }}
-      whileInView={{ y: 0, opacity: 1 }}
-      transition={{ duration: 1 }}
-      viewport={{ once: true }}
-    >
-      <div className="wrapper container">
+    <section className="services py-[110px] lg:py-[120px] 2xl:py-[160px]">
+      <motion.div
+        className="wrapper container"
+        initial={{ y: 50, opacity: 0.2 }}
+        whileInView={{ y: 0, opacity: 1 }}
+        transition={{ duration: 1 }}
+        viewport={{ once: true }}
+      >
         <div className="header flex flex-col items-center">
           <p className="text-sm uppercase tracking-[4px] md:tracking-[6px] lg:text-md 2xl:text-lg">
             |<span className="text-secondary">05</span> Services|
@@ -96,8 +96,8 @@ function Services() {
             </div>
           </div>
         </div>
-      </div>
-    </motion.section>
+      </motion.div>
+    </section>
   );
 }
 

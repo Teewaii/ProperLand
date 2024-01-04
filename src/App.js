@@ -77,7 +77,9 @@ function App() {
     window.scrollTo(0, 0);
   }
   return (
-    <div className={toggle ? "h-[100vh] overflow-hidden " : ""}>
+    <div
+      className={toggle ? "h-[100vh] overflow-hidden " : "overflow-x-hidden"}
+    >
       <AppContext.Provider value={{ toggle, setToggle, handleToggle, toTop }}>
         <Routes>
           <Route path="/" element={<HomePage />} />
