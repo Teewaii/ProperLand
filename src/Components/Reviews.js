@@ -25,16 +25,14 @@ function Reviews() {
   };
 
   return (
-    <motion.section
-      className="reviews bg-[#F3E8E2] h-fit py-[95px]"
-      initial={{ y: 50, opacity: 0.2 }}
-      whileInView={{ y: 0, opacity: 1 }}
-      transition={{ duration: 1 }}
-      viewport={{ once: true }}
-    >
-      <div
+    <section className="reviews bg-[#F3E8E2] h-fit py-[95px]">
+      <motion.div
         ref={scrollContainerRef}
         className="wrapper pl-[32px] pr-[32px] lg:first:pl-[80px]  "
+        initial={{ x: -50, opacity: 0.2 }}
+        whileInView={{ x: 0, opacity: 1 }}
+        transition={{ duration: 1 }}
+        viewport={{ once: true }}
       >
         <div className="top flex items-center justify-between container">
           <h1 className="text-[24px] text-left font-bold  mb-8 leading-[30px] md:text-[35px] md:leading-[50px] my-4 md:max-w-[550px]">
@@ -66,8 +64,8 @@ function Reviews() {
             </div>
           ))}
         </div>
-      </div>
-    </motion.section>
+      </motion.div>
+    </section>
   );
 }
 
