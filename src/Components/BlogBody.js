@@ -15,13 +15,13 @@ function BlogBody() {
           ({ passPort, id, title, date, category, publisher, pix }) => (
             <div
               id={1}
-              className="relative mt-[-120px] md:mt-[-150px] lg:mt-[-170px] 2xl:mt-[-200px]"
+              className="relative mt-[-120px] md:mt-[-180px] lg:mt-[-170px] 2xl:mt-[-200px]"
             >
               <img className="mb-[23px] 2xl:w-[1300px]" src={pix} alt="Blog" />
             </div>
           )
         )}
-        <div className="wrapper flex flex-col lg:gap-x-20 w-[90%] mt-8 h-[fit] md:max-w-[70%] lg:mt-4  lg:py-[30px] xl:max-w-[72%]">
+        <div className="wrapper flex flex-col lg:gap-x-20 w-[90%]  mt-8 h-[fit] md:max-w-[80%] lg:mt-4  lg:py-[30px] xl:max-w-[72%]">
           <p className="text-left text-[15px] lg:text-justify md:text-md">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim

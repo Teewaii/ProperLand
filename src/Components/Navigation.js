@@ -61,10 +61,14 @@ function Navigation() {
       <div className="large_screen px-6 hidden lg:flex justify-between items-center mt-8  2xl:mt-12 rounded-[5px] h-[100px] bg-white">
         <div className="logo ">
           <Link to="/">
-            <img className="w-[70%] cursor-pointer" src={MainLogo} alt="" />
+            <img
+              className="w-[60%] cursor-pointer 2xl:w-[70%"
+              src={MainLogo}
+              alt=""
+            />
           </Link>
         </div>
-        <ul className="flex gap-x-12 text-content last:hidden">
+        <ul className="flex gap-x-6 text-content last:hidden 2xl:gap-x-12">
           {Object.entries(navs_url)
             .slice(0, -1)
             .map(([key, value]) => (

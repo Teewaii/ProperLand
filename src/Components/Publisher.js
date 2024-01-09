@@ -9,8 +9,12 @@ import youtube from "../img/Home/youtube.svg";
 function Publisher({ passPort, id, publisher }) {
   return (
     <div className="bg-secondary w-[100%] py-14 my-12  ">
-      <div className="publisher flex flex-col items-center md:gap-x-8 md:flex-row md:justify-between lg:my-4 lg:gap-x-4 lg:max-w-[68%] 2xl:max-w-[60%] container ">
-        <img src={passPort} className="w-[140px] h-[160px]  " alt="publisher" />
+      <div className="publisher flex flex-col items-center md:gap-x-8 md:flex-row md:max-w-[82%] md:justify-between lg:my-4 lg:gap-x-4 lg:max-w-[68%] 2xl:max-w-[60%] container ">
+        <img
+          src={passPort}
+          className="w-[140px] h-[160px] md:h-[200px]  "
+          alt="publisher"
+        />
         <div>
           <div className="flex flex-col items-center md:items-start lg:flex-row lg:justify-between lg:w-[75%] ">
             <div className="publisherInfo text-center md:text-left mt-4 md:mt-0">

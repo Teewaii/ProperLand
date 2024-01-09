@@ -20,12 +20,12 @@ function BlogHeader() {
           <img src={right_pattern} alt="right_pattern_image" />
         </div>
 
-        <div className="left_wrapper w-[90%] md:max-w-[70%] lg:max-w-[75%] container flex items-start">
+        <div className="left_wrapper w-[90%] md:max-w-[80%] lg:max-w-[75%] container flex items-start">
           {filteredArticle.map(
             ({ passPort, id, title, date, category, publisher }) => (
               <div
                 id={id}
-                className="left pt-40 flex flex-col items-center lg:items-start relative lg:pt-[250px] xl:pt-[200px] 2xl:pt-[280px]"
+                className="left pt-40 flex flex-col items-center md:items-start relative lg:pt-[250px] xl:pt-[200px] 2xl:pt-[280px]"
               >
                 <div className="topTag flex items-center gap-x-4 mb-8 bg-gradient-to-l from-hero from-0% w-fit px-4 py-1 ">
                   <img src={hux_icon} alt="" />
@@ -34,7 +34,7 @@ function BlogHeader() {
                   </p>
                 </div>
                 <div className="middle_text xl:mb-2 2xl:mb-6">
-                  <h1 className="text-[22px] leading-[28px] md:text-[40px] md:leading-[50px] font-[600] w-[100%] lg:header2 lg:leading-[35px] lg:text-left  xl:leading-[55px] 2xl:text-[65px] 2xl:leading-[75px]">
+                  <h1 className="text-[22px] leading-[28px] md:text-[38px] md:leading-[50px] md:w-[110%] font-[600] w-[100%] lg:text-[40px] lg:header2 lg:leading-[55px] lg:text-left xl:leading-[55px] 2xl:text-[65px] 2xl:leading-[75px]">
                     {title}
                   </h1>
 
