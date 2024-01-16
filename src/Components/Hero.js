@@ -8,7 +8,8 @@ import { motion } from "framer-motion";
 
 function Hero() {
   return (
-    <section className=" bg-gradient-to-l from-hero to-hero_end h-[100vh] relative overflow-hidden md:h-[95vh] lg:h-[110vh] 2xl:h-[100vh] ">
+    <section className=" bg-gradient-to-l from-hero to-hero_end h-[100vh] relative overflow-hidden md:h-[95vh] lg:min-h-[110vh] xl:h-[fit] 2xl:h-[100vh] ">
+      {/* <section className=" bg-gradient-to-l from-hero to-hero_end h-[100vh] relative overflow-hidden md:h-[95vh] lg:h-[110vh] 2xl:h-[100vh] "> */}
       <div className="main_wrapper ">
         <div className="leftPattern absolute left-0 bottom-0">
           <img src={left_pattern} alt="" />
