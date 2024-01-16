@@ -1,6 +1,7 @@
 import React from "react";
 import videoPlay from "../../src/img/Home/Video Icon.png";
 import { motion } from "framer-motion";
+import { PlayIcon } from "@heroicons/react/24/solid";
 
 function Intro() {
   return (
@@ -56,12 +57,14 @@ function Intro() {
           </div>
         </div>
 
-        <div className="right bg-vid_img bg-cover bg-center bg-no-repeat flex  items-center justify-center h-[450px] lg:w-[840px] lg:max-h-[400px]">
-          <img
-            className="cursor-pointer w-fit"
-            src={videoPlay}
-            alt="Vid player"
-          />
+        <div className="right bg-vid_img bg-cover bg-center bg-no-repeat flex  items-center justify-center h-[450px] lg:w-[840px] lg:max-h-[400px]  relative">
+          <img className=" w-fit" src={videoPlay} alt="Vid player" />
+          <div className="w-[94px] h-[94px] group absolute cursor-pointer">
+            <PlayIcon
+              className="h-[95px] rounded-full p-[35px] translate-y-[0px] translate-x-[0px] bg-white group-hover:bg-secondary transition-all ease-in-out duration-300
+             "
+            />
+          </div>
         </div>
       </motion.div>
     </section>

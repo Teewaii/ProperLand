@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from "react";
+import React, { useRef } from "react";
 import Review from "./Rev";
 import Leftright from "./Button/Leftright";
 import { motion } from "framer-motion";
@@ -8,8 +8,9 @@ function Reviews() {
 
   const scrollLeft = () => {
     if (scrollContainerRef.current) {
-      scrollContainerRef.current.scrollBy({
-        left: -100, // Adjust the scroll distance as needed
+      const scrollDistance = -320;
+      scrollContainerRef.current.scrollTo({
+        left: scrollContainerRef.current.scrollLeft - scrollDistance,
         behavior: "smooth",
       });
     }
@@ -17,8 +18,9 @@ function Reviews() {
 
   const scrollRight = () => {
     if (scrollContainerRef.current) {
-      scrollContainerRef.current.scrollBy({
-        left: 100, // Adjust the scroll distance as needed
+      const scrollDistance = 320;
+      scrollContainerRef.current.scrollTo({
+        left: scrollContainerRef.current.scrollLeft - scrollDistance,
         behavior: "smooth",
       });
     }
@@ -27,7 +29,6 @@ function Reviews() {
   return (
     <section className="reviews bg-[#F3E8E2] h-fit py-[95px]">
       <motion.div
-        ref={scrollContainerRef}
         className="wrapper pl-[32px] pr-[32px] lg:first:pl-[80px]  "
         initial={{ x: -50, opacity: 0.2 }}
         whileInView={{ x: 0, opacity: 1 }}
@@ -40,7 +41,10 @@ function Reviews() {
           </h1>
           <Leftright left={scrollLeft} right={scrollRight} />
         </div>
-        <div className="review flex flex-col gap-14 md:flex-row flex-shrink:0 lg:gap-10 lg:Last:pr-[30px] xl:last:pr-[100px] overflow-scroll scrollbar-hide">
+        <div
+          ref={scrollContainerRef}
+          className="review flex flex-col gap-14 md:flex-row flex-shrink:0 lg:gap-10 lg:Last:pr-[30px] xl:last:pr-[100px] overflow-scroll scrollbar-hide"
+        >
           {Review.map(({ name, title, pix, msg, id }) => (
             <div
               key={id}
