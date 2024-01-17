@@ -3,7 +3,7 @@ import { ArrowSmallRightIcon } from "@heroicons/react/24/solid";
 
 function Explore_btn() {
   return (
-    <div className="font-[600] text-sm xl:text-md relative bg-white flex items-center gap-x-2 w-fit px-4 py-3 group rounded-md hover:bg-secondary cursor-pointer transition-all ease-in-out 300 xl:px-6 xl:py-5">
+    <div className="font-[600] text-sm xl:text-md relative bg-white flex items-center gap-x-2 w-fit px-4 py-3 group rounded-md hover:bg-secondary cursor-pointer transition-all ease-in-out 300 xl:px-6 xl:py-5 2xl:text-lg 2xl:px-12 2xl:py-6">
       Explore Property
       <ArrowSmallRightIcon className="w-4 bg-secondary rounded-full p-[0.5] text-white group-hover:bg-primary transition-all ease-in-out 300 " />
     </div>

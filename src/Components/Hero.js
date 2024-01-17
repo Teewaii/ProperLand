@@ -33,11 +33,11 @@ function Hero() {
                 Real Estate Agency
               </p>
             </div>
-            <div className="middle_text mb-2 xl:mb-2 2xl:mb-6">
-              <h1 className="text-[28px] font-[600] text-center md:text-[40px] md:leading-[50px] md:max-w-[90%] lg:leading-[46px] lg:header2 leading-[35px] lg:text-left lg:text-[40px] lg:max-w-[500px] xl:max-w-[600px] xl:leading-[55px] 2xl:text-[62px] 2xl:max-w-[750px] 2xl:leading-[75px]">
+            <div className="middle_text mb-2 xl:mb-2 2xl:mb-10">
+              <h1 className="text-[28px] font-[600] text-center md:text-[40px] md:leading-[50px] md:max-w-[90%] lg:leading-[46px] lg:header2 leading-[35px] lg:text-left lg:text-[40px] lg:max-w-[500px] xl:max-w-[600px] xl:leading-[55px] 2xl:text-[62px] 2xl:max-w-[600px] 2xl:leading-[75px]">
                 Find the perfect place to Live with your family
               </h1>
-              <p className="text-md text-center my-4 lg:mt-4 text-lg  lg:text-left lg:max-w-[400px] xl:max-w-[500px] lg:text-[18px] 2xl:max-w-[720px] 2xl:text-[20px] text-link">
+              <p className="text-md text-center my-4 lg:mt-4 text-lg  lg:text-left lg:max-w-[400px] xl:max-w-[500px] lg:text-[18px] 2xl:max-w-[600px] 2xl:text-[20px] text-link">
                 Distinctively re-engineer revolutionary meta-services and
                 premium architectures. Intrinsically incubate.
               </p>
@@ -55,7 +55,7 @@ function Hero() {
             viewport={{ once: true }}
           >
             <img
-              className="h-[55vh] md:h-[68vh] lg:h-[90vh] "
+              className="h-[55vh] md:h-[68vh] lg:h-[96vh] 2xl:h-[110vh] "
               src={heroImg}
               alt=""
             />

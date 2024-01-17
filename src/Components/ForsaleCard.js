@@ -31,7 +31,7 @@ function ForsaleCard({
           <ForSale_btn status={status} />
         </div>
         <div className="desc flex flex-col items-start mt-[32px]">
-          <h1 className="font-bold text-[18px] text-left md:text-[22px]">
+          <h1 className="font-bold text-[18px] text-left md:text-[20px] 2xl:text-[22px]">
             {title}
           </h1>
           <div className="location flex items-center text-[#8E8E8E] ">
