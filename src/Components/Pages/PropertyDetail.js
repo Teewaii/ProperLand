@@ -1,5 +1,4 @@
 import React, { useEffect } from "react";
-
 import PropertyDeals from "../PropertyDeals";
 import DetailsHeader from "../DetailsHeader";
 import DetailsBody from "../DetailsBody";

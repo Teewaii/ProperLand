@@ -6,7 +6,7 @@ import AgentForm from "../../src/Components/AgentContactForm";
 function DetailsBody() {
   return (
     <section className="header container ">
-      <div className="wrapper flex flex-col lg:gap-x-20 lg:flex-row lg:py-[30px] mt-8 h-[fit]">
+      <div className="wrapper flex flex-col lg:gap-x-20 lg:flex-row lg:py-[30px] mt-8 h-[fit] ">
         <div className="left_column flex flex-col items-start gap-y-4 lg:w-[60%] xl:w-[62%] ">
           <h1 className="font-bold text-[28px] 2xl:text-[28px]">
             About the property

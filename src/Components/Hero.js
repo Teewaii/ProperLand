@@ -9,7 +9,7 @@ import { motion } from "framer-motion";
 
 function Hero() {
   return (
-    <section className=" bg-gradient-to-l from-hero to-hero_end h-[100vh] relative overflow-hidden md:h-[95vh] lg:min-h-[110vh] 2xl:min-h-[112vh] ">
+    <section className=" bg-gradient-to-l from-hero to-hero_end h-[100vh] relative overflow-hidden md:h-[95vh] lg:min-h-[110vh] 2xl:min-h-[110vh] ">
       {/* <section className=" bg-gradient-to-l from-hero to-hero_end h-[100vh] relative overflow-hidden md:h-[95vh] lg:h-[110vh] 2xl:h-[100vh] "> */}
       <div className="main_wrapper ">
         <div className="leftPattern absolute left-0 bottom-0">
@@ -35,7 +35,7 @@ function Hero() {
               </p>
             </div>
             <div className="middle_text mb-2 xl:mb-2 2xl:mb-4">
-              <h1 className="text-[28px] font-[600] text-center md:text-[40px] md:leading-[50px] md:max-w-[90%] lg:leading-[46px] lg:header2 leading-[35px] lg:text-left lg:text-[45px] lg:max-w-[500px] xl:max-w-[600px] xl:leading-[55px] 2xl:text-[58px] 2xl:max-w-[600px] 2xl:leading-[72px]">
+              <h1 className="text-[28px] font-[600] text-center md:text-[40px] md:leading-[50px] md:max-w-[90%] lg:leading-[46px] lg:header2 leading-[35px] lg:text-left lg:text-[45px] lg:max-w-[500px] xl:max-w-[600px] xl:leading-[55px] 2xl:text-[52px] 2xl:max-w-[600px] 2xl:leading-[65px]">
                 Find the perfect place to Live with your family
               </h1>
               <p className="text-md text-center my-4 lg:mt-4 text-lg  lg:text-left lg:max-w-[400px] xl:max-w-[500px] lg:text-[18px] 2xl:max-w-[600px] 2xl:text-[20px] text-link">
@@ -58,7 +58,7 @@ function Hero() {
             viewport={{ once: true }}
           >
             <img
-              className="h-[55vh] md:h-[68vh] lg:h-[105vh] 2xl:h-[115vh] "
+              className="h-[55vh] md:h-[68vh] lg:h-[105vh] 2xl:h-[110vh] "
               src={heroImg}
               alt=""
             />

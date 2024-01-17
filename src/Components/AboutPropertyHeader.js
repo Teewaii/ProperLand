@@ -4,7 +4,7 @@ import { useParams } from "react-router-dom";
 import comfi from "../../src/img/Home/comfi_lg.png";
 import comfi_2 from "../../src/img/Home/comfi_2_lg.png";
 import comfi_3 from "../../src/img/Home/comfi_3_lg.png";
-import comfi_4 from "../../src/img/Home/comfi_4_lg.png";
+import comfi_4 from "../../src/img/Home/Downtown_1_lg.png";
 import comfi_5 from "../../src/img/Home/comfi_4_lg.png";
 import comfi_6 from "../../src/img/Home/Downtown_1_lg.png";
 
@@ -15,7 +15,7 @@ function AboutPropertyHeader() {
   const selectedProperty = pictures.filter((pix, index) => index == propId);
 
   return (
-    <section className=" bg-[#] h-[55vh] md:h-[42vh] max-h-xs:[40vh] lg:h-[73vh] 2xl:h-[55vh] relative overflow-hidden">
+    <section className=" bg-[#] h-[55vh] md:h-[42vh] max-h-xs:[40vh] lg:h-[73vh] 2xl:h-[70vh] relative overflow-hidden">
       <div className="main_wrapper">
         {/* <div
           className="leftPattern absolute left-0 bottom-0"

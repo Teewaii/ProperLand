@@ -8,7 +8,7 @@ function Reviews() {
 
   const scrollLeft = () => {
     if (scrollContainerRef.current) {
-      const scrollDistance = -320;
+      const scrollDistance = 320;
       scrollContainerRef.current.scrollTo({
         left: scrollContainerRef.current.scrollLeft - scrollDistance,
         behavior: "smooth",
@@ -18,7 +18,7 @@ function Reviews() {
 
   const scrollRight = () => {
     if (scrollContainerRef.current) {
-      const scrollDistance = 320;
+      const scrollDistance = -320;
       scrollContainerRef.current.scrollTo({
         left: scrollContainerRef.current.scrollLeft - scrollDistance,
         behavior: "smooth",
@@ -43,7 +43,7 @@ function Reviews() {
         </div>
         <div
           ref={scrollContainerRef}
-          className="review flex flex-col gap-14 md:flex-row flex-shrink:0 lg:gap-10 lg:Last:pr-[30px] xl:last:pr-[100px] overflow-scroll scrollbar-hide"
+          className="review flex flex-col gap-14 md:flex-row flex-shrink:0 lg:gap-10 lg:Last:pr-[30px] overflow-scroll scrollbar-hide"
         >
           {Review.map(({ name, title, pix, msg, id }) => (
             <div
@@ -54,15 +54,21 @@ function Reviews() {
                 {msg}
               </p>
               <div className="bottom flex items-center  gap-x-3">
-                <div className="head border-[#F4DACD] overflow-hidden border-[2px] rounded-full w-[45px] h-[45px] ">
-                  <img src={pix} className=" w-[40px] " alt="{name} headshot" />
+                <div className="head border-[#F4DACD] relative  h-[45px] overflow-hidden border-[2px] rounded-full w-[45px] lg:border-[6px]  lg:w-[80px] lg:h-[80px]  ">
+                  <img
+                    src={pix}
+                    className=" absolute top-0 bottom-0 left-0 right-0 "
+                    alt="{name} headshot"
+                  />
                 </div>
 
                 <div className="info flex flex-col items-start">
-                  <h1 className="text-[17px] font-bold md:text-[18px]">
+                  <h1 className="text-[17px] font-bold md:text-[18px] lg:text-[20px] 2xl:text-[18px]">
                     {name}
                   </h1>
-                  <p className="text-[13px] text-link text-left ">{title}</p>
+                  <p className="text-[13px] text-link text-left lg:text-[18px] 2xl:text-[15px]  ">
+                    {title}
+                  </p>
                 </div>
               </div>
             </div>

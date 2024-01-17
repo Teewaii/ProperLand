@@ -8,7 +8,7 @@ function Leftright({ left, right }) {
       {/* left scroll button */}
       <div
         onClick={left}
-        className="left bg-white text-secondary p-2 cursor-pointer rounded-full w-[40px] hover:bg-primary hover:text-secondary transition-all ease-in-out 3000"
+        className="left bg-white text-secondary p-2 cursor-pointer rounded-full w-[40px] hover:bg-primary hover:text-secondary transition-all ease-in-out 3000 lg:w-[60px] lg:p-4"
       >
         <ArrowSmallLeftIcon />
       </div>
@@ -16,7 +16,7 @@ function Leftright({ left, right }) {
       {/* right scroll button */}
       <div
         onClick={right}
-        className="right bg-secondary p-2 cursor-pointer rounded-full w-[40px] hover:bg-primary hover:text-secondary transition-all ease-in-out 3000 "
+        className="right bg-secondary p-2 cursor-pointer rounded-full w-[40px] hover:bg-primary hover:text-secondary transition-all ease-in-out 3000 lg:w-[60px] lg:p-4 "
       >
         <ArrowSmallRightIcon />
       </div>
