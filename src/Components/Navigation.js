@@ -6,7 +6,6 @@ import MainLogo from "../img/MainLogo.svg";
 import { Bars3Icon } from "@heroicons/react/24/solid";
 import { XMarkIcon } from "@heroicons/react/24/solid";
 import { AppContext } from "../App";
-import OverLay from "./OverLay";
 
 function Navigation() {
   const navs_url = {

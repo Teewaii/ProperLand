@@ -2,11 +2,11 @@ import React from "react";
 import left_pattern from "../../src/img/About/Icon_lt.png";
 import right_pattern from "../../src/img/About/Icon_rt.png";
 import hux_icon from "../../src/img/Home/Vectorhux.png";
-import heroImg from "../../src/img/About/hero_img.png";
+// import heroImg from "../../src/img/About/hero_img.png";
 
-function AboutUsHeader({ intro, heading }) {
+function AboutUsHeader({ intro, heading, img }) {
   return (
-    <section className=" bg-gradient-to-l from-hero to-hero_end h-[55vh] md:h-[42vh] max-h-xs:[40vh] lg:h-[73vh] 2xl:h-[55vh] relative overflow-hidden">
+    <section className=" bg-gradient-to-l from-hero to-hero_end h-[55vh] md:h-[42vh] max-h-xs:[40vh] lg:h-[73vh] 2xl:h-[70vh] relative overflow-hidden">
       <div className="main_wrapper">
         <div
           className="leftPattern absolute left-0 bottom-0"
@@ -39,8 +39,9 @@ function AboutUsHeader({ intro, heading }) {
       </div>
       <div className="hero_image ">
         <img
-          className="w-[80%] lg:w-[60%] absolute right-0 bottom-0 lg:bottom-0 2xl:w-[55%]"
-          src={heroImg}
+          className="h-[80%] lg:h-[90%] absolute right-0 bottom-0 lg:bottom-0 2xl:h-[95%]"
+          // className="w-[80%] lg:w-[60%]  absolute right-0 bottom-0 lg:bottom-0 2xl:w-[55%]"
+          src={img}
           alt="heroImg"
         />
       </div>

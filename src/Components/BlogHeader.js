@@ -12,7 +12,7 @@ function BlogHeader() {
 
   return (
     <section className=" bg-gradient-to-l from-hero to-hero_end mb-16 h-[480px] md:h-[600px] lg:h-[630px] relative overflow-hidden 2xl:h-[85vh]">
-      <div className="main_wrapper">
+      <div className="main_wrapper ">
         <div className="leftPattern absolute left-0 bottom-0">
           <img src={left_pattern} alt="left_pattern_image" />
         </div>

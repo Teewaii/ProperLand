@@ -6,7 +6,7 @@ import About from "./Components/Pages/About";
 import PropertyDetail from "./Components/Pages/PropertyDetail";
 import Blog from "./Components/Pages/Blogs";
 import Team from "./Components/Pages/OurAgents";
-
+import AllPropertiesPage from "./Components/Pages/AllProperties";
 import { Routes, Route } from "react-router-dom";
 import ContactUs from "./Components/Pages/ContactUs";
 
@@ -65,6 +65,13 @@ function ContactPage() {
     </Layout>
   );
 }
+function AllProperties() {
+  return (
+    <Layout>
+      <AllPropertiesPage />;
+    </Layout>
+  );
+}
 
 function App() {
   const [toggle, setToggle] = useState(false);
@@ -88,6 +95,7 @@ function App() {
           <Route path="/blog/:title" element={<Blogs />} />
           <Route path="/agents" element={<OurAgents />} />
           <Route path="/contact" element={<ContactPage />} />
+          <Route path="/AllProperties" element={<AllProperties />} />
         </Routes>
       </AppContext.Provider>
     </div>

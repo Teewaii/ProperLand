@@ -7,6 +7,7 @@ import Stats from "../Stats";
 import Brands from "../Brands";
 import Space from "../Space";
 import FewTeams from "../FewTeams";
+import img from "../../img/About/hero_img.png";
 
 function About() {
   useEffect(() => {
@@ -15,7 +16,11 @@ function About() {
 
   return (
     <div className="">
-      <AboutUsHeader intro="ABOUT PROPERLAND" heading="About Our Real Estate" />
+      <AboutUsHeader
+        intro="ABOUT PROPERLAND"
+        heading="About Our Real Estate"
+        img={img}
+      />
       <Vintro />
       <Reviews />
       <Space />

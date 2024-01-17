@@ -1,10 +1,10 @@
 import React, { useEffect } from "react";
 
-import AboutUsHeader from "../AboutUsHeader";
 import PropertyDeals from "../PropertyDeals";
 import DetailsHeader from "../DetailsHeader";
 import DetailsBody from "../DetailsBody";
 import PropertyGallery from "../PropertyGallery";
+import AboutPropertyHeader from "../AboutPropertyHeader";
 
 function PropertyDetail() {
   useEffect(() => {
@@ -12,10 +12,11 @@ function PropertyDetail() {
   }, []);
   return (
     <div className="">
-      <AboutUsHeader
+      <AboutPropertyHeader />
+      {/* <AboutUsHeader
         intro="About the property"
         heading="Property Description"
-      />
+      /> */}
       <DetailsHeader />
       <DetailsBody />
       <PropertyGallery />
