@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React from "react";
 import logo from "../img/logo.svg";
 import Left_blog_pattern from "../../src/img/Home/footer_pattern_left.png";
 import Rigft_blog_pattern from "../../src/img/Home/footer_pattern_right.png";
@@ -13,10 +13,8 @@ import { PhoneIcon } from "@heroicons/react/24/solid";
 import { EnvelopeIcon } from "@heroicons/react/24/solid";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
-import { AppContext } from "../App";
 
 function Footer() {
-  const { toTop } = useContext(AppContext);
   return (
     <section className="footer h-fit relative overflow-hidden">
       <img
@@ -41,12 +39,7 @@ function Footer() {
           >
             <div className="logo_socials flex flex-col items-center">
               <Link to="/">
-                <img
-                  onClick={toTop}
-                  className="w-[200px]"
-                  src={logo}
-                  alt="Properland logo"
-                />
+                <img className="w-[200px]" src={logo} alt="Properland logo" />
               </Link>
               <div className="socials flex items-center gap-4 mt-5">
                 <img className="w-[18px]" src={insta} alt="instagram" />
@@ -91,7 +84,7 @@ function Footer() {
                 Blog
               </Link>
               <Link
-                to="#"
+                to="/AllProperties"
                 className="text-[15px] text-link cursor-pointer hover:text-primary xl:text-[14px] 2xl:text-[17px]"
               >
                 Properties

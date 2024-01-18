@@ -1,9 +1,8 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Hero from "../Hero";
 import Intro from "../Intro";
 import Featured from "../Featured";
 import WhyUs from "../WhyUs";
-// import Aboutus from "./Aboutus";
 import Services from "../Services";
 import Reviews from "../Reviews";
 import Statistics from "../Statistics";
@@ -13,6 +12,9 @@ import Blog from "../Blog";
 import AboutUs from "../AboutUs";
 
 function Home() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className="relative">
       <Hero />
