@@ -6,7 +6,7 @@ import hux_icon from "../../src/img/Home/Vectorhux.png";
 
 function AboutUsHeader({ intro, heading, img }) {
   return (
-    <section className=" bg-gradient-to-l from-hero to-hero_end h-[55vh] md:h-[42vh] max-h-xs:[40vh] lg:h-[73vh] 2xl:h-[70vh] relative overflow-hidden">
+    <section className=" bg-gradient-to-l from-hero to-hero_end h-[55vh] md:h-[42vh] max-h-xs:[40vh] lg:h-[73vh] 2xl:h-[55vh] relative overflow-hidden">
       <div className="main_wrapper">
         <div
           className="leftPattern absolute left-0 bottom-0"
