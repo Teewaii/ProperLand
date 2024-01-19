@@ -9,15 +9,17 @@ import { useParams } from "react-router-dom";
 import Features from "./Features";
 
 function DetailsHeader() {
-  const { id: index } = useParams();
-  const selectedProperty = Features.filter(({ id }) => id == index);
+  const { id: propertyId } = useParams();
+  const selectedProperty = Features.filter(
+    ({ id }) => id === parseInt(propertyId)
+  );
 
   return (
     <section className="header container ">
       {selectedProperty.map(
         ({ id, title, cost, location, beds, baths, parking, area, status }) => (
           <div
-            // key={id}
+            key={id}
             className="wrapper flex flex-col gap-4 h-[fit] py-[80px] lg:flex-row lg:py-[70px] border-b-[2.5px]"
           >
             <div className="left_column flex flex-col items-start gap-y-4 flex-1">

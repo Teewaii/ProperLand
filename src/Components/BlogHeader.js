@@ -7,8 +7,7 @@ import { useParams } from "react-router-dom";
 
 function BlogHeader() {
   const { title: topic } = useParams();
-  const filteredArticle = Articles.filter(({ title }) => title == topic);
-  // const topic = decodeURIComponent(title);
+  const filteredArticle = Articles.filter(({ title }) => title === topic);
 
   return (
     <section className=" bg-gradient-to-l from-hero to-hero_end mb-16 h-[480px] md:h-[600px] lg:h-[630px] relative overflow-hidden 2xl:h-[85vh]">
