@@ -1,6 +1,6 @@
 import React from "react";
 import { MapPinIcon } from "@heroicons/react/24/solid";
-import ForSale_btn from "./Button/ForSale_btn";
+import ForSale_btn from "../Utilities/ForSale_btn";
 import bed from "../../src/img/Home/bed.svg";
 import bath from "../../src/img/Home/bath.svg";
 import Carparking from "../../src/img/Home/parking.svg";

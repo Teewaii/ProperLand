@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import ForsaleCard from "./ForsaleCard";
 import Features from "./Features";
-import TouchwithUs from "./Button/TouchwithUs";
+import TouchwithUs from "../Utilities/TouchwithUs";
 import { Link } from "react-router-dom";
 import { AppContext } from "../App";
 

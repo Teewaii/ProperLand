@@ -1,5 +1,5 @@
 import { React, useContext } from "react";
-import ContactBtn from "../Components/Button/Contact_btn";
+import ContactBtn from "../Utilities/Contact_btn";
 import { Link } from "react-router-dom";
 import mobile_logo from "../img/IconLogo.svg";
 import MainLogo from "../img/MainLogo.svg";
@@ -10,10 +10,11 @@ import { AppContext } from "../App";
 function Navigation() {
   const navs_url = {
     Home: "/",
-    "About Us": "/about",
+    "About Us": "/about-us",
+    Properties: "/all-properties",
     "Our Agents": "/agents",
     Blogs: "#",
-    "Contact us": "/contact",
+    "Contact us": "/contact-us",
   };
 
   const { toggle, handleToggle } = useContext(AppContext);

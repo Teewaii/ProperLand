@@ -90,12 +90,12 @@ function App() {
       <AppContext.Provider value={{ toggle, setToggle, handleToggle, toTop }}>
         <Routes>
           <Route path="/" element={<HomePage />} />
-          <Route path="/about" exact element={<AboutUs />} />
+          <Route path="/about-us" exact element={<AboutUs />} />
           <Route path="/detail/:id" element={<PropertyInfo />} />
           <Route path="/blog/:title" element={<Blogs />} />
           <Route path="/agents" element={<OurAgents />} />
-          <Route path="/contact" element={<ContactPage />} />
-          <Route path="/AllProperties" element={<AllProperties />} />
+          <Route path="/contact-us" element={<ContactPage />} />
+          <Route path="/All-properties" element={<AllProperties />} />
         </Routes>
       </AppContext.Provider>
     </div>

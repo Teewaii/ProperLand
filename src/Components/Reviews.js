@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
 import Review from "./Rev";
-import Leftright from "./Button/Leftright";
+import Leftright from "../Utilities/Leftright";
 import { motion } from "framer-motion";
 
 function Reviews() {

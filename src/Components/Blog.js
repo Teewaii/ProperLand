@@ -1,5 +1,5 @@
 import React from "react";
-import SeeArticles from "./Button/SeeArticles";
+import SeeArticles from "../Utilities/SeeArticles";
 import Left_blog_pattern from "../../src/img/Home/Left_blog_pattern.png";
 import Rigft_blog_pattern from "../../src/img/Home/Right_blog_pattern.png";
 import Articles from "./Articles";

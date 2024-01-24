@@ -1,7 +1,8 @@
 import React from "react";
 import BrandsLogo from "./BrandsLogo";
-import ExploreBtn from "./Button/Explore_btn";
+import ExploreBtn from "../Utilities/Explore_btn";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 function Brands() {
   return (
@@ -29,7 +30,9 @@ function Brands() {
             </div>
           ))}
         </div>
-        <ExploreBtn />
+        <Link to="All-properties">
+          <ExploreBtn />
+        </Link>
       </motion.div>
     </section>
   );

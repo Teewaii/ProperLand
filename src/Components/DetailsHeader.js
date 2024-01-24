@@ -4,7 +4,7 @@ import bed from "../../src/img/Home/bed.svg";
 import bath from "../../src/img/Home/bath.svg";
 import Carparking from "../../src/img/Home/parking.svg";
 import size from "../../src/img/Home/area.svg";
-import ForSale_btn from "./Button/ForSale_btn";
+import ForSale_btn from "../Utilities/ForSale_btn";
 import { useParams } from "react-router-dom";
 import Features from "./Features";
 

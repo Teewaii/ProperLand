@@ -4,7 +4,7 @@ import right_pattern from "../../src/img/Home/Icon_rt.png";
 import { Link } from "react-router-dom";
 import heroImg from "../../src/img/Home/hero_img.png";
 import hux_icon from "../../src/img/Home/Vectorhux.png";
-import ExploreBtn from "./Button/Explore_btn";
+import ExploreBtn from "../Utilities/Explore_btn";
 import { motion } from "framer-motion";
 
 function Hero() {
@@ -44,7 +44,7 @@ function Hero() {
               </p>
             </div>
             <div className="max-w-sm:absolute z-40 ">
-              <Link to="AllProperties">
+              <Link to="all-properties">
                 <ExploreBtn />
               </Link>
             </div>
@@ -58,7 +58,7 @@ function Hero() {
             viewport={{ once: true }}
           >
             <img
-              className="h-[55vh] md:h-[68vh] lg:h-[105vh] 2xl:h-[110vh] "
+              className="h-[55vh] md:h-[68vh] lg:h-[105vh] 2xl:h-[105vh] "
               src={heroImg}
               alt=""
             />

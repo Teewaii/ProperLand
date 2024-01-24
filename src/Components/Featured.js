@@ -1,7 +1,7 @@
 import React from "react";
 import ForsaleCard from "./ForsaleCard";
 import Features from "./Features";
-import TouchwithUs from "./Button/TouchwithUs";
+import TouchwithUs from "../Utilities/TouchwithUs";
 import { motion } from "framer-motion";
 
 function Featured() {
