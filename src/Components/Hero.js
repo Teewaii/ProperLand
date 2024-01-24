@@ -3,9 +3,9 @@ import left_pattern from "../../src/img/Home/Icon.png";
 import right_pattern from "../../src/img/Home/Icon_rt.png";
 import { Link } from "react-router-dom";
 import heroImg from "../../src/img/Home/hero_img.png";
-import hux_icon from "../../src/img/Home/Vectorhux.png";
 import ExploreBtn from "../Utilities/Explore_btn";
 import { motion } from "framer-motion";
+import TopTag from "../Utilities/TopTag";
 
 function Hero() {
   return (
@@ -22,23 +22,18 @@ function Hero() {
         {/* <section className=" bg-heroBgd_rt h-[100vh] relative "> */}
         <div className="left_wrapper container flex items-start">
           <motion.div
-            className="left pt-40 flex flex-col items-center lg:items-start relative lg:pt-[200px] xl:pt-[230px] 2xl:pt-[300px]"
+            className="left pt-40 flex flex-col items-center xl:items-start relative lg:pt-[200px] xl:pt-[230px] 2xl:pt-[300px]"
             initial={{ x: -50, opacity: 0.2 }}
             whileInView={{ x: 0, opacity: 1 }}
             transition={{ duration: 1 }}
             viewport={{ once: true }}
           >
-            <div className="topTag flex items-center gap-x-4 mb-8 bg-gradient-to-l from-hero from-0% w-fit px-4 py-1 ">
-              <img src={hux_icon} alt="" />
-              <p className="text-link text-sm tracking-[6px] uppercase">
-                Real Estate Agency
-              </p>
-            </div>
+            <TopTag content="Real Estate Agency" />
             <div className="middle_text mb-2 xl:mb-2 2xl:mb-8">
-              <h1 className="text-[28px] font-[600] text-center md:text-[40px] md:leading-[50px] md:max-w-[90%] lg:leading-[46px] lg:header2 leading-[35px] lg:text-left lg:text-[45px] lg:max-w-[500px] xl:max-w-[600px] xl:leading-[55px] 2xl:text-[60px] 2xl:max-w-[600px] 2xl:leading-[72px]">
+              <h1 className="text-[28px] font-[600] text-center md:text-[48px] md:leading-[65px] leading-[35px] lg:header2 lg:leading-[60px]  xl:text-left xl:text-[45px] xl:max-w-[600px] xl:leading-[55px] 2xl:text-[60px] 2xl:max-w-[600px] 2xl:leading-[72px]">
                 Find the perfect place to Live with your family
               </h1>
-              <p className="text-md text-center my-4 lg:mt-4 text-lg  lg:text-left lg:max-w-[400px] xl:max-w-[500px] lg:text-[18px] 2xl:max-w-[600px] 2xl:text-[20px] text-link">
+              <p className="text-md text-center my-4 lg:mt-4 md:text-xl xl:text-left xl:max-w-[500px] md:text-[18px] 2xl:max-w-[600px] xl:text-[20px] text-link">
                 Distinctively re-engineer revolutionary meta-services and
                 premium architectures. Intrinsically incubate.
               </p>
@@ -58,7 +53,7 @@ function Hero() {
             viewport={{ once: true }}
           >
             <img
-              className="h-[55vh] md:h-[68vh] lg:h-[105vh] 2xl:h-[105vh] "
+              className="h-[55vh] md:h-[60vh] lg:h-[85vh] xl:h-[105vh] "
               src={heroImg}
               alt=""
             />

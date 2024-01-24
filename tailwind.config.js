@@ -42,9 +42,9 @@ module.exports = {
       padding: {
         DEFAULT: "1rem",
         sm: "2rem",
-        lg: "5rem",
+        lg: "3rem",
         xl: "7rem",
-        "2xl": "5rem",
+        // "2xl": "5rem",
       },
 
       center: true,

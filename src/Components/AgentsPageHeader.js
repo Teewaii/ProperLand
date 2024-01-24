@@ -4,6 +4,7 @@ import right_pattern from "../../src/img/About/Icon_rt.png";
 import hux_icon from "../../src/img/Home/Vectorhux.png";
 import agentHeader from "../img/Agents/agents_bkg.png";
 import agentHeader_mob from "../img/Agents/agents_bkg_mobile.png";
+import TopTag from "../Utilities/TopTag";
 
 function AgentsPageHeader() {
   return (
@@ -18,12 +19,8 @@ function AgentsPageHeader() {
 
         <div className="left_wrapper container flex items-start relative z-10">
           <div className="left pt-40 flex flex-col items-center lg:items-start relative lg:pt-[250px] xl:pt-[200px]  2xl:pt-[310px]">
-            <div className="topTag flex items-center gap-x-4 mb-8 bg-gradient-to-l from-hero from-0% w-fit px-4 py-1 ">
-              <img src={hux_icon} alt="" />
-              <p className="text-link text-sm tracking-[6px] uppercase">
-                PROPERTY EXPERTS
-              </p>
-            </div>
+            <TopTag content="PROPERTY EXPERTS " />
+
             <div className="middle_text mb-2 xl:mb-2 2xl:mb-6">
               <h1 className="text-[28px] md:text-[40px] md:leading-[50px] font-[600] md:max-w-[405px] lg:header2 leading-[35px]  lg:text-left xl:text-[40px] xl:max-w-[600px] xl:leading-[55px] 2xl:text-[55px] 2xl:max-w-[680px] 2xl:leading-[75px]">
                 Meet Our Agents

@@ -7,7 +7,7 @@ function Intro() {
   return (
     <section className="intro container h-[fit]">
       <motion.div
-        className="wrapper flex flex-col lg:flex-row py-4 lg:gap-8  md:py-28 "
+        className="wrapper flex flex-col xl:flex-row py-4 lg:gap-8 md:py-28 "
         initial={{ y: 50, opacity: 0.2 }}
         whileInView={{ y: 0, opacity: 1 }}
         transition={{ duration: 1 }}
@@ -57,7 +57,7 @@ function Intro() {
           </div>
         </div>
 
-        <div className="right bg-vid_img bg-cover bg-center bg-no-repeat flex  items-center justify-center h-[450px] lg:w-[840px] lg:max-h-[400px]  relative">
+        <div className="right bg-vid_img bg-cover bg-center bg-no-repeat flex  items-center justify-center h-[450px] md:h-[350px] xl:w-[840px] xl:min-h-[390px] 2xl:min-h-[400px]  relative">
           <img className=" w-fit" src={videoPlay} alt="Vid player" />
           <div className="w-[94px] h-[94px] group absolute cursor-pointer">
             <PlayIcon

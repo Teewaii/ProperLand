@@ -1,8 +1,7 @@
 import React from "react";
 import left_pattern from "../../src/img/About/Icon_lt.png";
 import right_pattern from "../../src/img/About/Icon_rt.png";
-import hux_icon from "../../src/img/Home/Vectorhux.png";
-// import heroImg from "../../src/img/About/hero_img.png";
+import TopTag from "../Utilities/TopTag";
 
 function AboutUsHeader({ intro, heading, img }) {
   return (
@@ -23,12 +22,7 @@ function AboutUsHeader({ intro, heading, img }) {
 
         <div className="left_wrapper container flex items-start">
           <div className="left pt-40 flex flex-col items-center lg:items-start relative lg:pt-[250px] xl:pt-[200px]  2xl:pt-[310px]">
-            <div className="topTag flex items-center gap-x-4 mb-8 bg-gradient-to-l from-hero from-0% w-fit px-4 py-1 ">
-              <img src={hux_icon} alt="" />
-              <p className="text-link text-sm tracking-[6px] uppercase">
-                {intro}
-              </p>
-            </div>
+            <TopTag content={intro} />
             <div className="middle_text mb-2 xl:mb-2 2xl:mb-6 relative z-20">
               <h1 className="text-[28px] md:text-[35px] md:leading-[50px] font-[600] md:max-w-[405px] lg:header2 leading-[35px] lg:text-left xl:text-[40px] lg:max-w-[100%] xl:leading-[55px] 2xl:text-[50px] ">
                 {heading}

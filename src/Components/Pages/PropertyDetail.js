@@ -12,13 +12,9 @@ function PropertyDetail() {
   return (
     <div className="">
       <AboutPropertyHeader />
-      {/* <AboutUsHeader
-        intro="About the property"
-        heading="Property Description"
-      /> */}
       <DetailsHeader />
       <DetailsBody />
-      <PropertyGallery />
+      {/* <PropertyGallery /> */}
       <PropertyDeals />
     </div>
   );

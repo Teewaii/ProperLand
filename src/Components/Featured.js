@@ -18,7 +18,7 @@ function Featured() {
         </div>
 
         <motion.div
-          className="cardHolder grid grid-col-1 mb-[70px] lg:mb-[100px] lg:grid-cols-2 2xl:grid-cols-3 gap-[38px]"
+          className="cardHolder grid grid-col-1 gap-[38px] md:gap-[30px] mb-[70px] lg:mb-[100px] md:grid-cols-2 2xl:grid-cols-2 "
           initial={{ y: 50, opacity: 0.2 }}
           whileInView={{ y: 0, opacity: 1 }}
           transition={{ duration: 1 }}
