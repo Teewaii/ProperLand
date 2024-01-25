@@ -16,7 +16,7 @@ import { motion } from "framer-motion";
 
 function Footer() {
   return (
-    <section className="footer h-fit relative overflow-hidden">
+    <footer className="footer h-fit relative overflow-hidden">
       <img
         className="w-[35%] absolute top-[50%] left-0 "
         src={Left_blog_pattern}
@@ -223,7 +223,7 @@ function Footer() {
           </b>
         </small>
       </div>
-    </section>
+    </footer>
   );
 }
 
