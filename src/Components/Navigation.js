@@ -78,7 +78,7 @@ function Navigation() {
             .map(([key, value]) => (
               <li
                 key={key}
-                className="hover:text-primary capitalize xl:text-[20px] "
+                className="hover:text-primary capitalize xl:text-[18px] 2xl:text-[20px] "
               >
                 <Link to={value}>{key}</Link>
               </li>
