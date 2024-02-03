@@ -33,7 +33,7 @@ function Hero() {
               <h1 className="text-[28px] font-[600] text-center md:text-[48px] md:leading-[65px] leading-[35px] lg:header2 lg:leading-[60px]  xl:text-left xl:text-[45px] xl:max-w-[600px] xl:leading-[55px] 2xl:text-[60px] 2xl:max-w-[600px] 2xl:leading-[72px]">
                 Find the perfect place to Live with your family
               </h1>
-              <p className="text-md text-center my-4 lg:mt-4 md:text-xl xl:text-left xl:max-w-[500px] md:text-[18px] 2xl:max-w-[600px] xl:text-[20px] text-link">
+              <p className="text-md text-center my-4 lg:mt-4 md:text-xl relative z-50 xl:text-left xl:max-w-[500px] md:text-[18px] 2xl:max-w-[600px] xl:text-[20px] text-link">
                 Distinctively re-engineer revolutionary meta-services and
                 premium architectures. Intrinsically incubate.
               </p>
@@ -53,7 +53,7 @@ function Hero() {
             viewport={{ once: true }}
           >
             <img
-              className="h-[55vh] md:h-[60vh] lg:h-[85vh] xl:h-[105vh] "
+              className="hidden xs:block  h-[55vh] md:h-[60vh] lg:h-[85vh] xl:h-[105vh] "
               src={heroImg}
               alt=""
             />
