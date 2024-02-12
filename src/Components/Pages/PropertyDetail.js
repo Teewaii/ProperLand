@@ -10,7 +10,7 @@ function PropertyDetail() {
     window.scrollTo(0, 0);
   }, []);
   return (
-    <div className="h-screen">
+    <div className="">
       <AboutPropertyHeader />
       <DetailsHeader />
       <DetailsBody />
