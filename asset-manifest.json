@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ProperLand/static/css/main.2c077543.css",
-    "main.js": "/ProperLand/static/js/main.2308b80a.js",
+    "main.css": "/ProperLand/static/css/main.c54e2a7e.css",
+    "main.js": "/ProperLand/static/js/main.3053aae1.js",
     "static/js/787.ecf148df.chunk.js": "/ProperLand/static/js/787.ecf148df.chunk.js",
     "static/media/comfi_3_lg.png": "/ProperLand/static/media/comfi_3_lg.6222987c74d953d56521.png",
     "static/media/buying_sellin_Pattern.png": "/ProperLand/static/media/buying_sellin_Pattern.e2b2a6300a8e3a11c4b4.png",
@@ -91,12 +91,12 @@
     "static/media/bed.svg": "/ProperLand/static/media/bed.2ec13391b05c2b83f74d38e941ffa39a.svg",
     "static/media/IconLogo.svg": "/ProperLand/static/media/IconLogo.c1daa4bb3a55a674ba3543b13ba29401.svg",
     "static/media/fb.svg": "/ProperLand/static/media/fb.5c3f1e7b053ef9fcabbcf9a10f45ba4e.svg",
-    "main.2c077543.css.map": "/ProperLand/static/css/main.2c077543.css.map",
-    "main.2308b80a.js.map": "/ProperLand/static/js/main.2308b80a.js.map",
+    "main.c54e2a7e.css.map": "/ProperLand/static/css/main.c54e2a7e.css.map",
+    "main.3053aae1.js.map": "/ProperLand/static/js/main.3053aae1.js.map",
     "787.ecf148df.chunk.js.map": "/ProperLand/static/js/787.ecf148df.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2c077543.css",
-    "static/js/main.2308b80a.js"
+    "static/css/main.c54e2a7e.css",
+    "static/js/main.3053aae1.js"
   ]
 }
