@@ -36,7 +36,7 @@ function ForsaleCard({
           </h1>
           <div className="location flex items-center text-[#8E8E8E] mt-2">
             <MapPinIcon className="h-[20px] text-secondary md:h-[20px]" />
-            <p className="text-left text-[15px] md:text-md md:truncate md:w-[85%] xl:w-[100%] 2xl:text-[20px]">
+            <p className="text-left text-[15px] md:text-md md:truncate md:w-[85%] xl:w-[100%] 2xl:text-[16px]">
               {location}
             </p>
           </div>
