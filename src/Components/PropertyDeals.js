@@ -10,7 +10,7 @@ function PropertyDeals() {
   return (
     <section className="featured bg-feat_img bg-no-repeat bg-bottom h-fit lg:mt-[40px] py-[110px]">
       <div className="wrapper flex flex-col items-start container">
-        <div className="header pb-[20px]">
+        <div className="header pb-[20px] ">
           <h1 className="text-[24px] font-bold   md:text-[35px] leading-[40px] my-4 md:max-w-[500px]">
             Best Property Deals
           </h1>

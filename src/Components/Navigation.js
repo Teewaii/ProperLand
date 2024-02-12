@@ -19,7 +19,7 @@ function Navigation() {
 
   const { toggle, handleToggle } = useContext(AppContext);
   return (
-    <nav className="absolute right-0 left-0 z-50 container">
+    <nav className="absolute right-0 left-0 z-[80] container">
       {/* Small screen navigation */}
       <div className=" h-[70px] mobile_view px-6 xl:hidden flex justify-between items-center relative mt-8 rounded-[5px] bg-white md:h-[80px]">
         <div className="logo ">
@@ -35,8 +35,8 @@ function Navigation() {
         <ul
           className={
             toggle
-              ? "flex flex-col gap-y-4 text-white absolute top-24 left-[0%] bg-primary w-[100%] container p-6 opacity-100 transition-all duration-500 ease-in-out lg:p-10 lg:gap-y-8"
-              : "absolute top-20 w-[1%] left-[150%] bg-primary transition-all duration-200 ease-in-out opacity-0 "
+              ? "flex flex-col gap-y-4 text-white absolute top-24 left-[0%] bg-primary w-[100%] container p-6 opacity-100 transition-all duration-500 ease-in-out lg:p-10 lg:gap-y-8 "
+              : "absolute top-20 w-[1%] left-[150%] bg-primary transition-all duration-200 ease-in-out opacity-0  "
           }
         >
           {/* {navs.map((nav, index) => ( */}

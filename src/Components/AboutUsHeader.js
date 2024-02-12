@@ -33,7 +33,7 @@ function AboutUsHeader({ intro, heading, img }) {
       </div>
       <div className="hero_image ">
         <img
-          className="h-[80%] lg:h-[95%] absolute right-0 bottom-0 lg:bottom-0 "
+          className="h-[65%] lg:h-[95%] absolute right-0 bottom-0 lg:bottom-0 "
           // className="w-[80%] lg:w-[60%]  absolute right-0 bottom-0 lg:bottom-0 2xl:w-[55%]"
           src={img}
           alt="heroImg"
