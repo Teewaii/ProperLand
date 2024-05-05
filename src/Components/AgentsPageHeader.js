@@ -8,7 +8,7 @@ import TopTag from "../Utilities/TopTag";
 
 function AgentsPageHeader() {
   return (
-    <section className=" bg-gradient-to-l from-hero to-hero_end h-[55vh] max-h-xs:[40vh] lg:h-[70vh] 2xl:h-[55vh] relative overflow-hidden">
+    <section className=" bg-gradient-to-l from-hero to-hero_end h-[55vh] max-h-xs:[40vh] lg:h-[70vh] 2xl:h-[65vh] relative overflow-hidden">
       <div className="main_wrapper ">
         <div className="leftPattern absolute left-0 bottom-0 z-10">
           <img src={left_pattern} alt="left_pattern_image" />
